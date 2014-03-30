@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+  <style name="BaseThemeLight" parent="@android:style/Theme.Light">
+    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+
+  </style>
+
+  <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+  <style name="BaseThemeLightDarkActionBar" parent="@android:style/Theme.Light">
+    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    <item name="drawer_icon">@drawable/ic_drawer_dark</item>
+    <item name="drawer_shadow">@drawable/drawer_shadow_dark</item>
+
+  </style>
+
+  <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+  <style name="BaseTheme" parent="@android:style/Theme">
+    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+
+  </style>
+
+  <!-- Application theme. -->
+  <style name="Theme" parent="BaseTheme">
+    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    <item name="drawer_icon">@drawable/ic_drawer_light</item>
+    <item name="drawer_shadow">@drawable/drawer_shadow_light</item>
+    <item name="background_color">@android:color/transparent</item>
+  </style>
+
+  <style name="ThemeLight" parent="BaseThemeLight">
+    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    <item name="drawer_icon">@drawable/ic_drawer_dark</item>
+    <item name="drawer_shadow">@drawable/drawer_shadow_dark</item>
+    <item name="background_color">@color/light_background</item>
+  </style>
+
+  <style name="ThemeLightDarkActionBar" parent="BaseThemeLightDarkActionBar">
+    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    
+    <item name="background_color">@color/light_background</item>
+  </style>
+
+</resources>

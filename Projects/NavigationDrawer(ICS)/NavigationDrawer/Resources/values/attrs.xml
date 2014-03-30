@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <attr name="background_color" format="color|reference"></attr>
+  <attr name="drawer_icon" format="reference"></attr>
+  <attr name="drawer_shadow" format="reference"></attr>
+</resources>

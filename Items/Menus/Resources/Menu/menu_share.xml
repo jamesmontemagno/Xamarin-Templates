@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!--For all properties see: http://developer.android.com/guide/topics/resources/menu-resource.html-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!--Replace android:title="Share" with @string/<your name>-->
+  <item android:id="@+id/action_share"
+        android:title="Share"
+        android:showAsAction="always"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+          />
+</menu>
+
+<!-- Code to implement into Activity:
+
+Android.Widget.ShareActionProvider actionProvider;
+public override bool OnCreateOptionsMenu(IMenu menu)
+{
+  this.MenuInflater.Inflate(Resource.Menu.menu_share, menu);
+
+  var shareItem = menu.FindItem(Resource.Id.action_share);
+  actionProvider = shareItem.ActionProvider.JavaCast<Android.Widget.ShareActionProvider>();
+
+  var intent = new Intent(Intent.ActionSend);
+  intent.SetType("text/plain");
+  intent.PutExtra(Intent.ExtraText, "Time to share some text!");
+
+  actionProvider.SetShareIntent(intent);
+
+
+  return base.OnCreateOptionsMenu(menu);
+}
+
+-->
