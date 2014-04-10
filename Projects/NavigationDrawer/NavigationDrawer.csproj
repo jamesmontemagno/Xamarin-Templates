@@ -78,24 +78,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
-    <AndroidResource Include="Resources\drawable-hdpi\ic_drawer_light.png" />
     <AndroidResource Include="Resources\drawable-hdpi\drawer_shadow_dark.9.png" />
     <AndroidResource Include="Resources\drawable-hdpi\drawer_shadow_light.9.png" />
-    <AndroidResource Include="Resources\drawable-hdpi\ic_drawer_dark.png" />
     <AndroidResource Include="Resources\drawable-mdpi\drawer_shadow_dark.9.png" />
     <AndroidResource Include="Resources\drawable-mdpi\drawer_shadow_light.9.png" />
-    <AndroidResource Include="Resources\drawable-mdpi\ic_drawer_dark.png" />
-    <AndroidResource Include="Resources\drawable-mdpi\ic_drawer_light.png" />
-    <AndroidResource Include="Resources\drawable-xhdpi\ic_drawer_light.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\drawer_shadow_dark.9.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\drawer_shadow_light.9.png" />
-    <AndroidResource Include="Resources\drawable-xhdpi\ic_drawer_dark.png" />
     <AndroidResource Include="Resources\values\colors.xml" />
     <AndroidResource Include="Resources\values\dimens.xml" />
     <AndroidResource Include="Resources\values\styles.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\values-v14\styles.xml" />
+    <AndroidResource Include="Resources\values-v14\styles.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <AndroidResource Include="Resources\values\arrays.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
@@ -103,9 +99,17 @@
     <AndroidResource Include="Resources\values\attrs.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\drawable-xxhdpi\" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\drawer_shadow_dark.9.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\drawer_shadow_light.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_navigation_drawer_light.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_navigation_drawer_light.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_navigation_drawer_light.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_navigation_drawer_light.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_navigation_drawer_dark.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_navigation_drawer_dark.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_navigation_drawer_dark.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_navigation_drawer_dark.png" />
+    <Content Include="README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

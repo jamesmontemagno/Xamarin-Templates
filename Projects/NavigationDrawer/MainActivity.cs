@@ -37,13 +37,13 @@ namespace NavigationDrawer
       drawerListView.ItemClick += (sender, args) => ListItemClicked(args.Position);
 
 
-      drawerLayout.SetDrawerShadow(Resource.Drawable.drawer_shadow_dark, (int)GravityFlags.Start);
+      drawerLayout.SetDrawerShadow(Resource.Drawable.drawer_shadow_light, (int)GravityFlags.Start);
 
 
 
       //DrawerToggle is the animation that happens with the indicator next to the actionbar
       drawerToggle = new DrawerToggle(this, drawerLayout,
-                                                Resource.Drawable.ic_drawer_light,
+                                                Resource.Drawable.ic_navigation_drawer_light,
                                                 Resource.String.drawer_open,
                                                 Resource.String.drawer_close);
 

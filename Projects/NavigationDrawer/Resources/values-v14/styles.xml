@@ -11,8 +11,8 @@
 
   <style name="BaseThemeLightDarkActionBar" parent="@android:style/Theme.Holo.Light.DarkActionBar">
     <!-- API 14 theme customizations can go here. -->
-    <item name="drawer_icon">@drawable/ic_drawer_light</item>
-    <item name="drawer_shadow">@drawable/drawer_shadow_light</item>
+    <item name="drawer_icon">@drawable/ic_navigation_drawer_dark</item>
+    <item name="drawer_shadow">@drawable/drawer_shadow_dark</item>
   </style>
 
   <style name="BaseTheme" parent="@android:style/Theme.Holo">
