@@ -13,5 +13,7 @@
   </Dependencies>
   <Assets>
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="Feature.Plugin.ProjectTemplate" d:TargetPath="|Feature.Plugin.ProjectTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="FeaturePlugin.Wizard" Path="|FeaturePlugin.Wizard|" AssemblyName="|FeaturePlugin.Wizard;AssemblyName|" d:VsixSubPath="Assemblies" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="Feature.Plugin.ItemTemplate" d:TargetPath="|Feature.Plugin.ItemTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
   </Assets>
 </PackageManifest>

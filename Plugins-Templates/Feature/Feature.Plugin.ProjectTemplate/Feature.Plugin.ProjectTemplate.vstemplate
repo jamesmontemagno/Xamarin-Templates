@@ -11,33 +11,38 @@
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>Feature</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
+    <CreateInPlace>true</CreateInPlace>
   </TemplateData>
   <TemplateContent>
     <ProjectCollection>
-      <ProjectTemplateLink ProjectName="$safeprojectname$">
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Plugin">
         Feature.Plugin\Feature.Plugin.vstemplate
       </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="$safeprojectname$.Abstractions">
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Plugin.Abstractions">
         Feature.Plugin.Abstractions\Feature.Plugin.Abstractions.vstemplate
       </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="$safeprojectname$.iOS">
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Plugin.iOS">
         Feature.Plugin.iOS\Feature.Plugin.iOS.vstemplate
       </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="$safeprojectname$.iOSUnified">
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Plugin.iOSUnified">
         Feature.Plugin.iOSUnified\Feature.Plugin.iOSUnified.vstemplate
       </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="$safeprojectname$.Android">
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Plugin.Android">
         Feature.Plugin.Android\Feature.Plugin.Android.vstemplate
       </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="$safeprojectname$.WindowsPhone8">
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Plugin.WindowsPhone8">
         Feature.Plugin.WindowsPhone8\Feature.Plugin.WindowsPhone8.vstemplate
       </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="$safeprojectname$.WindowsPhone81">
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Plugin.WindowsPhone81">
         Feature.Plugin.WindowsPhone81\Feature.Plugin.WindowsPhone81.vstemplate
       </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="$safeprojectname$.WindowsStore">
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Plugin.WindowsStore">
         Feature.Plugin.WindowsStore\Feature.Plugin.WindowsStore.vstemplate
       </ProjectTemplateLink>
     </ProjectCollection>
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>FeaturePlugin.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7090c690d226b16c</Assembly>
+    <FullClassName>FeaturePlugin.Wizard.SafeProjectGroupName</FullClassName>
+  </WizardExtension>
 </VSTemplate>

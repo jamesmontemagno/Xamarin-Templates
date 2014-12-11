@@ -1,13 +1,13 @@
-using $safeprojectname$.Abstractions;
+using $safeprojectgroupname$.Plugin.Abstractions;
 using System;
 
 
-namespace $safeprojectname$
+namespace $safeprojectgroupname$.Plugin
 {
   /// <summary>
-  /// Implementation for $SpecificSolutionName$
+  /// Implementation for $safeprojectgroupname$
   /// </summary>
-  public class $SpecificSolutionName$Implementation : I$SpecificSolutionName$
+  public class $safeprojectgroupname$Implementation : I$safeprojectgroupname$
   {
   }
 }

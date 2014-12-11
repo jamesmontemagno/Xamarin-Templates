@@ -9,8 +9,8 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>$safeprojectname$</RootNamespace>
-    <AssemblyName>$safeprojectname$</AssemblyName>
+    <RootNamespace>$safeprojectgroupname$.Plugin</RootNamespace>
+    <AssemblyName>$safeprojectgroupname$.Plugin</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
@@ -33,7 +33,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\$safeprojectname$.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\$safeprojectgroupname$.Plugin.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
@@ -44,10 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\$safeprojectname$\Cross$SpecificSolutionName$.cs">
-      <Link>Cross$SpecificSolutionName$.cs</Link>
+    <Compile Include="..\$safeprojectgroupname$.Plugin\Cross$safeprojectgroupname$.cs">
+      <Link>Cross$safeprojectgroupname$.cs</Link>
     </Compile>
-    <Compile Include="$SpecificSolutionName$Implementation.cs" />
+    <Compile Include="$safeprojectgroupname$Implementation.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -55,9 +55,9 @@
     <None Include="Resources\AboutResources.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\$safeprojectname$.Abstractions\$safeprojectname$.Abstractions.csproj">
+    <ProjectReference Include="..\$safeprojectgroupname$.Plugin.Abstractions\$safeprojectgroupname$.Plugin.Abstractions.csproj">
       <Project>{6edb0588-ffc5-4ef5-8a99-9e241d0f878d}</Project>
-      <Name>$safeprojectname$.Abstractions</Name>
+      <Name>$safeprojectgroupname$.Plugin.Abstractions</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

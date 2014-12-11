@@ -3,9 +3,9 @@
 namespace $safeprojectname$
 {
   /// <summary>
-  /// Interface for $SpecificSolutionName$
+  /// Interface for $safeprojectgroupname$
   /// </summary>
-  public interface I$SpecificSolutionName$
+  public interface I$safeprojectgroupname$
   {
   }
 }

@@ -12,13 +12,18 @@
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>__TemplateIcon.ico</Icon>
+    <CreateInPlace>true</CreateInPlace>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="$safeprojectname$.WindowsStore.csproj" File="Feature.Plugin.WindowsStore.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" TargetFileName="$SpecificSolutionName$Implementation.cs">FeatureImplementation.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectgroupname$Implementation.cs">FeatureImplementation.cs</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       </Folder>
     </Project>
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>FeaturePlugin.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7090c690d226b16c</Assembly>
+    <FullClassName>FeaturePlugin.Wizard.SafeProjectGroupName</FullClassName>
+  </WizardExtension>
 </VSTemplate>

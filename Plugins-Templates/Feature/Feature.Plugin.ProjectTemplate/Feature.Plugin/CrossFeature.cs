@@ -4,16 +4,16 @@ using System;
 namespace $safeprojectname$
 {
   /// <summary>
-  /// Cross platform $SpecificSolutionName$ implemenations
+  /// Cross platform $safeprojectgroupname$ implemenations
   /// </summary>
-  public class Cross$SpecificSolutionName$
+  public class Cross$safeprojectgroupname$
   {
-    static Lazy<I$SpecificSolutionName$> Implementation = new Lazy<I$SpecificSolutionName$>(() => Create$SpecificSolutionName$(), System.Threading.LazyThreadSafetyMode.PublicationOnly);
+    static Lazy<I$safeprojectgroupname$> Implementation = new Lazy<I$safeprojectgroupname$>(() => Create$safeprojectgroupname$(), System.Threading.LazyThreadSafetyMode.PublicationOnly);
 
     /// <summary>
     /// Current settings to use
     /// </summary>
-    public static I$SpecificSolutionName$ Current
+    public static I$safeprojectgroupname$ Current
     {
       get
       {
@@ -26,12 +26,12 @@ namespace $safeprojectname$
       }
     }
 
-    static I$SpecificSolutionName$ Create$SpecificSolutionName$()
+    static I$safeprojectgroupname$ Create$safeprojectgroupname$()
     {
 #if PORTABLE
         return null;
 #else
-        return new $SpecificSolutionName$Implementation();
+        return new $safeprojectgroupname$Implementation();
 #endif
     }
 

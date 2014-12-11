@@ -86,12 +86,25 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Feature.Plugin.ItemTemplate\Feature.Plugin.ItemTemplate.csproj">
+      <Project>{CDDA0A07-24D9-4F8F-9A53-2BFB4B6AA0F8}</Project>
+      <Name>Feature.Plugin.ItemTemplate</Name>
+      <VSIXSubPath>ItemTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\Feature.Plugin.ProjectTemplate\Feature.Plugin.ProjectTemplate.csproj">
       <Project>{8de0c55a-0c47-49d4-b28f-c632bbbd5d7c}</Project>
       <Name>Feature.Plugin.ProjectTemplate</Name>
       <VSIXSubPath>ProjectTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
+    <ProjectReference Include="..\FeaturePlugin.Wizard\FeaturePlugin.Wizard.csproj">
+      <Project>{65EE5F42-08AD-49AD-9DAE-12CB15F7E3F2}</Project>
+      <Name>FeaturePlugin.Wizard</Name>
+      <IncludeOutputGroupsInVSIX>BuiltProjectOutputGroup%3bBuiltProjectOutputGroupDependencies%3bGetCopyToOutputDirectoryItems%3bSatelliteDllsProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+      <IncludeOutputGroupsInVSIXLocalOnly>DebugSymbolsProjectOutputGroup%3b</IncludeOutputGroupsInVSIXLocalOnly>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
