@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>12.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{82b43b9b-a64c-4715-b499-d71e9ca2bd60};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{8DE0C55A-0C47-49D4-B28F-C632BBBD5D7C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Feature.Plugin.ProjectTemplate</RootNamespace>
+    <AssemblyName>Feature.Plugin.ProjectTemplate</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <GeneratePkgDefFile>false</GeneratePkgDefFile>
+    <IncludeAssemblyInVSIXContainer>false</IncludeAssemblyInVSIXContainer>
+    <IncludeDebugSymbolsInVSIXContainer>false</IncludeDebugSymbolsInVSIXContainer>
+    <IncludeDebugSymbolsInLocalVSIXDeployment>false</IncludeDebugSymbolsInLocalVSIXDeployment>
+    <CreateVsixContainer>false</CreateVsixContainer>
+    <DeployExtension>false</DeployExtension>
+    <DeployVSTemplates>false</DeployVSTemplates>
+    <CopyVsixManifestToOutput>false</CopyVsixManifestToOutput>
+    <CopyBuildOutputToOutputDirectory>false</CopyBuildOutputToOutputDirectory>
+    <CopyOutputSymbolsToOutputDirectory>false</CopyOutputSymbolsToOutputDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.CoreUtility">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Feature.Plugin.Abstractions\IFeature.cs" />
+    <Content Include="Feature.Plugin.Abstractions\Properties\AssemblyInfo.cs" />
+    <Content Include="Feature.Plugin.Android\FeatureImplementation.cs" />
+    <Content Include="Feature.Plugin.Android\Properties\AssemblyInfo.cs" />
+    <Content Include="Feature.Plugin.Android\Resources\Resource.Designer.cs" />
+    <Content Include="Feature.Plugin.iOSUnified\FeatureImplementation.cs" />
+    <Content Include="Feature.Plugin.iOSUnified\Properties\AssemblyInfo.cs" />
+    <Content Include="Feature.Plugin.iOS\FeatureImplementation.cs" />
+    <Content Include="Feature.Plugin.iOS\Properties\AssemblyInfo.cs" />
+    <Content Include="Feature.Plugin.WindowsPhone81\FeatureImplementation.cs" />
+    <Content Include="Feature.Plugin.WindowsPhone81\Properties\AssemblyInfo.cs" />
+    <Content Include="Feature.Plugin.WindowsPhone8\FeatureImplementation.cs" />
+    <Content Include="Feature.Plugin.WindowsPhone8\Properties\AssemblyInfo.cs" />
+    <Content Include="Feature.Plugin.WindowsStore\FeatureImplementation.cs" />
+    <Content Include="Feature.Plugin.WindowsStore\Properties\AssemblyInfo.cs" />
+    <Content Include="Feature.Plugin\CrossFeature.cs" />
+    <Compile Include="Feature.Plugin\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Feature.Plugin\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Feature.Plugin\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Content Include="Feature.Plugin\Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Feature.Plugin\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Feature.Plugin.ProjectTemplate.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <VSTemplate Include="Feature.Plugin.ProjectTemplate.vstemplate">
+      <SubType>Designer</SubType>
+    </VSTemplate>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Feature.Plugin.Abstractions\Feature.Plugin.Abstractions.csproj" />
+    <None Include="Feature.Plugin.Abstractions\Feature.Plugin.Abstractions.vstemplate" />
+    <Content Include="Feature.Plugin.Abstractions\__TemplateIcon.ico" />
+    <Content Include="Feature.Plugin.Android\Feature.Plugin.Android.csproj" />
+    <None Include="Feature.Plugin.Android\Feature.Plugin.Android.vstemplate" />
+    <Content Include="Feature.Plugin.Android\Resources\AboutResources.txt" />
+    <Content Include="Feature.Plugin.Android\Resources\Values\Strings.xml" />
+    <Content Include="Feature.Plugin.Android\__TemplateIcon.ico" />
+    <Content Include="Feature.Plugin.iOSUnified\Feature.Plugin.iOSUnified.csproj" />
+    <None Include="Feature.Plugin.iOSUnified\Feature.Plugin.iOSUnified.vstemplate" />
+    <Content Include="Feature.Plugin.iOSUnified\__TemplateIcon.ico" />
+    <Content Include="Feature.Plugin.iOS\Feature.Plugin.iOS.csproj" />
+    <None Include="Feature.Plugin.iOS\Feature.Plugin.iOS.vstemplate" />
+    <Content Include="Feature.Plugin.iOS\__TemplateIcon.ico" />
+    <Content Include="Feature.Plugin.WindowsPhone81\Feature.Plugin.WindowsPhone81.csproj" />
+    <None Include="Feature.Plugin.WindowsPhone81\Feature.Plugin.WindowsPhone81.vstemplate" />
+    <Content Include="Feature.Plugin.WindowsPhone81\__TemplateIcon.ico" />
+    <Content Include="Feature.Plugin.WindowsPhone8\Feature.Plugin.WindowsPhone8.csproj" />
+    <None Include="Feature.Plugin.WindowsPhone8\Feature.Plugin.WindowsPhone8.vstemplate" />
+    <Content Include="Feature.Plugin.WindowsPhone8\__TemplateIcon.ico" />
+    <Content Include="Feature.Plugin.WindowsStore\Feature.Plugin.WindowsStore.csproj" />
+    <None Include="Feature.Plugin.WindowsStore\Feature.Plugin.WindowsStore.vstemplate" />
+    <Content Include="Feature.Plugin.WindowsStore\__TemplateIcon.ico" />
+    <Content Include="Feature.Plugin\Feature.Plugin.csproj" />
+    <None Include="Feature.Plugin\Feature.Plugin.vstemplate" />
+    <Content Include="Feature.Plugin\__TemplateIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Feature.Plugin\bin\Debug\" />
+    <Folder Include="Feature.Plugin\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

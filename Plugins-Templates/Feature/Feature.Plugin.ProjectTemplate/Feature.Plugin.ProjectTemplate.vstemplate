@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Plugin for Xamarin</Name>
+    <Description>Creates all files necessary to create a plugin for Xamarin</Description>
+    <Icon>Feature.Plugin.ProjectTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>1ef0c4fb-7811-4d01-adb8-1cefa1a1c7ba</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Feature</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <ProjectTemplateLink ProjectName="$safeprojectname$">
+        Feature.Plugin\Feature.Plugin.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Abstractions">
+        Feature.Plugin.Abstractions\Feature.Plugin.Abstractions.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.iOS">
+        Feature.Plugin.iOS\Feature.Plugin.iOS.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.iOSUnified">
+        Feature.Plugin.iOSUnified\Feature.Plugin.iOSUnified.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Android">
+        Feature.Plugin.Android\Feature.Plugin.Android.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.WindowsPhone8">
+        Feature.Plugin.WindowsPhone8\Feature.Plugin.WindowsPhone8.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.WindowsPhone81">
+        Feature.Plugin.WindowsPhone81\Feature.Plugin.WindowsPhone81.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.WindowsStore">
+        Feature.Plugin.WindowsStore\Feature.Plugin.WindowsStore.vstemplate
+      </ProjectTemplateLink>
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>
