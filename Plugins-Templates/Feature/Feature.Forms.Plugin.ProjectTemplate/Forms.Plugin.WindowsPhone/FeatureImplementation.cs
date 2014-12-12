@@ -11,6 +11,9 @@ namespace $safeprojectname$
   /// </summary>
   public class $safeprojectgroupname$Implementation : I$safeprojectgroupname$
   {
-
+    /// <summary>
+    /// Used for registration with dependency service
+    /// </summary>
+    public static void Init(){}
   }
 }

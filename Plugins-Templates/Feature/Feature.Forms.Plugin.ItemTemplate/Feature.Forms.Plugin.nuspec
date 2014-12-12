@@ -15,6 +15,7 @@
        <summary>Short description for your plugin.</summary>
        <tags>xamarin, pcl, xam.pcl, windows phone, winphone, wp8, android, xamarin.forms, ios</tags>
        <dependencies>
+         <dependency id="Xamarin.Forms" version="1.2.3.6257" />
        </dependencies>
    </metadata>
    <files>
