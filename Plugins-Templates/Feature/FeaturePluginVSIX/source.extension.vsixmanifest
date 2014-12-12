@@ -4,9 +4,14 @@
     <Identity Id="FeaturePluginVSIX..718b8fe4-6335-4bc1-aaea-a034e69219bd" Version="1.0" Language="en-US" Publisher="James Montemagno" />
     <DisplayName>Plugin For Xamarin Templates</DisplayName>
     <Description xml:space="preserve">Contains all templates for creating a Plugin for Xamarin including Xamarin.iOS, Xamarin.Android, Windows Phone, and Windows Store.</Description>
+    <MoreInfo>https://github.com/jamesmontemagno/Xamarin-Templates</MoreInfo>
+    <License>LICENSE.txt</License>
+    <Tags>xamarin, plugins, windows phone, windows store, ios, android</Tags>
   </Metadata>
   <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,)" />
+    <InstallationTarget Version="[11.0,)" Id="Microsoft.VisualStudio.Premium" />
+    <InstallationTarget Version="[11.0,)" Id="Microsoft.VisualStudio.Ultimate" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
