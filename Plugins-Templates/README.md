@@ -31,6 +31,10 @@ Name your project the name of your plugin feature. It should be ONE word with NO
 
 I use the name of the project to fill in a lot of really important information.
 
+
+### Plugin for Xamarin.Forms
+This project will automatically setup and download all nugets for Xamarin.Forms and create your PCL and necessary projects to create a Plugin for Xamarin.Forms using the dependency service.
+
 ### Item Templates
 
 #### Plugin for Xamarin NuSpec
@@ -40,6 +44,10 @@ It has never been easier to get your nuspec ready for NuGet. Add the nuspec to t
 **IMPORTANT**
 
 Name the file the same as what you named your plugin so all of the file locations are correct!
+
+#### Plugin for Xamarin.Forms NuSpec
+
+It has never been easier to get your nuspec ready for NuGet. Add the nuspec to the ROOT of your solution. and it is ready for your Plugin for Xamarin.Forms
 
 ## License
 
