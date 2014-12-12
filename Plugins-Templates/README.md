@@ -32,7 +32,7 @@ Name your project the name of your plugin feature. It should be ONE word with NO
 I use the name of the project to fill in a lot of really important information.
 
 
-### Plugin for Xamarin.Forms
+#### Plugin for Xamarin.Forms
 This project will automatically setup and download all nugets for Xamarin.Forms and create your PCL and necessary projects to create a Plugin for Xamarin.Forms using the dependency service.
 
 ### Item Templates
