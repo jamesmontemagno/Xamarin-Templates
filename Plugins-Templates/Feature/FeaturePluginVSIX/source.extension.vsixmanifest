@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="FeaturePluginVSIX..718b8fe4-6335-4bc1-aaea-a034e69219bd" Version="1.0" Language="en-US" Publisher="James Montemagno" />
+    <Identity Id="FeaturePluginVSIX..718b8fe4-6335-4bc1-aaea-a034e69219bd" Version="1.1" Language="en-US" Publisher="James Montemagno" />
     <DisplayName>Plugin For Xamarin Templates</DisplayName>
     <Description xml:space="preserve">Contains all templates for creating a Plugin for Xamarin including Xamarin.iOS, Xamarin.Android, Windows Phone, and Windows Store.</Description>
     <MoreInfo>https://github.com/jamesmontemagno/Xamarin-Templates</MoreInfo>
@@ -20,5 +20,7 @@
     <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="Feature.Plugin.ProjectTemplate" d:TargetPath="|Feature.Plugin.ProjectTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
     <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="FeaturePlugin.Wizard" Path="|FeaturePlugin.Wizard|" AssemblyName="|FeaturePlugin.Wizard;AssemblyName|" d:VsixSubPath="Assemblies" />
     <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="Feature.Plugin.ItemTemplate" d:TargetPath="|Feature.Plugin.ItemTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="Feature.Forms.Plugin.ProjectTemplate" d:TargetPath="|Feature.Forms.Plugin.ProjectTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="Feature.Forms.Plugin.ItemTemplate" d:TargetPath="|Feature.Forms.Plugin.ItemTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
   </Assets>
 </PackageManifest>

@@ -50,6 +50,7 @@ build/
 [Bb]in/
 [Oo]bj/
 [Cc]omponents/
+[Pp]ackages/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/

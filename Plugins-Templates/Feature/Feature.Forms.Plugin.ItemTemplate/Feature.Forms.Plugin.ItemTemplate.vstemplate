@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Plugin for Xamarin.Forms NuSpec</Name>
+    <Description>Create a specification NuSpec for your Plugin for Xamarin.Forms</Description>
+    <Icon>Feature.Forms.Plugin.ItemTemplate.ico</Icon>
+    <TemplateID>47ecfb9e-0116-4f12-b3ef-2f5e057002e2</TemplateID>
+    <ProjectType>General</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>Feature</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.Forms.Plugin.nuspec" ReplaceParameters="true">Feature.Forms.Plugin.nuspec</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

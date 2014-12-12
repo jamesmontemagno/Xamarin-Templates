@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Plugin for Xamarin.Forms</Name>
+    <Description>Creates all files necessary to create a plugin for Xamarin.Forms</Description>
+    <Icon>Feature.Forms.Plugin.ProjectTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>45ec093e-16ec-4ba4-b05e-5f73cbd0f9f1</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Feature</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Forms.Plugin.Abstractions">
+        Feature.Forms.Plugin.Abstractions\Feature.Forms.Plugin.Abstractions.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Forms.Plugin.iOS">
+        Feature.Forms.Plugin.iOS\Feature.Forms.Plugin.iOS.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Forms.Plugin.Android">
+        Feature.Forms.Plugin.Android\Feature.Forms.Plugin.Android.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Forms.Plugin.WindowsPhone">
+        Feature.Forms.Plugin.WindowsPhone\Feature.Forms.Plugin.WindowsPhone.vstemplate
+      </ProjectTemplateLink>
+     </ProjectCollection>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>FeaturePlugin.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7090c690d226b16c</Assembly>
+    <FullClassName>FeaturePlugin.Wizard.SafeProjectGroupName</FullClassName>
+  </WizardExtension>
+</VSTemplate>
