@@ -15,16 +15,16 @@
   <TemplateContent>
     <ProjectCollection>
       <ProjectTemplateLink ProjectName="$safeprojectname$.Forms.Plugin.Abstractions">
-        Feature.Forms.Plugin.Abstractions\Feature.Forms.Plugin.Abstractions.vstemplate
+        Forms.Plugin.Abstractions\Forms.Plugin.Abstractions.vstemplate
       </ProjectTemplateLink>
       <ProjectTemplateLink ProjectName="$safeprojectname$.Forms.Plugin.iOS">
-        Feature.Forms.Plugin.iOS\Feature.Forms.Plugin.iOS.vstemplate
+        Forms.Plugin.iOS\Forms.Plugin.iOS.vstemplate
       </ProjectTemplateLink>
       <ProjectTemplateLink ProjectName="$safeprojectname$.Forms.Plugin.Android">
-        Feature.Forms.Plugin.Android\Feature.Forms.Plugin.Android.vstemplate
+        Forms.Plugin.Android\Forms.Plugin.Android.vstemplate
       </ProjectTemplateLink>
       <ProjectTemplateLink ProjectName="$safeprojectname$.Forms.Plugin.WindowsPhone">
-        Feature.Forms.Plugin.WindowsPhone\Feature.Forms.Plugin.WindowsPhone.vstemplate
+        Forms.Plugin.WindowsPhone\Forms.Plugin.WindowsPhone.vstemplate
       </ProjectTemplateLink>
      </ProjectCollection>
   </TemplateContent>

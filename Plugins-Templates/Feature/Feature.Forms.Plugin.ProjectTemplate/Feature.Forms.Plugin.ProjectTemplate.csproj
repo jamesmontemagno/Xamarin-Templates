@@ -74,50 +74,50 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Feature.Forms.Plugin.Abstractions\IFeature.cs" />
-    <Content Include="Feature.Forms.Plugin.Abstractions\Properties\AssemblyInfo.cs" />
-    <Content Include="Feature.Forms.Plugin.Android\FeatureImplementation.cs" />
-    <Content Include="Feature.Forms.Plugin.Android\Properties\AssemblyInfo.cs" />
-    <Content Include="Feature.Forms.Plugin.Android\Resources\Resource.Designer.cs" />
-    <Content Include="Feature.Forms.Plugin.iOS\FeatureImplementation.cs" />
-    <Content Include="Feature.Forms.Plugin.iOS\Properties\AssemblyInfo.cs" />
-    <Content Include="Feature.Forms.Plugin.WindowsPhone\FeatureImplementation.cs" />
-    <Content Include="Feature.Forms.Plugin.WindowsPhone\Properties\AssemblyInfo.cs" />
+    <Content Include="Forms.Plugin.Abstractions\IFeature.cs" />
+    <Content Include="Forms.Plugin.Abstractions\Properties\AssemblyInfo.cs" />
+    <Content Include="Forms.Plugin.Android\FeatureImplementation.cs" />
+    <Content Include="Forms.Plugin.Android\Properties\AssemblyInfo.cs" />
+    <Content Include="Forms.Plugin.Android\Resources\Resource.Designer.cs" />
+    <Content Include="Forms.Plugin.iOS\FeatureImplementation.cs" />
+    <Content Include="Forms.Plugin.iOS\Properties\AssemblyInfo.cs" />
+    <Content Include="Forms.Plugin.WindowsPhone\FeatureImplementation.cs" />
+    <Content Include="Forms.Plugin.WindowsPhone\Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Feature.Forms.Plugin.Abstractions\packages.config" />
-    <None Include="Feature.Forms.Plugin.Android\packages.config" />
-    <None Include="Feature.Forms.Plugin.iOS\packages.config" />
-    <None Include="Feature.Forms.Plugin.WindowsPhone\packages.config" />
+    <None Include="Forms.Plugin.Abstractions\packages.config" />
+    <None Include="Forms.Plugin.Android\packages.config" />
+    <None Include="Forms.Plugin.iOS\packages.config" />
+    <None Include="Forms.Plugin.WindowsPhone\packages.config" />
     <None Include="Feature.Forms.Plugin.ProjectTemplate.ico" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="Feature.Forms.Plugin.ProjectTemplate.vstemplate">
+    <VSTemplate Include="Forms.Plugin.PT.vstemplate">
       <SubType>Designer</SubType>
     </VSTemplate>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Feature.Forms.Plugin.Abstractions\Feature.Forms.Plugin.Abstractions.csproj" />
-    <Content Include="Feature.Forms.Plugin.Abstractions\Feature.Forms.Plugin.Abstractions.vstemplate" />
-    <Content Include="Feature.Forms.Plugin.Abstractions\__TemplateIcon.ico" />
-    <Content Include="Feature.Forms.Plugin.Android\Feature.Forms.Plugin.Android.csproj" />
-    <Content Include="Feature.Forms.Plugin.Android\Feature.Forms.Plugin.Android.vstemplate" />
-    <Content Include="Feature.Forms.Plugin.Android\Resources\AboutResources.txt" />
-    <Content Include="Feature.Forms.Plugin.Android\Resources\Values\Strings.xml" />
-    <Content Include="Feature.Forms.Plugin.Android\__TemplateIcon.ico" />
-    <Content Include="Feature.Forms.Plugin.iOS\Feature.Forms.Plugin.iOS.csproj" />
-    <Content Include="Feature.Forms.Plugin.iOS\Feature.Forms.Plugin.iOS.vstemplate" />
-    <Content Include="Feature.Forms.Plugin.iOS\__TemplateIcon.ico" />
-    <Content Include="Feature.Forms.Plugin.WindowsPhone\Feature.Forms.Plugin.WindowsPhone.csproj" />
-    <Content Include="Feature.Forms.Plugin.WindowsPhone\Feature.Forms.Plugin.WindowsPhone.vstemplate" />
-    <Content Include="Feature.Forms.Plugin.WindowsPhone\README_FIRST.txt" />
-    <Content Include="Feature.Forms.Plugin.WindowsPhone\Toolkit.Content\ApplicationBar.Add.png" />
-    <Content Include="Feature.Forms.Plugin.WindowsPhone\Toolkit.Content\ApplicationBar.Cancel.png" />
-    <Content Include="Feature.Forms.Plugin.WindowsPhone\Toolkit.Content\ApplicationBar.Check.png" />
-    <Content Include="Feature.Forms.Plugin.WindowsPhone\Toolkit.Content\ApplicationBar.Delete.png" />
-    <Content Include="Feature.Forms.Plugin.WindowsPhone\Toolkit.Content\ApplicationBar.Select.png" />
-    <Content Include="Feature.Forms.Plugin.WindowsPhone\__TemplateIcon.ico" />
+    <Content Include="Forms.Plugin.Abstractions\Feature.Forms.Plugin.Abstractions.csproj" />
+    <Content Include="Forms.Plugin.Abstractions\Forms.Plugin.Abstractions.vstemplate" />
+    <Content Include="Forms.Plugin.Abstractions\__TemplateIcon.ico" />
+    <Content Include="Forms.Plugin.Android\Feature.Forms.Plugin.Android.csproj" />
+    <Content Include="Forms.Plugin.Android\Forms.Plugin.Android.vstemplate" />
+    <Content Include="Forms.Plugin.Android\Resources\AboutResources.txt" />
+    <Content Include="Forms.Plugin.Android\Resources\Values\Strings.xml" />
+    <Content Include="Forms.Plugin.Android\__TemplateIcon.ico" />
+    <Content Include="Forms.Plugin.iOS\Feature.Forms.Plugin.iOS.csproj" />
+    <Content Include="Forms.Plugin.iOS\Forms.Plugin.iOS.vstemplate" />
+    <Content Include="Forms.Plugin.iOS\__TemplateIcon.ico" />
+    <Content Include="Forms.Plugin.WindowsPhone\Feature.Forms.Plugin.WindowsPhone.csproj" />
+    <Content Include="Forms.Plugin.WindowsPhone\Forms.Plugin.WindowsPhone.vstemplate" />
+    <Content Include="Forms.Plugin.WindowsPhone\README_FIRST.txt" />
+    <Content Include="Forms.Plugin.WindowsPhone\Toolkit.Content\ApplicationBar.Add.png" />
+    <Content Include="Forms.Plugin.WindowsPhone\Toolkit.Content\ApplicationBar.Cancel.png" />
+    <Content Include="Forms.Plugin.WindowsPhone\Toolkit.Content\ApplicationBar.Check.png" />
+    <Content Include="Forms.Plugin.WindowsPhone\Toolkit.Content\ApplicationBar.Delete.png" />
+    <Content Include="Forms.Plugin.WindowsPhone\Toolkit.Content\ApplicationBar.Select.png" />
+    <Content Include="Forms.Plugin.WindowsPhone\__TemplateIcon.ico" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FeaturePlugin.Wizard\FeaturePlugin.Wizard.csproj">
