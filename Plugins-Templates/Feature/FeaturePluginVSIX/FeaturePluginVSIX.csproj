@@ -70,9 +70,11 @@
     </Content>
     <Content Include="Packages\wptoolkit.4.2013.8.16.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Packages\xamarin.android.support.v4.19.1.0.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
@@ -96,6 +98,13 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Control.Forms.Plugin.ProjectTemplate\Control.Forms.Plugin.ProjectTemplate.csproj">
+      <Project>{741D8402-22B9-42CF-88EC-EAF084B11619}</Project>
+      <Name>Control.Forms.Plugin.ProjectTemplate</Name>
+      <VSIXSubPath>ProjectTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\Feature.Forms.Plugin.ItemTemplate\Feature.Forms.Plugin.ItemTemplate.csproj">
       <Project>{7D58720A-CE13-4450-B688-F51960032B79}</Project>
       <Name>Feature.Forms.Plugin.ItemTemplate</Name>
