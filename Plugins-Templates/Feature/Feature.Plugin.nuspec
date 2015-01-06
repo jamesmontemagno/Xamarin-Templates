@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-   <metadata minClientVersion="2.8.3">
+   <metadata minClientVersion="2.8.1">
        <id>Company.Feature.Plugin</id>
        <version>1.0.0.0</version>
-       <title>Feature Plugin for Xamarin</title>
+       <title>Feature Plugin for Xamarin and Windows</title>
        <authors>James Montemagno</authors>
        <owners>James Montemagno</owners>
        <licenseUrl></licenseUrl>
        <projectUrl></projectUrl>
-       <iconUrl></iconUrl>
+     <!--Default Icon, a template can be found:  https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon.png-->  
+     <iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
+     
        <requireLicenseAcceptance>false</requireLicenseAcceptance>
        <description>
          Long description for your plugin.
        </description>
        <summary>Short description for your plugin.</summary>
-       <tags>xamarin, pcl, xam.pcl, settings, windows phone, winphone, wp8, winrt, android, xamarin.forms, ios</tags>
+       <tags>xamarin, pcl, xam.pcl, windows phone, winphone, wp8, winrt, android, xamarin.forms, ios</tags>
        <dependencies>
        </dependencies>
    </metadata>
