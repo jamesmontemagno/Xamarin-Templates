@@ -20,6 +20,9 @@
       <ProjectTemplateLink ProjectName="$safeprojectname$.Forms.Plugin.iOS">
         Forms.Plugin.iOS\Forms.Plugin.iOS.vstemplate
       </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Forms.Plugin.iOSUnified">
+        Forms.Plugin.iOSUnified\Forms.Plugin.iOSUnified.vstemplate
+      </ProjectTemplateLink>
       <ProjectTemplateLink ProjectName="$safeprojectname$.Forms.Plugin.Android">
         Forms.Plugin.Android\Forms.Plugin.Android.vstemplate
       </ProjectTemplateLink>

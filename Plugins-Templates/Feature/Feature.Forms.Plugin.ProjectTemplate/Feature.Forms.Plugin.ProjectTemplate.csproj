@@ -79,15 +79,21 @@
     <Content Include="Forms.Plugin.Android\FeatureImplementation.cs" />
     <Content Include="Forms.Plugin.Android\Properties\AssemblyInfo.cs" />
     <Content Include="Forms.Plugin.Android\Resources\Resource.Designer.cs" />
+    <Content Include="Forms.Plugin.iOSUnified\Feature.Forms.Plugin.iOSUnified.csproj" />
+    <Content Include="Forms.Plugin.iOSUnified\Forms.Plugin.iOSUnified.vstemplate" />
+    <Content Include="Forms.Plugin.iOSUnified\__TemplateIcon.ico" />
     <Content Include="Forms.Plugin.iOS\FeatureImplementation.cs" />
     <Content Include="Forms.Plugin.iOS\Properties\AssemblyInfo.cs" />
     <Content Include="Forms.Plugin.WindowsPhone\FeatureImplementation.cs" />
     <Content Include="Forms.Plugin.WindowsPhone\Properties\AssemblyInfo.cs" />
+    <Content Include="Forms.Plugin.iOSUnified\Properties\AssemblyInfo.cs" />
+    <Content Include="Forms.Plugin.iOSUnified\FeatureImplementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Forms.Plugin.Abstractions\packages.config" />
     <None Include="Forms.Plugin.Android\packages.config" />
+    <None Include="Forms.Plugin.iOSUnified\packages.config" />
     <None Include="Forms.Plugin.iOS\packages.config" />
     <None Include="Forms.Plugin.WindowsPhone\packages.config" />
     <None Include="Feature.Forms.Plugin.ProjectTemplate.ico" />

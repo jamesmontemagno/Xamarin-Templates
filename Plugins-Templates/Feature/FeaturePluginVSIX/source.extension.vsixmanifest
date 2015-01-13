@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="FeaturePluginVSIX..718b8fe4-6335-4bc1-aaea-a034e69219bd" Version="1.3.2" Language="en-US" Publisher="James Montemagno" />
+    <Identity Id="FeaturePluginVSIX..718b8fe4-6335-4bc1-aaea-a034e69219bd" Version="1.3.3" Language="en-US" Publisher="James Montemagno" />
     <DisplayName>Plugin For Xamarin Templates</DisplayName>
     <Description xml:space="preserve">Contains all templates for creating a Plugin for Xamarin including Xamarin.iOS, Xamarin.Android, Windows Phone, and Windows Store.
 
 Min NuGet Target should be 2.8.1
 
-Updated to 1.3.0 Xamarin.Forms and added icons</Description>
+Updated to 1.3.1 Xamarin.Forms, added icons, and unified iOS project for forms</Description>
     <MoreInfo>https://github.com/jamesmontemagno/Xamarin-Templates</MoreInfo>
     <License>LICENSE.txt</License>
     <Tags>xamarin, plugins, windows phone, windows store, ios, android, xamarin.forms</Tags>

@@ -1,21 +1,21 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Feature.Forms.Plugin.Abstractions</Name>
+    <Name>Feature.Forms.Plugin.iOSUnified</Name>
     <Description>&lt;No description available&gt;</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Feature.Forms.Plugin.Abstractions</DefaultName>
+    <DefaultName>Feature.Forms.Plugin.iOSUnified</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="$safeprojectname$.Forms.Plugin.Abstractions.csproj" File="Feature.Forms.Plugin.Abstractions.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" TargetFileName="I$safeprojectgroupname$.cs">IFeature.cs</ProjectItem>
+    <Project TargetFileName="$safeprojectname$.Forms.Plugin.iOSUnified.csproj" File="Feature.Forms.Plugin.iOSUnified.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectgroupname$Implementation.cs">FeatureImplementation.cs</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       </Folder>
@@ -32,7 +32,7 @@
   <WizardData>
     <packages repository="extension"
           repositoryId="FeaturePluginVSIX..718b8fe4-6335-4bc1-aaea-a034e69219bd">
-      <package id="Xamarin.Forms" version="1.3.1.6296"/>
+      <package id="Xamarin.Forms" version="1.3.1.6296" />
     </packages>
   </WizardData>
 </VSTemplate>
