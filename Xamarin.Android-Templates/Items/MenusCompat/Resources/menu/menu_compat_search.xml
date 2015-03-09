@@ -12,24 +12,26 @@
 
 <!-- Code to implement into Activity:
 
-Android.Support.v7.Widget.SearchView searchView;
-public override bool OnCreateOptionsMenu(IMenu menu)
-{
-  //change menu_compat_search to your name
-  this.MenuInflater.Inflate(Resource.Menu.menu_compat_search, menu);
+//using Android.Runtime;
 
-  var searchItem = menu.FindItem(Resource.Id.action_search);
+    Android.Support.V7.Widget.SearchView searchView;
+    public override bool OnCreateOptionsMenu(IMenu menu)
+    {
+      //change menu_search to your name
+      this.MenuInflater.Inflate(Resource.Menu.menu_search, menu);
 
-  searchView = searchItem.ActionProvider.JavaCast<Android.Support.v7.Widget.SearchView>();
+      var searchItem = menu.FindItem(Resource.Id.action_search);
+      var provider = MenuItemCompat.GetActionView(searchItem);
+      searchView = provider.JavaCast<Android.Support.v7.Widget.SearchView>();
 
-  searchView.QueryTextSubmit += (sender, args) =>
-  {
-    Toast.MakeText(this, "You searched: " + args.Query, ToastLength.Short).Show();
+      searchView.QueryTextSubmit += (sender, args) =>
+      {
+        Toast.MakeText(this, "You searched: " + args.Query, ToastLength.Short).Show();
 
-  };
+      };
 
 
-  return base.OnCreateOptionsMenu(menu);
-}
+      return base.OnCreateOptionsMenu(menu);
+    }
 
 -->

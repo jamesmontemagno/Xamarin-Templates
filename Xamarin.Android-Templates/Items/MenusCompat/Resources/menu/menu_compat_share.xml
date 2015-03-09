@@ -12,17 +12,19 @@
 
 <!-- Code to implement into Activity:
 
-Android.Support.V7.Widget.ShareActionProvider actionProvider;
+//using Android.Runtime;
+
+    Android.Support.V7.Widget.ShareActionProvider actionProvider;
     public override bool OnCreateOptionsMenu(IMenu menu)
     {
-      //change menu_compat_share to your name
-      this.MenuInflater.Inflate(Resource.Menu.menu_compat_share, menu);
+      //change menu_share1 to your name
+      this.MenuInflater.Inflate(Resource.Menu.menu_share1, menu);
 
       var shareItem = menu.FindItem(Resource.Id.action_share);
       var provider = MenuItemCompat.GetActionProvider(shareItem);
 
       actionProvider = provider.JavaCast<Android.Support.V7.Widget.ShareActionProvider>();
-      
+
       var intent = new Intent(Intent.ActionSend);
       intent.SetType("text/plain");
       intent.PutExtra(Intent.ExtraText, "Time to share some text!");
@@ -32,5 +34,4 @@ Android.Support.V7.Widget.ShareActionProvider actionProvider;
 
       return base.OnCreateOptionsMenu(menu);
     }
-
 -->

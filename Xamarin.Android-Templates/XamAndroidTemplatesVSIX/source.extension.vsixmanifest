@@ -6,7 +6,7 @@
 	<Identifier Id="XamarinAndroidTemplatesPack">
 		<Name>Xamarin.Android Templates Pack</Name>
 		<Author>James Montemagno</Author>
-		<Version>2.0.0</Version>
+		<Version>2.0.1</Version>
 		<Description xml:space="preserve">This extension provides additional Xamarin.Android project and item templates for Visual Studio. More information can be found at http://xamarin.com</Description>
 		<Locale>1033</Locale>
 		<License>LICENSE</License>
@@ -27,6 +27,11 @@
         <Edition>Ultimate</Edition>
 			</VisualStudio>
       <VisualStudio Version="13.0">
+        <Edition>Pro</Edition>
+        <Edition>Premium</Edition>
+        <Edition>Ultimate</Edition>
+      </VisualStudio>
+      <VisualStudio Version="14.0">
         <Edition>Pro</Edition>
         <Edition>Premium</Edition>
         <Edition>Ultimate</Edition>
