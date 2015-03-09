@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavDrawer", "NavDrawer.csproj", "{0393D583-541C-43B7-8693-ABD7B6548E6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0393D583-541C-43B7-8693-ABD7B6548E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0393D583-541C-43B7-8693-ABD7B6548E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0393D583-541C-43B7-8693-ABD7B6548E6F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0393D583-541C-43B7-8693-ABD7B6548E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0393D583-541C-43B7-8693-ABD7B6548E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0393D583-541C-43B7-8693-ABD7B6548E6F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = NavDrawer.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!--These two sections should match in length
+  more icons from:  http://romannurik.github.io/AndroidAssetStudio/-->
+  <string-array name="sections">
+    <item>Fragment 1</item>
+    <item>Fragment 2</item>
+  </string-array>
+  <string-array name="sections_icons">
+    <item>@drawable/ic_home_1</item>
+    <item>@drawable/ic_home_2</item>
+  </string-array>
+</resources>

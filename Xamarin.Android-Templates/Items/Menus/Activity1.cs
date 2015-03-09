@@ -31,7 +31,11 @@ namespace Menus
 
     public override bool OnCreateOptionsMenu(IMenu menu)
     {
-      MenuInflater.Inflate(Resource.Menu.menu, menu);
+      MenuInflater.Inflate(Resource.Menu.menu_search, menu);
+
+      var searchItem = menu.FindItem(Resource.Id.action_search);
+
+      var searchView = searchItem.ActionView.JavaCast<Android.Widget.SearchView>();
       return base.OnCreateOptionsMenu(menu);
     }
 
