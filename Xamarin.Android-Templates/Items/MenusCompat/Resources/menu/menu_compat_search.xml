@@ -22,7 +22,7 @@
 
       var searchItem = menu.FindItem(Resource.Id.action_search);
       var provider = MenuItemCompat.GetActionView(searchItem);
-      searchView = provider.JavaCast<Android.Support.v7.Widget.SearchView>();
+      searchView = provider.JavaCast<Android.Support.V7.Widget.SearchView>();
 
       searchView.QueryTextSubmit += (sender, args) =>
       {
