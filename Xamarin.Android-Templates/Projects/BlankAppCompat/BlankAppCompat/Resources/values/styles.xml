@@ -4,7 +4,7 @@
   </style>
   <!-- Base theme applied no matter what API -->
   <style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
-    <item name="android:windowNoTitle">true</item>
+    <item name="windowNoTitle">true</item>
     <!--We will be using the toolbar so no need to show ActionBar-->
     <item name="windowActionBar">false</item>
     <!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette-->

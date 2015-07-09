@@ -12,7 +12,7 @@ using Android.Support.V7.Widget;
 
 namespace NavDrawer.Activities
 {
-	public abstract class BaseActivity : ActionBarActivity
+	public abstract class BaseActivity : AppCompatActivity
 	{
 		public Toolbar Toolbar {
 			get;
