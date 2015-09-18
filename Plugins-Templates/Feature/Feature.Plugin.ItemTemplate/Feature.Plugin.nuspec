@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
    <metadata minClientVersion="2.8.1">
        <id>YourName.Plugin.$safeitemname$</id>
-       <version>1.0.0.0</version>
+       <version>1.0.0</version>
        <title>$safeitemname$ Plugin for Xamarin and Windows</title>
        <authors>Your Name</authors>
        <owners>Your Name</owners>
@@ -62,12 +62,6 @@
      <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.dll" target="lib\MonoAndroid10\$safeitemname$.Plugin.Abstractions.dll" />
      <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.xml" target="lib\MonoAndroid10\$safeitemname$.Plugin.Abstractions.xml" />
      <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.pdb" target="lib\MonoAndroid10\$safeitemname$.Plugin.Abstractions.pdb" />
-
-     <!--Xamarin.iOS-->
-     <file src="$safeitemname$\$safeitemname$.Plugin.iOS\bin\iPhone\Release\$safeitemname$.Plugin.dll" target="lib\MonoTouch10\$safeitemname$.Plugin.dll" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.iOS\bin\iPhone\Release\$safeitemname$.Plugin.xml" target="lib\MonoTouch10\$safeitemname$.Plugin.xml" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.dll" target="lib\MonoTouch10\$safeitemname$.Plugin.Abstractions.dll" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.xml" target="lib\MonoTouch10\$safeitemname$.Plugin.Abstractions.xml" />
      
      <!--Xamarin.iOS Unified-->
      <file src="$safeitemname$\$safeitemname$.Plugin.iOSUnified\bin\iPhone\Release\$safeitemname$.Plugin.dll" target="lib\Xamarin.iOS10\$safeitemname$.Plugin.dll" />

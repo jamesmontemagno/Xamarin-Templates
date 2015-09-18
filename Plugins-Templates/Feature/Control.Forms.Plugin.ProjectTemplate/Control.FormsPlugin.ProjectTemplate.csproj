@@ -74,54 +74,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Forms.Plugin.Abstractions\Control.cs" />
-    <Content Include="Forms.Plugin.Abstractions\Properties\AssemblyInfo.cs" />
-    <Content Include="Forms.Plugin.Android\FeatureImplementation.cs" />
-    <Content Include="Forms.Plugin.Android\Properties\AssemblyInfo.cs" />
-    <Content Include="Forms.Plugin.Android\Resources\Resource.Designer.cs" />
-    <Content Include="Forms.Plugin.iOSUnified\Feature.Forms.Plugin.iOSUnified.csproj" />
-    <Content Include="Forms.Plugin.iOSUnified\Forms.Plugin.iOSUnified.vstemplate" />
-    <Content Include="Forms.Plugin.iOSUnified\__TemplateIcon.ico" />
-    <Content Include="Forms.Plugin.iOS\FeatureImplementation.cs" />
-    <Content Include="Forms.Plugin.iOS\Properties\AssemblyInfo.cs" />
-    <Content Include="Forms.Plugin.WindowsPhone\FeatureImplementation.cs" />
-    <Content Include="Forms.Plugin.WindowsPhone\Properties\AssemblyInfo.cs" />
-    <Content Include="Forms.Plugin.iOSUnified\Properties\AssemblyInfo.cs" />
-    <Content Include="Forms.Plugin.iOSUnified\FeatureImplementation.cs" />
+    <Content Include="FormsPlugin.Abstractions\Control.cs" />
+    <Content Include="FormsPlugin.Abstractions\Properties\AssemblyInfo.cs" />
+    <Content Include="FormsPlugin.Android\FeatureImplementation.cs" />
+    <Content Include="FormsPlugin.Android\Properties\AssemblyInfo.cs" />
+    <Content Include="FormsPlugin.Android\Resources\Resource.Designer.cs" />
+    <Content Include="FormsPlugin.iOSUnified\Feature.FormsPlugin.iOSUnified.csproj" />
+    <Content Include="FormsPlugin.iOSUnified\FormsPlugin.iOSUnified.vstemplate" />
+    <Content Include="FormsPlugin.iOSUnified\__TemplateIcon.ico" />
+    <Content Include="FormsPlugin.WindowsPhone\FeatureImplementation.cs" />
+    <Content Include="FormsPlugin.WindowsPhone\Properties\AssemblyInfo.cs" />
+    <Content Include="FormsPlugin.iOSUnified\Properties\AssemblyInfo.cs" />
+    <Content Include="FormsPlugin.iOSUnified\FeatureImplementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Content Include="Forms.Plugin.Android\Feature.Forms.Plugin.Android.csproj" />
-    <Content Include="Forms.Plugin.Android\Forms.Plugin.Android.vstemplate" />
-    <Content Include="Forms.Plugin.Android\Resources\AboutResources.txt" />
-    <Content Include="Forms.Plugin.Android\Resources\Values\Strings.xml" />
-    <Content Include="Forms.Plugin.Android\__TemplateIcon.ico" />
-    <Content Include="Forms.Plugin.iOS\Feature.Forms.Plugin.iOS.csproj" />
-    <Content Include="Forms.Plugin.iOS\Forms.Plugin.iOS.vstemplate" />
-    <Content Include="Forms.Plugin.iOS\__TemplateIcon.ico" />
-    <Content Include="Forms.Plugin.WindowsPhone\Feature.Forms.Plugin.WindowsPhone.csproj" />
-    <Content Include="Forms.Plugin.WindowsPhone\Forms.Plugin.WindowsPhone.vstemplate" />
-    <Content Include="Forms.Plugin.WindowsPhone\README_FIRST.txt" />
-    <Content Include="Forms.Plugin.WindowsPhone\Toolkit.Content\ApplicationBar.Add.png" />
-    <Content Include="Forms.Plugin.WindowsPhone\Toolkit.Content\ApplicationBar.Cancel.png" />
-    <Content Include="Forms.Plugin.WindowsPhone\Toolkit.Content\ApplicationBar.Check.png" />
-    <Content Include="Forms.Plugin.WindowsPhone\Toolkit.Content\ApplicationBar.Delete.png" />
-    <Content Include="Forms.Plugin.WindowsPhone\Toolkit.Content\ApplicationBar.Select.png" />
-    <Content Include="Forms.Plugin.WindowsPhone\__TemplateIcon.ico" />
+    <Content Include="FormsPlugin.Android\Feature.FormsPlugin.Android.csproj" />
+    <Content Include="FormsPlugin.Android\FormsPlugin.Android.vstemplate" />
+    <Content Include="FormsPlugin.Android\Resources\AboutResources.txt" />
+    <Content Include="FormsPlugin.Android\Resources\Values\Strings.xml" />
+    <Content Include="FormsPlugin.Android\__TemplateIcon.ico" />
+    <Content Include="FormsPlugin.WindowsPhone\Feature.FormsPlugin.WindowsPhone.csproj" />
+    <Content Include="FormsPlugin.WindowsPhone\FormsPlugin.WindowsPhone.vstemplate" />
+    <Content Include="FormsPlugin.WindowsPhone\README_FIRST.txt" />
+    <Content Include="FormsPlugin.WindowsPhone\Toolkit.Content\ApplicationBar.Add.png" />
+    <Content Include="FormsPlugin.WindowsPhone\Toolkit.Content\ApplicationBar.Cancel.png" />
+    <Content Include="FormsPlugin.WindowsPhone\Toolkit.Content\ApplicationBar.Check.png" />
+    <Content Include="FormsPlugin.WindowsPhone\Toolkit.Content\ApplicationBar.Delete.png" />
+    <Content Include="FormsPlugin.WindowsPhone\Toolkit.Content\ApplicationBar.Select.png" />
+    <Content Include="FormsPlugin.WindowsPhone\__TemplateIcon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Control.Forms.Plugin.ProjectTemplate.ico" />
-    <None Include="Forms.Plugin.Abstractions\packages.config" />
-    <None Include="Forms.Plugin.Android\packages.config" />
-    <None Include="Forms.Plugin.iOSUnified\packages.config" />
-    <None Include="Forms.Plugin.iOS\packages.config" />
-    <None Include="Forms.Plugin.WindowsPhone\packages.config" />
+    <None Include="Control.FormsPlugin.ProjectTemplate.ico" />
+    <None Include="FormsPlugin.Abstractions\packages.config" />
+    <None Include="FormsPlugin.Android\packages.config" />
+    <None Include="FormsPlugin.iOSUnified\packages.config" />
+    <None Include="FormsPlugin.WindowsPhone\packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="Control.Forms.Plugin.PT.vstemplate" />
+    <VSTemplate Include="Control.FormsPlugin.PT.vstemplate" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Forms.Plugin.Abstractions\Feature.Forms.Plugin.Abstractions.csproj" />
-    <Content Include="Forms.Plugin.Abstractions\Forms.Plugin.Abstractions.vstemplate" />
-    <Content Include="Forms.Plugin.Abstractions\__TemplateIcon.ico" />
+    <Content Include="FormsPlugin.Abstractions\Feature.FormsPlugin.Abstractions.csproj" />
+    <Content Include="FormsPlugin.Abstractions\FormsPlugin.Abstractions.vstemplate" />
+    <Content Include="FormsPlugin.Abstractions\__TemplateIcon.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">

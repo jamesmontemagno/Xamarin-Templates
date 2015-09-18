@@ -1,20 +1,20 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Feature.Forms.Plugin.Abstractions</Name>
+    <Name>Feature.FormsPlugin.Abstractions</Name>
     <Description>&lt;No description available&gt;</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Feature.Forms.Plugin.Abstractions</DefaultName>
+    <DefaultName>Feature.FormsPlugin.Abstractions</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="$safeprojectname$.Forms.Plugin.Abstractions.csproj" File="Feature.Forms.Plugin.Abstractions.csproj" ReplaceParameters="true">
+    <Project TargetFileName="$safeprojectname$.FormsPlugin.Abstractions.csproj" File="Feature.FormsPlugin.Abstractions.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectgroupname$Control.cs">Control.cs</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>

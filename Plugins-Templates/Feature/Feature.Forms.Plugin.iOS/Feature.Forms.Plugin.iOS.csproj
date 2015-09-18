@@ -39,9 +39,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Feature.Forms.Plugin.Abstractions\Feature.Forms.Plugin.Abstractions.csproj">
+    <ProjectReference Include="..\Feature.Forms.Plugin.Abstractions\Feature.FormsPlugin.Abstractions.csproj">
       <Project>{14c534b6-1984-41a9-a384-d3a5508588e3}</Project>
-      <Name>Feature.Forms.Plugin.Abstractions</Name>
+      <Name>Feature.FormsPlugin.Abstractions</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

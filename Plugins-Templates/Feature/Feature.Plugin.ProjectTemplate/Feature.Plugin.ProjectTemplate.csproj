@@ -81,8 +81,6 @@
     <Content Include="Feature.Plugin.Android\Resources\Resource.Designer.cs" />
     <Content Include="Feature.Plugin.iOSUnified\FeatureImplementation.cs" />
     <Content Include="Feature.Plugin.iOSUnified\Properties\AssemblyInfo.cs" />
-    <Content Include="Feature.Plugin.iOS\FeatureImplementation.cs" />
-    <Content Include="Feature.Plugin.iOS\Properties\AssemblyInfo.cs" />
     <Content Include="Feature.Plugin.WindowsPhone81\FeatureImplementation.cs" />
     <Content Include="Feature.Plugin.WindowsPhone81\Properties\AssemblyInfo.cs" />
     <Content Include="Feature.Plugin.WindowsPhone8\FeatureImplementation.cs" />
@@ -113,9 +111,6 @@
     <Content Include="Feature.Plugin.iOSUnified\Feature.Plugin.iOSUnified.csproj" />
     <None Include="Feature.Plugin.iOSUnified\Feature.Plugin.iOSUnified.vstemplate" />
     <Content Include="Feature.Plugin.iOSUnified\__TemplateIcon.ico" />
-    <Content Include="Feature.Plugin.iOS\Feature.Plugin.iOS.csproj" />
-    <None Include="Feature.Plugin.iOS\Feature.Plugin.iOS.vstemplate" />
-    <Content Include="Feature.Plugin.iOS\__TemplateIcon.ico" />
     <Content Include="Feature.Plugin.WindowsPhone81\Feature.Plugin.WindowsPhone81.csproj" />
     <None Include="Feature.Plugin.WindowsPhone81\Feature.Plugin.WindowsPhone81.vstemplate" />
     <Content Include="Feature.Plugin.WindowsPhone81\__TemplateIcon.ico" />

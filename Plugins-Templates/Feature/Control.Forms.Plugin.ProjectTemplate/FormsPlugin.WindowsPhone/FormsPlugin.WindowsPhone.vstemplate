@@ -1,20 +1,20 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Feature.Forms.Plugin.iOS</Name>
+    <Name>Feature.FormsPlugin.WindowsPhone</Name>
     <Description>&lt;No description available&gt;</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Feature.Forms.Plugin.iOS</DefaultName>
+    <DefaultName>Feature.FormsPlugin.WindowsPhone</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="$safeprojectname$.Forms.Plugin.iOS.csproj" File="Feature.Forms.Plugin.iOS.csproj" ReplaceParameters="true">
+    <Project TargetFileName="$safeprojectname$.FormsPlugin.WindowsPhone.csproj" File="Feature.FormsPlugin.WindowsPhone.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectgroupname$Implementation.cs">FeatureImplementation.cs</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
@@ -32,7 +32,8 @@
   <WizardData>
     <packages repository="extension"
           repositoryId="FeaturePluginVSIX..718b8fe4-6335-4bc1-aaea-a034e69219bd">
-      <package id="Xamarin.Forms" version="1.3.1.6296" />
+      <package id="Xamarin.Forms"  version="1.3.1.6296"/>
+      <package id="WPtoolkit" version="4.2013.8.16" />
     </packages>
   </WizardData>
 </VSTemplate>

@@ -77,11 +77,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Feature.Forms.Plugin.ItemTemplate.ico" />
-    <None Include="Feature.Forms.Plugin.nuspec" />
+    <None Include="Feature.FormsPlugin.ItemTemplate.ico" />
+    <None Include="Feature.FormsPlugin.nuspec" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="Forms.Plugin.IT.vstemplate" />
+    <VSTemplate Include="FormsPlugin.IT.vstemplate" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">

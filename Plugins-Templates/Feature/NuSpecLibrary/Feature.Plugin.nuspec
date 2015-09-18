@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
    <metadata minClientVersion="2.8.1">
        <id>Company.Feature.Plugin</id>
-       <version>1.0.0.0</version>
-       <title>Feature Plugin for Xamarin</title>
-       <authors>James Montemagno</authors>
-       <owners>James Montemagno</owners>
+       <version>1.0.0</version>
+       <title>Feature Plugin for Xamarin and Windows</title>
+       <authors>Your Name Here</authors>
+       <owners>Your Name Here</owners>
        <licenseUrl></licenseUrl>
        <projectUrl></projectUrl>
      <!--Default Icon, a template can be found:  https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon.png-->
@@ -63,12 +63,7 @@
      <file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\MonoAndroid10\Feature.Plugin.Abstractions.xml" />
      <file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.pdb" target="lib\MonoAndroid10\Feature.Plugin.Abstractions.pdb" />
 
-     <!--Xamarin.iOS-->
-     <file src="Feature.Plugin.iOS\bin\Release\Feature.Plugin.dll" target="lib\MonoTouch10\Feature.Plugin.dll" />
-     <file src="Feature.Plugin.iOS\bin\Release\Feature.Plugin.xml" target="lib\MonoTouch10\Feature.Plugin.xml" />
-     <file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\MonoTouch10\Feature.Plugin.Abstractions.dll" />
-     <file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\MonoTouch10\Feature.Plugin.Abstractions.xml" />
-     
+  
      <!--Xamarin.iOS Unified-->
      <file src="Feature.Plugin.iOSUnified\bin\Release\Feature.Plugin.dll" target="lib\Xamarin.iOS10\Feature.Plugin.dll" />
      <file src="Feature.Plugin.iOSUnified\bin\Release\Feature.Plugin.xml" target="lib\Xamarin.iOS10\Feature.Plugin.xml" />

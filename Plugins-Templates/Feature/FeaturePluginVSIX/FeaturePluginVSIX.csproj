@@ -106,24 +106,17 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Control.Forms.Plugin.ProjectTemplate\Control.Forms.Plugin.ProjectTemplate.csproj">
+    <ProjectReference Include="..\Control.Forms.Plugin.ProjectTemplate\Control.FormsPlugin.ProjectTemplate.csproj">
       <Project>{741D8402-22B9-42CF-88EC-EAF084B11619}</Project>
-      <Name>Control.Forms.Plugin.ProjectTemplate</Name>
+      <Name>Control.FormsPlugin.ProjectTemplate</Name>
       <VSIXSubPath>ProjectTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
-    <ProjectReference Include="..\Feature.Forms.Plugin.ItemTemplate\Feature.Forms.Plugin.ItemTemplate.csproj">
+    <ProjectReference Include="..\Feature.Forms.Plugin.ItemTemplate\Feature.FormsPlugin.ItemTemplate.csproj">
       <Project>{7D58720A-CE13-4450-B688-F51960032B79}</Project>
-      <Name>Feature.Forms.Plugin.ItemTemplate</Name>
+      <Name>Feature.FormsPlugin.ItemTemplate</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
-    </ProjectReference>
-    <ProjectReference Include="..\Feature.Forms.Plugin.ProjectTemplate\Feature.Forms.Plugin.ProjectTemplate.csproj">
-      <Project>{570931F3-50C8-48A8-92F5-F33059974263}</Project>
-      <Name>Feature.Forms.Plugin.ProjectTemplate</Name>
-      <VSIXSubPath>ProjectTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>

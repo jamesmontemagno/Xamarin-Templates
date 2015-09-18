@@ -1,10 +1,10 @@
-﻿using $safeprojectgroupname$.Forms.Plugin.Abstractions;
+﻿using $safeprojectgroupname$.FormsPlugin.Abstractions;
 using System;
 using Xamarin.Forms;
 using $safeprojectname$;
 using Xamarin.Forms.Platform.iOS;
 
-[assembly: ExportRenderer(typeof($safeprojectgroupname$.Forms.Plugin.Abstractions.$safeprojectgroupname$Control), typeof($safeprojectgroupname$Renderer))]
+[assembly: ExportRenderer(typeof($safeprojectgroupname$.FormsPlugin.Abstractions.$safeprojectgroupname$Control), typeof($safeprojectgroupname$Renderer))]
 namespace $safeprojectname$
 {
   /// <summary>
