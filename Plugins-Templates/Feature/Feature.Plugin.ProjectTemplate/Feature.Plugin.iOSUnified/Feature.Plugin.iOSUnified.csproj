@@ -8,9 +8,9 @@
     <ProjectGuid>{2882AEEB-D4CD-4EB9-8A6C-6653B33681F0}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>$safeprojectgroupname$.Plugin</RootNamespace>
+    <RootNamespace>Plugin.$safeprojectgroupname$</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>$safeprojectgroupname$.Plugin</AssemblyName>
+    <AssemblyName>Plugin.$safeprojectgroupname$</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,19 +32,19 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <CodesignKey>iPhone Developer</CodesignKey>
-    <DocumentationFile>bin\iPhone\Release\$safeprojectgroupname$.Plugin.XML</DocumentationFile>
+    <DocumentationFile>bin\iPhone\Release\Plugin.$safeprojectgroupname$.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\$safeprojectgroupname$.Plugin\Cross$safeprojectgroupname$.cs">
+    <Compile Include="..\Plugin.$safeprojectgroupname$\Cross$safeprojectgroupname$.cs">
       <Link>Cross$safeprojectgroupname$.cs</Link>
     </Compile>
     <Compile Include="$safeprojectgroupname$Implementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\$safeprojectgroupname$.Plugin.Abstractions\$safeprojectgroupname$.Plugin.Abstractions.csproj">
+    <ProjectReference Include="..\Plugin.$safeprojectgroupname$.Abstractions\Plugin.$safeprojectgroupname$.Abstractions.csproj">
       <Project>{6edb0588-ffc5-4ef5-8a99-9e241d0f878d}</Project>
-      <Name>$safeprojectgroupname$.Plugin.Abstractions</Name>
+      <Name>Plugin.$safeprojectgroupname$.Abstractions</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -1,8 +1,8 @@
-using $safeprojectgroupname$.Plugin.Abstractions;
+using Plugin.$safeprojectgroupname$.Abstractions;
 using System;
 
 
-namespace $safeprojectgroupname$.Plugin
+namespace Plugin.$safeprojectgroupname$
 {
   /// <summary>
   /// Implementation for $safeprojectgroupname$

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
    <metadata minClientVersion="2.8.1">
-       <id>YourName.Plugin.$safeitemname$</id>
+       <id>Plugin.$safeitemname$</id>
        <version>1.0.0</version>
        <title>$safeitemname$ Plugin for Xamarin and Windows</title>
        <authors>Your Name</authors>
@@ -21,53 +21,53 @@
        </dependencies>
    </metadata>
    <files>
-<!--Core-->
-     <file src="$safeitemname$\$safeitemname$.Plugin\bin\Release\$safeitemname$.Plugin.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\$safeitemname$.Plugin.dll" />
-     <file src="$safeitemname$\$safeitemname$.Plugin\bin\Release\$safeitemname$.Plugin.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\$safeitemname$.Plugin.xml" />
-     <file src="$safeitemname$\$safeitemname$.Plugin\bin\Release\$safeitemname$.Plugin.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\$safeitemname$.Plugin.pdb" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\$safeitemname$.Plugin.Abstractions.dll" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\$safeitemname$.Plugin.Abstractions.xml" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\$safeitemname$.Plugin.Abstractions.pdb" />
+  <!--Core-->
+     <file src="$safeitemname$\Plugin.$safeitemname$\bin\Release\Plugin.$safeitemname$.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Plugin.$safeitemname$.dll" />
+     <file src="$safeitemname$\Plugin.$safeitemname$\bin\Release\Plugin.$safeitemname$.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Plugin.$safeitemname$.xml" />
+     <file src="$safeitemname$\Plugin.$safeitemname$\bin\Release\Plugin.$safeitemname$.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Plugin.$safeitemname$.pdb" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Plugin.$safeitemname$.Abstractions.dll" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Plugin.$safeitemname$.Abstractions.xml" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Plugin.$safeitemname$.Abstractions.pdb" />
 
      <!--Win Phone Silverlight-->
-     <file src="$safeitemname$\$safeitemname$.Plugin.WindowsPhone8\bin\Release\$safeitemname$.Plugin.dll" target="lib\wp8\$safeitemname$.Plugin.dll" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.WindowsPhone8\bin\Release\$safeitemname$.Plugin.xml" target="lib\wp8\$safeitemname$.Plugin.xml" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.WindowsPhone8\bin\Release\$safeitemname$.Plugin.pdb" target="lib\wp8\$safeitemname$.Plugin.pdb" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.dll" target="lib\wp8\$safeitemname$.Plugin.Abstractions.dll" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.xml" target="lib\wp8\$safeitemname$.Plugin.Abstractions.xml" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.pdb" target="lib\wp8\$safeitemname$.Plugin.Abstractions.pdb" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.WindowsPhone8\bin\Release\Plugin.$safeitemname$.dll" target="lib\wp8\Plugin.$safeitemname$.dll" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.WindowsPhone8\bin\Release\Plugin.$safeitemname$.xml" target="lib\wp8\Plugin.$safeitemname$.xml" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.WindowsPhone8\bin\Release\Plugin.$safeitemname$.pdb" target="lib\wp8\Plugin.$safeitemname$.pdb" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.dll" target="lib\wp8\Plugin.$safeitemname$.Abstractions.dll" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.xml" target="lib\wp8\Plugin.$safeitemname$.Abstractions.xml" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.pdb" target="lib\wp8\Plugin.$safeitemname$.Abstractions.pdb" />
 
      <!--Win Phone 81-->
-     <file src="$safeitemname$\$safeitemname$.Plugin.WindowsPhone81\bin\Release\$safeitemname$.Plugin.dll" target="lib\wpa81\$safeitemname$.Plugin.dll" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.WindowsPhone81\bin\Release\$safeitemname$.Plugin.xml" target="lib\wpa81\$safeitemname$.Plugin.xml" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.WindowsPhone81\bin\Release\$safeitemname$.Plugin.pdb" target="lib\wpa81\$safeitemname$.Plugin.pdb" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.dll" target="lib\wpa81\$safeitemname$.Plugin.Abstractions.dll" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.xml" target="lib\wpa81\$safeitemname$.Plugin.Abstractions.xml" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.pdb" target="lib\wpa81\$safeitemname$.Plugin.Abstractions.pdb" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.WindowsPhone81\bin\Release\Plugin.$safeitemname$.dll" target="lib\wpa81\Plugin.$safeitemname$.dll" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.WindowsPhone81\bin\Release\Plugin.$safeitemname$.xml" target="lib\wpa81\Plugin.$safeitemname$.xml" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.WindowsPhone81\bin\Release\Plugin.$safeitemname$.pdb" target="lib\wpa81\Plugin.$safeitemname$.pdb" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.dll" target="lib\wpa81\Plugin.$safeitemname$.Abstractions.dll" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.xml" target="lib\wpa81\Plugin.$safeitemname$.Abstractions.xml" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.pdb" target="lib\wpa81\Plugin.$safeitemname$.Abstractions.pdb" />
 
 
      <!--WinStore-->
-     <file src="$safeitemname$\$safeitemname$.Plugin.WindowsStore\bin\Release\$safeitemname$.Plugin.dll" target="lib\win8\$safeitemname$.Plugin.dll" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.WindowsStore\bin\Release\$safeitemname$.Plugin.xml" target="lib\win8\$safeitemname$.Plugin.xml" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.WindowsStore\bin\Release\$safeitemname$.Plugin.pdb" target="lib\win8\$safeitemname$.Plugin.pdb" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.dll" target="lib\win8\$safeitemname$.Plugin.Abstractions.dll" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.xml" target="lib\win8\$safeitemname$.Plugin.Abstractions.xml" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.pdb" target="lib\win8\$safeitemname$.Plugin.Abstractions.pdb" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.WindowsStore\bin\Release\Plugin.$safeitemname$.dll" target="lib\win8\Plugin.$safeitemname$.dll" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.WindowsStore\bin\Release\Plugin.$safeitemname$.xml" target="lib\win8\Plugin.$safeitemname$.xml" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.WindowsStore\bin\Release\Plugin.$safeitemname$.pdb" target="lib\win8\Plugin.$safeitemname$.pdb" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.dll" target="lib\win8\Plugin.$safeitemname$.Abstractions.dll" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.xml" target="lib\win8\Plugin.$safeitemname$.Abstractions.xml" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.pdb" target="lib\win8\Plugin.$safeitemname$.Abstractions.pdb" />
 
 
      <!--Xamarin.Android-->
-     <file src="$safeitemname$\$safeitemname$.Plugin.Android\bin\Release\$safeitemname$.Plugin.dll" target="lib\MonoAndroid10\$safeitemname$.Plugin.dll" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Android\bin\Release\$safeitemname$.Plugin.xml" target="lib\MonoAndroid10\$safeitemname$.Plugin.xml" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Android\bin\Release\$safeitemname$.Plugin.pdb" target="lib\MonoAndroid10\$safeitemname$.Plugin.pdb" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.dll" target="lib\MonoAndroid10\$safeitemname$.Plugin.Abstractions.dll" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.xml" target="lib\MonoAndroid10\$safeitemname$.Plugin.Abstractions.xml" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.pdb" target="lib\MonoAndroid10\$safeitemname$.Plugin.Abstractions.pdb" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Android\bin\Release\Plugin.$safeitemname$.dll" target="lib\MonoAndroid10\Plugin.$safeitemname$.dll" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Android\bin\Release\Plugin.$safeitemname$.xml" target="lib\MonoAndroid10\Plugin.$safeitemname$.xml" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Android\bin\Release\Plugin.$safeitemname$.pdb" target="lib\MonoAndroid10\Plugin.$safeitemname$.pdb" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.dll" target="lib\MonoAndroid10\Plugin.$safeitemname$.Abstractions.dll" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.xml" target="lib\MonoAndroid10\Plugin.$safeitemname$.Abstractions.xml" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.pdb" target="lib\MonoAndroid10\Plugin.$safeitemname$.Abstractions.pdb" />
      
      <!--Xamarin.iOS Unified-->
-     <file src="$safeitemname$\$safeitemname$.Plugin.iOSUnified\bin\iPhone\Release\$safeitemname$.Plugin.dll" target="lib\Xamarin.iOS10\$safeitemname$.Plugin.dll" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.iOSUnified\bin\iPhone\Release\$safeitemname$.Plugin.xml" target="lib\Xamarin.iOS10\$safeitemname$.Plugin.xml" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.dll" target="lib\Xamarin.iOS10\$safeitemname$.Plugin.Abstractions.dll" />
-     <file src="$safeitemname$\$safeitemname$.Plugin.Abstractions\bin\Release\$safeitemname$.Plugin.Abstractions.xml" target="lib\Xamarin.iOS10\$safeitemname$.Plugin.Abstractions.xml" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.iOSUnified\bin\iPhone\Release\Plugin.$safeitemname$.dll" target="lib\Xamarin.iOS10\Plugin.$safeitemname$.dll" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.iOSUnified\bin\iPhone\Release\Plugin.$safeitemname$.xml" target="lib\Xamarin.iOS10\Plugin.$safeitemname$.xml" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.dll" target="lib\Xamarin.iOS10\Plugin.$safeitemname$.Abstractions.dll" />
+     <file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.xml" target="lib\Xamarin.iOS10\Plugin.$safeitemname$.Abstractions.xml" />
 
 
 

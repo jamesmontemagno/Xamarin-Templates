@@ -9,8 +9,8 @@
     <ProjectGuid>{7169373F-0B82-4E5D-9129-7CC3065B90FA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>$safeprojectgroupname$.Plugin</RootNamespace>
-    <AssemblyName>$safeprojectgroupname$.Plugin</AssemblyName>
+    <RootNamespace>Plugin.$safeprojectgroupname$</RootNamespace>
+    <AssemblyName>Plugin.$safeprojectgroupname$</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformVersion>8.1</TargetPlatformVersion>
     <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
@@ -33,7 +33,7 @@
     <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\$safeprojectgroupname$.Plugin.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Plugin.$safeprojectgroupname$.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>
@@ -81,13 +81,13 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <ProjectReference Include="..\$safeprojectgroupname$.Plugin.Abstractions\$safeprojectgroupname$.Plugin.Abstractions.csproj">
+    <ProjectReference Include="..\Plugin.$safeprojectgroupname$.Abstractions\Plugin.$safeprojectgroupname$.Abstractions.csproj">
       <Project>{6edb0588-ffc5-4ef5-8a99-9e241d0f878d}</Project>
-      <Name>$safeprojectgroupname$.Plugin.Abstractions</Name>
+      <Name>Plugin.$safeprojectgroupname$.Abstractions</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\$safeprojectgroupname$.Plugin\Cross$safeprojectgroupname$.cs">
+    <Compile Include="..\Plugin.$safeprojectgroupname$\Cross$safeprojectgroupname$.cs">
       <Link>Cross$safeprojectgroupname$.cs</Link>
     </Compile>
     <Compile Include="$safeprojectgroupname$Implementation.cs" />

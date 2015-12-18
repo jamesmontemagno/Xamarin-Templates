@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
    <metadata minClientVersion="2.8.1">
-       <id>Company.Feature.Plugin</id>
+       <id>Xam.Plugin.Feature</id>
        <version>1.0.0</version>
        <title>Feature Plugin for Xamarin and Windows</title>
        <authors>Your Name Here</authors>
