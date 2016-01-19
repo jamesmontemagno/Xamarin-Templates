@@ -215,3 +215,6 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
