@@ -43,9 +43,9 @@
      <file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.xml" target="lib\MonoAndroid10\$safeitemname$.FormsPlugin.Abstractions.xml" />
      <file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.pdb" target="lib\MonoAndroid10\$safeitemname$.FormsPlugin.Abstractions.pdb" />
 
-     <!--Xamarin.iOSUnified-->
-     <file src="$safeitemname$\$safeitemname$.FormsPlugin.iOSUnified\bin\iPhone\Release\$safeitemname$.FormsPlugin.iOSUnified.dll" target="lib\Xamarin.iOS10\$safeitemname$.FormsPlugin.iOSUnified.dll" />
-     <file src="$safeitemname$\$safeitemname$.FormsPlugin.iOSUnified\bin\iPhone\Release\$safeitemname$.FormsPlugin.iOSUnified.xml" target="lib\Xamarin.iOS10\$safeitemname$.FormsPlugin.iOSUnified.xml" />
+     <!--Xamarin.iOS-->
+     <file src="$safeitemname$\$safeitemname$.FormsPlugin.iOS\bin\iPhone\Release\$safeitemname$.FormsPlugin.iOS.dll" target="lib\Xamarin.iOS10\$safeitemname$.FormsPlugin.iOS.dll" />
+     <file src="$safeitemname$\$safeitemname$.FormsPlugin.iOS\bin\iPhone\Release\$safeitemname$.FormsPlugin.iOS.xml" target="lib\Xamarin.iOS10\$safeitemname$.FormsPlugin.iOS.xml" />
      <file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.dll" target="lib\Xamarin.iOS10\$safeitemname$.FormsPlugin.Abstractions.dll" />
      <file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.xml" target="lib\Xamarin.iOS10\$safeitemname$.FormsPlugin.Abstractions.xml" />
 
