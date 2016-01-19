@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>12.0</OldToolsVersion>
-    <UpgradeBackupLocation />
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -79,13 +80,13 @@
     <Content Include="FormsPlugin.Android\FeatureImplementation.cs" />
     <Content Include="FormsPlugin.Android\Properties\AssemblyInfo.cs" />
     <Content Include="FormsPlugin.Android\Resources\Resource.Designer.cs" />
-    <Content Include="FormsPlugin.iOSUnified\Feature.FormsPlugin.iOSUnified.csproj" />
-    <Content Include="FormsPlugin.iOSUnified\FormsPlugin.iOSUnified.vstemplate" />
-    <Content Include="FormsPlugin.iOSUnified\__TemplateIcon.ico" />
+    <Content Include="FormsPlugin.iOS\Feature.FormsPlugin.iOS.csproj" />
+    <Content Include="FormsPlugin.iOS\FormsPlugin.iOS.vstemplate" />
+    <Content Include="FormsPlugin.iOS\__TemplateIcon.ico" />
     <Content Include="FormsPlugin.WindowsPhone\FeatureImplementation.cs" />
     <Content Include="FormsPlugin.WindowsPhone\Properties\AssemblyInfo.cs" />
-    <Content Include="FormsPlugin.iOSUnified\Properties\AssemblyInfo.cs" />
-    <Content Include="FormsPlugin.iOSUnified\FeatureImplementation.cs" />
+    <Content Include="FormsPlugin.iOS\Properties\AssemblyInfo.cs" />
+    <Content Include="FormsPlugin.iOS\FeatureImplementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="FormsPlugin.Android\Feature.FormsPlugin.Android.csproj" />
     <Content Include="FormsPlugin.Android\FormsPlugin.Android.vstemplate" />
@@ -106,7 +107,7 @@
     <None Include="Control.FormsPlugin.ProjectTemplate.ico" />
     <None Include="FormsPlugin.Abstractions\packages.config" />
     <None Include="FormsPlugin.Android\packages.config" />
-    <None Include="FormsPlugin.iOSUnified\packages.config" />
+    <None Include="FormsPlugin.iOS\packages.config" />
     <None Include="FormsPlugin.WindowsPhone\packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -139,6 +140,9 @@
       <Project>{65ee5f42-08ad-49ad-9dae-12cb15f7e3f2}</Project>
       <Name>FeaturePlugin.Wizard</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FormsPlugin.Uwp\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />

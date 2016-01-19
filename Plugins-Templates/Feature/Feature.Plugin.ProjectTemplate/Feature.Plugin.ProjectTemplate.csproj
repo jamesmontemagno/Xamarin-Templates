@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>12.0</OldToolsVersion>
-    <UpgradeBackupLocation />
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -79,8 +80,8 @@
     <Content Include="Feature.Plugin.Android\FeatureImplementation.cs" />
     <Content Include="Feature.Plugin.Android\Properties\AssemblyInfo.cs" />
     <Content Include="Feature.Plugin.Android\Resources\Resource.Designer.cs" />
-    <Content Include="Feature.Plugin.iOSUnified\FeatureImplementation.cs" />
-    <Content Include="Feature.Plugin.iOSUnified\Properties\AssemblyInfo.cs" />
+    <Content Include="Feature.Plugin.iOS\FeatureImplementation.cs" />
+    <Content Include="Feature.Plugin.iOS\Properties\AssemblyInfo.cs" />
     <Content Include="Feature.Plugin.WindowsPhone81\FeatureImplementation.cs" />
     <Content Include="Feature.Plugin.WindowsPhone81\Properties\AssemblyInfo.cs" />
     <Content Include="Feature.Plugin.WindowsPhone8\FeatureImplementation.cs" />
@@ -108,9 +109,9 @@
     <Content Include="Feature.Plugin.Android\Resources\AboutResources.txt" />
     <Content Include="Feature.Plugin.Android\Resources\Values\Strings.xml" />
     <Content Include="Feature.Plugin.Android\__TemplateIcon.ico" />
-    <Content Include="Feature.Plugin.iOSUnified\Feature.Plugin.iOSUnified.csproj" />
-    <None Include="Feature.Plugin.iOSUnified\Feature.Plugin.iOSUnified.vstemplate" />
-    <Content Include="Feature.Plugin.iOSUnified\__TemplateIcon.ico" />
+    <Content Include="Feature.Plugin.iOS\Feature.Plugin.iOS.csproj" />
+    <None Include="Feature.Plugin.iOS\Feature.Plugin.iOS.vstemplate" />
+    <Content Include="Feature.Plugin.iOS\__TemplateIcon.ico" />
     <Content Include="Feature.Plugin.WindowsPhone81\Feature.Plugin.WindowsPhone81.csproj" />
     <None Include="Feature.Plugin.WindowsPhone81\Feature.Plugin.WindowsPhone81.vstemplate" />
     <Content Include="Feature.Plugin.WindowsPhone81\__TemplateIcon.ico" />

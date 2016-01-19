@@ -14,7 +14,7 @@
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="$safeprojectname$.FormsPlugin.iOSUnified.csproj" File="Feature.FormsPlugin.iOSUnified.csproj" ReplaceParameters="true">
+    <Project TargetFileName="$safeprojectname$.FormsPlugin.iOS.csproj" File="Feature.FormsPlugin.iOS.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectgroupname$Implementation.cs">FeatureImplementation.cs</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>

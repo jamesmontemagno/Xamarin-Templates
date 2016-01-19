@@ -17,8 +17,8 @@
       <ProjectTemplateLink ProjectName="$safeprojectname$.FormsPlugin.Abstractions">
         FormsPlugin.Abstractions\FormsPlugin.Abstractions.vstemplate
       </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="$safeprojectname$.FormsPlugin.iOSUnified">
-        FormsPlugin.iOSUnified\FormsPlugin.iOSUnified.vstemplate
+      <ProjectTemplateLink ProjectName="$safeprojectname$.FormsPlugin.iOS">
+        FormsPlugin.iOS\FormsPlugin.iOS.vstemplate
       </ProjectTemplateLink>
       <ProjectTemplateLink ProjectName="$safeprojectname$.FormsPlugin.Android">
         FormsPlugin.Android\FormsPlugin.Android.vstemplate

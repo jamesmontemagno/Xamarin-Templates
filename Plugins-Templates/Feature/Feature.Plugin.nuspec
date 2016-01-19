@@ -1,75 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-   <metadata minClientVersion="2.8.1">
-       <id>Company.Feature.Plugin</id>
-       <version>1.0.0</version>
-       <title>Feature Plugin for Xamarin and Windows</title>
-       <authors>Your Name Here</authors>
-       <owners>Your Name Here</owners>
-       <licenseUrl></licenseUrl>
-       <projectUrl></projectUrl>
-     <!--Default Icon, a template can be found:  https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon.png-->  
-     <iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
-     
-       <requireLicenseAcceptance>false</requireLicenseAcceptance>
-       <description>
+	<metadata minClientVersion="2.8.3">
+		<id>Company.Feature.Plugin</id>
+		<version>1.0.0</version>
+		<title>Feature Plugin for Xamarin and Windows</title>
+		<authors>Your Name Here</authors>
+		<owners>Your Name Here</owners>
+		<licenseUrl/>
+		<projectUrl/>
+		<!--Default Icon, a template can be found:  https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon.png-->  
+		<iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
+
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
          Long description for your plugin.
-       </description>
-       <summary>Short description for your plugin.</summary>
-       <tags>xamarin, pcl, xam.pcl, windows phone, winphone, wp8, winrt, android, xamarin.forms, ios</tags>
-       <dependencies>
-       </dependencies>
-   </metadata>
-   <files>
-<!--Core-->
-     <file src="\Feature.Plugin\bin\Release\Feature.Plugin.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Feature.Plugin.dll" />
-     <file src="\Feature.Plugin\bin\Release\Feature.Plugin.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Feature.Plugin.xml" />
-     <file src="\Feature.Plugin\bin\Release\Feature.Plugin.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Feature.Plugin.pdb" />
-     <file src="\Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Feature.Plugin.Abstractions.dll" />
-     <file src="\Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Feature.Plugin.Abstractions.xml" />
-     <file src="\Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Feature.Plugin.Abstractions.pdb" />
+		</description>
+		<summary>Short description for your plugin.</summary>
+		<tags>xamarin, pcl, xam.pcl, windows phone, winphone, wp8, winrt, android, xamarin.forms, ios</tags>
+		<dependencies>
+			<group targetFramework="net">
+			</group>
+			<group targetFramework="win">
+			</group>
+			<group targetFramework="wp">
+			</group>
+			<group targetFramework="wpa">
+			</group>
+			<group targetFramework="MonoAndroid">
+			</group>
+			<group targetFramework="Xamarin.iOS10">
+			</group>
+			<group targetFramework="Xamarin.Mac20">
+			</group>
+			<group targetFramework="portable-net45+win+wpa81+wp80">
+			</group>
+			<group targetFramework="uap">
+			</group>
+			<group targetFramework="dotnet">
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<!--Core-->
+		<file src="\Feature.Plugin\bin\Release\Feature.Plugin.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Feature.Plugin.dll" />
+		<file src="\Feature.Plugin\bin\Release\Feature.Plugin.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Feature.Plugin.xml" />
+		<file src="\Feature.Plugin\bin\Release\Feature.Plugin.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Feature.Plugin.pdb" />
+		<file src="\Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Feature.Plugin.Abstractions.dll" />
+		<file src="\Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Feature.Plugin.Abstractions.xml" />
+		<file src="\Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Feature.Plugin.Abstractions.pdb" />
 
-     <!--Win Phone Silverlight-->
-     <file src="Feature.Plugin.WindowsPhone8\bin\Release\Feature.Plugin.dll" target="lib\wp8\Feature.Plugin.dll" />
-     <file src="Feature.Plugin.WindowsPhone8\bin\Release\Feature.Plugin.xml" target="lib\wp8\Feature.Plugin.xml" />
-     <file src="Feature.Plugin.WindowsPhone8\bin\Release\Feature.Plugin.pdb" target="lib\wp8\Feature.Plugin.pdb" />
-     <file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\wp8\Feature.Plugin.Abstractions.dll" />
-     <file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\wp8\Feature.Plugin.Abstractions.xml" />
-     <file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.pdb" target="lib\wp8\Feature.Plugin.Abstractions.pdb" />
+		<!--dotnet-->
+		<file src="\Feature.Plugin\bin\Release\Feature.Plugin.dll" target="lib\dotnet\Feature.Plugin.dll" />
+		<file src="\Feature.Plugin\bin\Release\Feature.Plugin.xml" target="lib\dotnet\Feature.Plugin.xml" />
+		<file src="\Feature.Plugin\bin\Release\Feature.Plugin.pdb" target="lib\dotnet\Feature.Plugin.pdb" />
+		<file src="\Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\dotnet\Feature.Plugin.Abstractions.dll" />
+		<file src="\Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\dotnet\Feature.Plugin.Abstractions.xml" />
+		<file src="\Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.pdb" target="lib\dotnet\Feature.Plugin.Abstractions.pdb" />
+		
+		<!--Win Phone Silverlight-->
+		<file src="Feature.Plugin.WindowsPhone8\bin\Release\Feature.Plugin.dll" target="lib\wp8\Feature.Plugin.dll" />
+		<file src="Feature.Plugin.WindowsPhone8\bin\Release\Feature.Plugin.xml" target="lib\wp8\Feature.Plugin.xml" />
+		<file src="Feature.Plugin.WindowsPhone8\bin\Release\Feature.Plugin.pdb" target="lib\wp8\Feature.Plugin.pdb" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\wp8\Feature.Plugin.Abstractions.dll" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\wp8\Feature.Plugin.Abstractions.xml" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.pdb" target="lib\wp8\Feature.Plugin.Abstractions.pdb" />
 
-     <!--Win Phone 81-->
-     <file src="Feature.Plugin.WindowsPhone81\bin\Release\Feature.Plugin.dll" target="lib\wpa81\Feature.Plugin.dll" />
-     <file src="Feature.Plugin.WindowsPhone81\bin\Release\Feature.Plugin.xml" target="lib\wpa81\Feature.Plugin.xml" />
-     <file src="Feature.Plugin.WindowsPhone81\bin\Release\Feature.Plugin.pdb" target="lib\wpa81\Feature.Plugin.pdb" />
-     <file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\wpa81\Feature.Plugin.Abstractions.dll" />
-     <file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\wpa81\Feature.Plugin.Abstractions.xml" />
-     <file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.pdb" target="lib\wpa81\Feature.Plugin.Abstractions.pdb" />
+		<!--Win Phone 81-->
+		<file src="Feature.Plugin.WindowsPhone81\bin\Release\Feature.Plugin.dll" target="lib\wpa81\Feature.Plugin.dll" />
+		<file src="Feature.Plugin.WindowsPhone81\bin\Release\Feature.Plugin.xml" target="lib\wpa81\Feature.Plugin.xml" />
+		<file src="Feature.Plugin.WindowsPhone81\bin\Release\Feature.Plugin.pdb" target="lib\wpa81\Feature.Plugin.pdb" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\wpa81\Feature.Plugin.Abstractions.dll" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\wpa81\Feature.Plugin.Abstractions.xml" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.pdb" target="lib\wpa81\Feature.Plugin.Abstractions.pdb" />
 
+		<!--WinStore-->
+		<file src="Feature.Plugin.WindowsStore\bin\Release\Feature.Plugin.dll" target="lib\win8\Feature.Plugin.dll" />
+		<file src="Feature.Plugin.WindowsStore\bin\Release\Feature.Plugin.xml" target="lib\win8\Feature.Plugin.xml" />
+		<file src="Feature.Plugin.WindowsStore\bin\Release\Feature.Plugin.pdb" target="lib\win8\Feature.Plugin.pdb" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\win8\Feature.Plugin.Abstractions.dll" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\win8\Feature.Plugin.Abstractions.xml" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.pdb" target="lib\win8\Feature.Plugin.Abstractions.pdb" />
 
-     <!--WinStore-->
-     <file src="Feature.Plugin.WindowsStore\bin\Release\Feature.Plugin.dll" target="lib\win8\Feature.Plugin.dll" />
-     <file src="Feature.Plugin.WindowsStore\bin\Release\Feature.Plugin.xml" target="lib\win8\Feature.Plugin.xml" />
-     <file src="Feature.Plugin.WindowsStore\bin\Release\Feature.Plugin.pdb" target="lib\win8\Feature.Plugin.pdb" />
-     <file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\win8\Feature.Plugin.Abstractions.dll" />
-     <file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\win8\Feature.Plugin.Abstractions.xml" />
-     <file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.pdb" target="lib\win8\Feature.Plugin.Abstractions.pdb" />
+		<!--Xamarin.Android-->
+		<file src="Feature.Plugin.Android\bin\Release\Feature.Plugin.dll" target="lib\MonoAndroid10\Feature.Plugin.dll" />
+		<file src="Feature.Plugin.Android\bin\Release\Feature.Plugin.xml" target="lib\MonoAndroid10\Feature.Plugin.xml" />
+		<file src="Feature.Plugin.Android\bin\Release\Feature.Plugin.pdb" target="lib\MonoAndroid10\Feature.Plugin.pdb" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\MonoAndroid10\Feature.Plugin.Abstractions.dll" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\MonoAndroid10\Feature.Plugin.Abstractions.xml" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.pdb" target="lib\MonoAndroid10\Feature.Plugin.Abstractions.pdb" />
 
+		<!--Xamarin.iOS-->
+		<file src="Feature.Plugin.iOS\bin\Release\Feature.Plugin.dll" target="lib\Xamarin.iOS10\Feature.Plugin.dll" />
+		<file src="Feature.Plugin.iOS\bin\Release\Feature.Plugin.xml" target="lib\Xamarin.iOS10\Feature.Plugin.xml" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\Xamarin.iOS10\Feature.Plugin.Abstractions.dll" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\Xamarin.iOS10\Feature.Plugin.Abstractions.xml" />
 
-     <!--Xamarin.Android-->
-     <file src="Feature.Plugin.Android\bin\Release\Feature.Plugin.dll" target="lib\MonoAndroid10\Feature.Plugin.dll" />
-     <file src="Feature.Plugin.Android\bin\Release\Feature.Plugin.xml" target="lib\MonoAndroid10\Feature.Plugin.xml" />
-     <file src="Feature.Plugin.Android\bin\Release\Feature.Plugin.pdb" target="lib\MonoAndroid10\Feature.Plugin.pdb" />
-     <file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\MonoAndroid10\Feature.Plugin.Abstractions.dll" />
-     <file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\MonoAndroid10\Feature.Plugin.Abstractions.xml" />
-     <file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.pdb" target="lib\MonoAndroid10\Feature.Plugin.Abstractions.pdb" />
+		<!--uap-->
+		<file src="Feature.Plugin.Uwp\bin\Release\Feature.Plugin.dll" target="lib\uap\Feature.Plugin.dll" />
+		<file src="Feature.Plugin.Uwp\bin\Release\Feature.Plugin.xml" target="lib\uap\Feature.Plugin.xml" />
+		<file src="Feature.Plugin.Uwp\bin\Release\Properties\Feature.Plugin.Uwp.rd.xml" target="lib\uap\Feature.Plugin.Uwp\Properties" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\uap\Feature.Plugin.Abstractions.dll" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\uap\Feature.Plugin.Abstractions.xml" />
 
-     <!--Xamarin.iOS Unified-->
-     <file src="Feature.Plugin.iOSUnified\bin\Release\Feature.Plugin.dll" target="lib\Xamarin.iOS10\Feature.Plugin.dll" />
-     <file src="Feature.Plugin.iOSUnified\bin\Release\Feature.Plugin.xml" target="lib\Xamarin.iOS10\Feature.Plugin.xml" />
-     <file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\Xamarin.iOS10\Feature.Plugin.Abstractions.dll" />
-     <file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\Xamarin.iOS10\Feature.Plugin.Abstractions.xml" />
-
-
-
-   </files>
+		<!--Xamarin.Mac-->
+		<file src="Feature.Plugin.Mac\bin\Release\Feature.Plugin.dll" target="lib\Xamarin.Mac20\Feature.Plugin.dll" />
+		<file src="Feature.Plugin.Mac\bin\Release\Feature.Plugin.xml" target="lib\Xamarin.Mac20\Feature.Plugin.xml" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\Xamarin.Mac20\Feature.Plugin.Abstractions.dll" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\Xamarin.Mac20\Feature.Plugin.Abstractions.xml" />
+		
+	</files>
 </package>
