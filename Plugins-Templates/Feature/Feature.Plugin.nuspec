@@ -89,20 +89,20 @@
 		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\MonoAndroid10\Feature.Plugin.Abstractions.xml" />
 		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.pdb" target="lib\MonoAndroid10\Feature.Plugin.Abstractions.pdb" />
 
-		<!--Xamarin.iOS Unified-->
+		<!--Xamarin.iOS-->
 		<file src="Feature.Plugin.iOS\bin\Release\Feature.Plugin.dll" target="lib\Xamarin.iOS10\Feature.Plugin.dll" />
 		<file src="Feature.Plugin.iOS\bin\Release\Feature.Plugin.xml" target="lib\Xamarin.iOS10\Feature.Plugin.xml" />
 		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\Xamarin.iOS10\Feature.Plugin.Abstractions.dll" />
 		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\Xamarin.iOS10\Feature.Plugin.Abstractions.xml" />
 
-		<!-- uap -->
+		<!--uap-->
 		<file src="Feature.Plugin.Uwp\bin\Release\Feature.Plugin.dll" target="lib\uap\Feature.Plugin.dll" />
 		<file src="Feature.Plugin.Uwp\bin\Release\Feature.Plugin.xml" target="lib\uap\Feature.Plugin.xml" />
 		<file src="Feature.Plugin.Uwp\bin\Release\Properties\Feature.Plugin.Uwp.rd.xml" target="lib\uap\Feature.Plugin.Uwp\Properties" />
 		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\uap\Feature.Plugin.Abstractions.dll" />
 		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\uap\Feature.Plugin.Abstractions.xml" />
 
-		<!-- mac -->
+		<!--Xamarin.Mac-->
 		<file src="Feature.Plugin.Mac\bin\Release\Feature.Plugin.dll" target="lib\Xamarin.Mac20\Feature.Plugin.dll" />
 		<file src="Feature.Plugin.Mac\bin\Release\Feature.Plugin.xml" target="lib\Xamarin.Mac20\Feature.Plugin.xml" />
 		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\Xamarin.Mac20\Feature.Plugin.Abstractions.dll" />
