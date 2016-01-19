@@ -21,8 +21,8 @@
       <ProjectTemplateLink ProjectName="Plugin.$safeprojectname$.Abstractions">
         Feature.Plugin.Abstractions\Feature.Plugin.Abstractions.vstemplate
       </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="Plugin.$safeprojectname$.iOSUnified">
-        Feature.Plugin.iOSUnified\Feature.Plugin.iOSUnified.vstemplate
+      <ProjectTemplateLink ProjectName="Plugin.$safeprojectname$.iOS">
+        Feature.Plugin.iOS\Feature.Plugin.iOSUnified.vstemplate
       </ProjectTemplateLink>
       <ProjectTemplateLink ProjectName="Plugin.$safeprojectname$.Android">
         Feature.Plugin.Android\Feature.Plugin.Android.vstemplate
