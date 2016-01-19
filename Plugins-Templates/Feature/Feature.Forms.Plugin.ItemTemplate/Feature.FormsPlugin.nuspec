@@ -79,5 +79,11 @@
 		<file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.dll" target="lib\Xamarin.iOS10\$safeitemname$.FormsPlugin.Abstractions.dll" />
 		<file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.xml" target="lib\Xamarin.iOS10\$safeitemname$.FormsPlugin.Abstractions.xml" />
 
+    <!--uap-->
+    <file src="$safeitemname$\$safeitemname$.FormsPlugin.Uwp\bin\Uwp\Release\$safeitemname$.FormsPlugin.Uwp.dll" target="lib\uap\$safeitemname$.FormsPlugin.Uwp.dll" />
+    <file src="$safeitemname$\$safeitemname$.FormsPlugin.Uwp\bin\Uwp\Release\$safeitemname$.FormsPlugin.Uwp.xml" target="lib\uap\$safeitemname$.FormsPlugin.Uwp.xml" />
+    <file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.dll" target="lib\uap\$safeitemname$.FormsPlugin.Abstractions.dll" />
+    <file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.xml" target="lib\uap\$safeitemname$.FormsPlugin.Abstractions.xml" />
+    
 	</files>
 </package>
