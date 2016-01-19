@@ -102,5 +102,11 @@
 		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\uap\Feature.Plugin.Abstractions.dll" />
 		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\uap\Feature.Plugin.Abstractions.xml" />
 
+		<!-- mac -->
+		<file src="Feature.Plugin.Mac\bin\Release\Feature.Plugin.dll" target="lib\Xamarin.Mac20\Feature.Plugin.dll" />
+		<file src="Feature.Plugin.Mac\bin\Release\Feature.Plugin.xml" target="lib\Xamarin.Mac20\Feature.Plugin.xml" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.dll" target="lib\Xamarin.Mac20\Feature.Plugin.Abstractions.dll" />
+		<file src="Feature.Plugin.Abstractions\bin\Release\Feature.Plugin.Abstractions.xml" target="lib\Xamarin.Mac20\Feature.Plugin.Abstractions.xml" />
+		
 	</files>
 </package>
