@@ -1,28 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Traditional", "Traditional", "{1B19DAC5-4C7F-4714-890C-CD725D9BA3CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuspec", "Nuspec", "{B4F1413B-3123-42A0-BE9F-9430FA7FFC00}"
+	ProjectSection(SolutionItems) = preProject
+		Feature.Plugin.nuspec = Feature.Plugin.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{17979ACC-A89D-422A-83A5-D7A18CF3620E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{729BC624-FC40-446B-8EB0-505CBB8BB13E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{045E501C-91D7-41F8-B80B-BFCAC252F9E2}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Plugin.Abstractions", "Feature.Plugin.Abstractions\Feature.Plugin.Abstractions.csproj", "{6EDB0588-FFC5-4EF5-8A99-9E241D0F878D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Plugin", "Feature.Plugin\Feature.Plugin.csproj", "{A6FCEF44-D2BA-42C7-B3CB-13667BCD7B54}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Traditional", "Traditional", "{1B19DAC5-4C7F-4714-890C-CD725D9BA3CE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Plugin.Android", "Feature.Plugin.Android\Feature.Plugin.Android.csproj", "{56A56F17-7DE1-4CA1-9617-BF32E971AC84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Plugin.iOSUnified", "Feature.Plugin.iOSUnified\Feature.Plugin.iOSUnified.csproj", "{2882AEEB-D4CD-4EB9-8A6C-6653B33681F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Plugin.iOS", "Feature.Plugin.iOS\Feature.Plugin.iOS.csproj", "{2882AEEB-D4CD-4EB9-8A6C-6653B33681F0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Plugin.WindowsPhone8", "Feature.Plugin.WindowsPhone8\Feature.Plugin.WindowsPhone8.csproj", "{5876144B-47DD-4C4E-B421-BC03F191B996}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Plugin.WindowsPhone81", "Feature.Plugin.WindowsPhone81\Feature.Plugin.WindowsPhone81.csproj", "{7169373F-0B82-4E5D-9129-7CC3065B90FA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Plugin.WindowsStore", "Feature.Plugin.WindowsStore\Feature.Plugin.WindowsStore.csproj", "{ED9A4CA1-C04C-457D-9A2E-7995CCF12356}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuspec", "Nuspec", "{B4F1413B-3123-42A0-BE9F-9430FA7FFC00}"
-	ProjectSection(SolutionItems) = preProject
-		Feature.Plugin.nuspec = Feature.Plugin.nuspec
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Plugin.ProjectTemplate", "Feature.Plugin.ProjectTemplate\Feature.Plugin.ProjectTemplate.csproj", "{8DE0C55A-0C47-49D4-B28F-C632BBBD5D7C}"
 EndProject
@@ -33,12 +39,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuSpecLibrary", "NuSpecLibrary\NuSpecLibrary.csproj", "{FB4A79D0-7B61-4FAA-96C2-02D4FAA67E96}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.Plugin.ItemTemplate", "Feature.Plugin.ItemTemplate\Feature.Plugin.ItemTemplate.csproj", "{CDDA0A07-24D9-4F8F-9A53-2BFB4B6AA0F8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{17979ACC-A89D-422A-83A5-D7A18CF3620E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{729BC624-FC40-446B-8EB0-505CBB8BB13E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{045E501C-91D7-41F8-B80B-BFCAC252F9E2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature.FormsPlugin.ItemTemplate", "Feature.Forms.Plugin.ItemTemplate\Feature.FormsPlugin.ItemTemplate.csproj", "{7D58720A-CE13-4450-B688-F51960032B79}"
 EndProject
@@ -215,6 +215,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{729BC624-FC40-446B-8EB0-505CBB8BB13E} = {17979ACC-A89D-422A-83A5-D7A18CF3620E}
+		{045E501C-91D7-41F8-B80B-BFCAC252F9E2} = {1B19DAC5-4C7F-4714-890C-CD725D9BA3CE}
 		{6EDB0588-FFC5-4EF5-8A99-9E241D0F878D} = {1B19DAC5-4C7F-4714-890C-CD725D9BA3CE}
 		{A6FCEF44-D2BA-42C7-B3CB-13667BCD7B54} = {1B19DAC5-4C7F-4714-890C-CD725D9BA3CE}
 		{56A56F17-7DE1-4CA1-9617-BF32E971AC84} = {1B19DAC5-4C7F-4714-890C-CD725D9BA3CE}
@@ -225,8 +227,6 @@ Global
 		{8DE0C55A-0C47-49D4-B28F-C632BBBD5D7C} = {045E501C-91D7-41F8-B80B-BFCAC252F9E2}
 		{FB4A79D0-7B61-4FAA-96C2-02D4FAA67E96} = {1B19DAC5-4C7F-4714-890C-CD725D9BA3CE}
 		{CDDA0A07-24D9-4F8F-9A53-2BFB4B6AA0F8} = {045E501C-91D7-41F8-B80B-BFCAC252F9E2}
-		{729BC624-FC40-446B-8EB0-505CBB8BB13E} = {17979ACC-A89D-422A-83A5-D7A18CF3620E}
-		{045E501C-91D7-41F8-B80B-BFCAC252F9E2} = {1B19DAC5-4C7F-4714-890C-CD725D9BA3CE}
 		{7D58720A-CE13-4450-B688-F51960032B79} = {729BC624-FC40-446B-8EB0-505CBB8BB13E}
 		{741D8402-22B9-42CF-88EC-EAF084B11619} = {729BC624-FC40-446B-8EB0-505CBB8BB13E}
 	EndGlobalSection
