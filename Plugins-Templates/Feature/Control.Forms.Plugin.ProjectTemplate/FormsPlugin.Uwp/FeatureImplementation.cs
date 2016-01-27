@@ -1,13 +1,19 @@
-﻿using System;
+﻿using $safeprojectgroupname$.FormsPlugin.Abstractions;
+using System;
 using Xamarin.Forms;
-using Feature.Forms.Plugin.Abstractions;
-using Feature.Forms.Plugin.Uwp;
+using $safeprojectname$;
 
-[assembly: Dependency(typeof(FeatureImplementation))]
-namespace Feature.Forms.Plugin.Uwp
+[assembly: ExportRenderer(typeof($safeprojectgroupname$.FormsPlugin.Abstractions.$safeprojectgroupname$Control), typeof($safeprojectgroupname$Renderer))]
+namespace $safeprojectname$
 {
-  public class FeatureImplementation : IFeature
+  /// <summary>
+  /// $safeprojectgroupname$ Renderer
+  /// </summary>
+  public class $safeprojectgroupname$Renderer //: TRender (replace with renderer type
   {
-
+    /// <summary>
+    /// Used for registration with dependency service
+    /// </summary>
+    public static void Init(){}
   }
 }
