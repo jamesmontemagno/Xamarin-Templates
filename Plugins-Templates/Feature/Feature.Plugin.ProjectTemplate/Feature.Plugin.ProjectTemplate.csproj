@@ -125,7 +125,9 @@
     <None Include="Feature.Plugin\Feature.Plugin.vstemplate" />
     <Content Include="Feature.Plugin\__TemplateIcon.ico" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Feature.Plugin.Uwp\" />
+  </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
       <Visible>False</Visible>
