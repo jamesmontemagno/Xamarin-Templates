@@ -7,8 +7,8 @@
     <ProjectGuid>{E34B516D-C0D8-450F-9DB0-BB6A5B04AEF1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>$safeprojectname$</RootNamespace>
-    <AssemblyName>$safeprojectname$</AssemblyName>
+    <RootNamespace>Plugin.$safeprojectgroupname$</RootNamespace>
+    <AssemblyName>Plugin.$safeprojectgroupname$</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
@@ -35,6 +35,7 @@
     <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Plugin.$safeprojectgroupname$.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <PlatformTarget>x86</PlatformTarget>
@@ -49,7 +50,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
     <PlatformTarget>x86</PlatformTarget>
-    <OutputPath>bin\x86\Release\</OutputPath>
+    <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
     <Optimize>true</Optimize>
     <NoWarn>;2008</NoWarn>
@@ -57,6 +58,7 @@
     <PlatformTarget>x86</PlatformTarget>
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <ErrorReport>prompt</ErrorReport>
+      <DocumentationFile>bin\Release\Plugin.$safeprojectgroupname$.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <PlatformTarget>ARM</PlatformTarget>
@@ -107,17 +109,17 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Feature.Plugin\CrossFeature.cs">
-      <Link>CrossFeature.cs</Link>
+    <Compile Include="..\Plugin.$safeprojectgroupname$\Cross$safeprojectgroupname$.cs">
+      <Link>Cross$safeprojectgroupname$.cs</Link>
     </Compile>
-    <Compile Include="FeatureImplementation.cs" />
+    <Compile Include="$safeprojectgroupname$Implementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Properties\Feature.Plugin.Uwp.rd.xml" />
+    <EmbeddedResource Include="Properties\Plugin.$safeprojectgroupname$.UWP.rd.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Feature.Plugin.Abstractions\Feature.Plugin.Abstractions.csproj">
+    <ProjectReference Include="..\Plugin.$safeprojectgroupname$.Abstractions\Plugin.$safeprojectgroupname$.Abstractions.csproj">
       <Project>{6edb0588-ffc5-4ef5-8a99-9e241d0f878d}</Project>
-      <Name>Feature.Plugin.Abstractions</Name>
+      <Name>Plugin.$safeprojectgroupname$.Abstractions</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

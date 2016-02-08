@@ -42,12 +42,12 @@
 	</metadata>
 	<files>
 		<!--Core-->
-		<file src="$safeitemname$\Plugin.$safeitemname$\bin\Release\Plugin.$safeitemname$.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Plugin.$safeitemname$.dll" />
-		<file src="$safeitemname$\Plugin.$safeitemname$\bin\Release\Plugin.$safeitemname$.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Plugin.$safeitemname$.xml" />
-		<file src="$safeitemname$\Plugin.$safeitemname$\bin\Release\Plugin.$safeitemname$.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Plugin.$safeitemname$.pdb" />
-		<file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Plugin.$safeitemname$.Abstractions.dll" />
-		<file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Plugin.$safeitemname$.Abstractions.xml" />
-		<file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Plugin.$safeitemname$.Abstractions.pdb" />		
+		<file src="$safeitemname$\Plugin.$safeitemname$\bin\Release\Plugin.$safeitemname$.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.$safeitemname$.dll" />
+		<file src="$safeitemname$\Plugin.$safeitemname$\bin\Release\Plugin.$safeitemname$.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.$safeitemname$.xml" />
+		<file src="$safeitemname$\Plugin.$safeitemname$\bin\Release\Plugin.$safeitemname$.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.$safeitemname$.pdb" />
+		<file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.$safeitemname$.Abstractions.dll" />
+		<file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.$safeitemname$.Abstractions.xml" />
+		<file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.$safeitemname$.Abstractions.pdb" />		
 		
 		<!--dotnet-->
 		<file src="$safeitemname$\Plugin.$safeitemname$\bin\Release\Plugin.$safeitemname$.dll" target="lib\dotnet\Plugin.$safeitemname$.dll" />
@@ -96,18 +96,18 @@
 		<file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.xml" target="lib\Xamarin.iOS10\Plugin.$safeitemname$.Abstractions.xml" />
 
 		<!--uap-->
-		<file src="$safeitemname$\Plugin.$safeitemname$.Uwp\bin\Release\Plugin.$safeitemname$.dll" target="lib\uap\Plugin.$safeitemname$.dll" />
-		<file src="$safeitemname$\Plugin.$safeitemname$.Uwp\bin\Release\Plugin.$safeitemname$.xml" target="lib\uap\Plugin.$safeitemname$.xml" />
-		<file src="$safeitemname$\Plugin.$safeitemname$.Uwp\bin\Release\Plugin.$safeitemname$.pdb" target="lib\uap\Plugin.$safeitemname$.pdb" />
-		<file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.dll" target="lib\uap\Plugin.$safeitemname$.Abstractions.dll" />
-		<file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.xml" target="lib\uap\Plugin.$safeitemname$.Abstractions.xml" />
-		<file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.pdb" target="lib\uap\Plugin.$safeitemname$.Abstractions.pdb" />
+		<file src="$safeitemname$\Plugin.$safeitemname$.UWP\bin\Release\Plugin.$safeitemname$.dll" target="lib\UAP10\Plugin.$safeitemname$.dll" />
+		<file src="$safeitemname$\Plugin.$safeitemname$.UWP\bin\Release\Plugin.$safeitemname$.xml" target="lib\UAP10\Plugin.$safeitemname$.xml" />
+		<file src="$safeitemname$\Plugin.$safeitemname$.UWP\bin\Release\Plugin.$safeitemname$.pdb" target="lib\UAP10\Plugin.$safeitemname$.pdb" />
+		<file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.dll" target="lib\UAP10\Plugin.$safeitemname$.Abstractions.dll" />
+		<file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.xml" target="lib\UAP10\Plugin.$safeitemname$.Abstractions.xml" />
+		<file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.pdb" target="lib\UAP10\Plugin.$safeitemname$.Abstractions.pdb" />
 		
-		<!--Xamarin.Mac-->
+		<!--Xamarin.Mac
 		<file src="$safeitemname$\Plugin.$safeitemname$.Mac\bin\iPhone\Release\Plugin.$safeitemname$.dll" target="lib\Xamarin.Mac20\Plugin.$safeitemname$.dll" />
 		<file src="$safeitemname$\Plugin.$safeitemname$.Mac\bin\iPhone\Release\Plugin.$safeitemname$.xml" target="lib\Xamarin.Mac20\Plugin.$safeitemname$.xml" />
 		<file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.dll" target="lib\Xamarin.Mac20\Plugin.$safeitemname$.Abstractions.dll" />
 		<file src="$safeitemname$\Plugin.$safeitemname$.Abstractions\bin\Release\Plugin.$safeitemname$.Abstractions.xml" target="lib\Xamarin.Mac20\Plugin.$safeitemname$.Abstractions.xml" />
-
+        -->
 	</files>
 </package>

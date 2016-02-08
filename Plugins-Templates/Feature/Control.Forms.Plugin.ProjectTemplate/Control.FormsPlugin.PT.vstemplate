@@ -26,6 +26,9 @@
       <ProjectTemplateLink ProjectName="$safeprojectname$.FormsPlugin.WindowsPhone">
         FormsPlugin.WindowsPhone\FormsPlugin.WindowsPhone.vstemplate
       </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.FormsPlugin.UWP">
+            FormsPlugin.UWP\FormsPlugin.UWP.vstemplate
+        </ProjectTemplateLink>
     </ProjectCollection>
   </TemplateContent>
   <WizardExtension>

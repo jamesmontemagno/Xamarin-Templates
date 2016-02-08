@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata minClientVersion="2.8.3">
-		<id>YourName.FormsPlugin.$safeitemname$</id>
+		<id>FormsPlugin.$safeitemname$</id>
 		<version>1.0.0</version>
 		<title>$safeitemname$ Control Plugin for Xamarin.Forms</title>
 		<authors>Your Name</authors>
@@ -18,39 +18,39 @@
 		<tags>xamarin, pcl, xam.pcl, plugin, plugin for xamarin.forms, windows phone, winphone, wp8, android, xamarin.forms, ios</tags>
 		<dependencies>
 			<group targetFramework="net">
-				<dependency id="Xamarin.Forms" version="2.0.0.6490" />
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
 			</group>
 			<group targetFramework="win">
-				<dependency id="Xamarin.Forms" version="2.0.0.6490" />
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
 			</group>
 			<group targetFramework="wp">
-				<dependency id="Xamarin.Forms" version="2.0.0.6490" />
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
 			</group>
 			<group targetFramework="wpa">
-				<dependency id="Xamarin.Forms" version="2.0.0.6490" />
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
 			</group>
 			<group targetFramework="MonoAndroid">
-				<dependency id="Xamarin.Forms" version="2.0.0.6490" />
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
 			</group>
 			<group targetFramework="Xamarin.iOS10">
-				<dependency id="Xamarin.Forms" version="2.0.0.6490" />
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
 			</group>
 			<group targetFramework="portable-net45+win8+wpa81+wp8">
-				<dependency id="Xamarin.Forms" version="2.0.0.6490" />
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
 			</group>
 			<group targetFramework="uap">
-				<dependency id="Xamarin.Forms" version="2.0.0.6490" />
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
 			</group>
 			<group targetFramework="dotnet">
-				<dependency id="Xamarin.Forms" version="2.0.0.6490" />
+				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
 			</group>
 		</dependencies>
 	</metadata>
 	<files>
 		<!--Core-->
-		<file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.dll" target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\$safeitemname$.FormsPlugin.Abstractions.dll" />
-		<file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.xml" target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\$safeitemname$.FormsPlugin.Abstractions.xml" />
-		<file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.pdb" target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\$safeitemname$.FormsPlugin.Abstractions.pdb" />
+		<file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.dll" target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\$safeitemname$.FormsPlugin.Abstractions.dll" />
+		<file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.xml" target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\$safeitemname$.FormsPlugin.Abstractions.xml" />
+		<file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.pdb" target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\$safeitemname$.FormsPlugin.Abstractions.pdb" />
 		
 		<!--dotnet-->
 		<file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.dll" target="lib\dotnet\$safeitemname$.FormsPlugin.Abstractions.dll" />
@@ -80,10 +80,10 @@
 		<file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.xml" target="lib\Xamarin.iOS10\$safeitemname$.FormsPlugin.Abstractions.xml" />
 
     <!--uap-->
-    <file src="$safeitemname$\$safeitemname$.FormsPlugin.Uwp\bin\Uwp\Release\$safeitemname$.FormsPlugin.Uwp.dll" target="lib\uap\$safeitemname$.FormsPlugin.Uwp.dll" />
-    <file src="$safeitemname$\$safeitemname$.FormsPlugin.Uwp\bin\Uwp\Release\$safeitemname$.FormsPlugin.Uwp.xml" target="lib\uap\$safeitemname$.FormsPlugin.Uwp.xml" />
-    <file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.dll" target="lib\uap\$safeitemname$.FormsPlugin.Abstractions.dll" />
-    <file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.xml" target="lib\uap\$safeitemname$.FormsPlugin.Abstractions.xml" />
+    <file src="$safeitemname$\$safeitemname$.FormsPlugin.Uwp\bin\Uwp\Release\$safeitemname$.FormsPlugin.UWP.dll" target="lib\UAP10\$safeitemname$.FormsPlugin.UWP.dll" />
+    <file src="$safeitemname$\$safeitemname$.FormsPlugin.Uwp\bin\Uwp\Release\$safeitemname$.FormsPlugin.UWP.xml" target="lib\UAP10\$safeitemname$.FormsPlugin.UWP.xml" />
+    <file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.dll" target="lib\UAP10\$safeitemname$.FormsPlugin.Abstractions.dll" />
+    <file src="$safeitemname$\$safeitemname$.FormsPlugin.Abstractions\bin\Release\$safeitemname$.FormsPlugin.Abstractions.xml" target="lib\UAP10\$safeitemname$.FormsPlugin.Abstractions.xml" />
     
 	</files>
 </package>

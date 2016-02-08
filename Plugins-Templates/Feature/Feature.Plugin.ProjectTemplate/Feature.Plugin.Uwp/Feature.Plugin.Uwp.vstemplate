@@ -7,7 +7,7 @@
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>MyCompany.Feature.Plugin.Uwp</DefaultName>
+    <DefaultName>MyCompany.Feature.Plugin.UWP</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
@@ -15,10 +15,12 @@
     <CreateInPlace>true</CreateInPlace>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="$safeprojectname$.Uwp.csproj" File="Feature.Plugin.Uwp.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectgroupname$Implementation.cs">FeatureImplementation.cs</ProjectItem>
-      <Folder Name="Properties" TargetFolderName="Properties">
+    <Project TargetFileName="$safeprojectname$.UWP.csproj" File="Feature.Plugin.UWP.csproj" ReplaceParameters="true">
+        <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectgroupname$Implementation.cs">FeatureImplementation.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="project.json">project.json</ProjectItem>
+        <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+         <ProjectItem ReplaceParameters="true" TargetFileName="Plugin.$safeprojectgroupname$.UWP.rd.xml">Feature.Plugin.UWP.rd.xml</ProjectItem>
       </Folder>
     </Project>
   </TemplateContent>

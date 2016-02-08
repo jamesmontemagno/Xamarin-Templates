@@ -36,6 +36,9 @@
       <ProjectTemplateLink ProjectName="Plugin.$safeprojectname$.WindowsStore">
         Feature.Plugin.WindowsStore\Feature.Plugin.WindowsStore.vstemplate
       </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="Plugin.$safeprojectname$.UWP">
+            Feature.Plugin.UWP\Feature.Plugin.UWP.vstemplate
+        </ProjectTemplateLink>
     </ProjectCollection>
   </TemplateContent>
   <WizardExtension>

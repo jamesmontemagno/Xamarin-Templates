@@ -83,16 +83,16 @@
     <Content Include="FormsPlugin.iOS\Feature.FormsPlugin.iOS.csproj" />
     <Content Include="FormsPlugin.iOS\FormsPlugin.iOS.vstemplate" />
     <Content Include="FormsPlugin.iOS\__TemplateIcon.ico" />
-    <Content Include="FormsPlugin.Uwp\Feature.Forms.Plugin.Uwp.csproj" />
-    <Content Include="FormsPlugin.Uwp\FormsPlugin.Uwp.vstemplate" />
-    <Content Include="FormsPlugin.Uwp\Properties\Feature.Forms.Plugin.Uwp.rd.xml" />
-    <Content Include="FormsPlugin.Uwp\__TemplateIcon.ico" />
+    <Content Include="FormsPlugin.UWP\Feature.FormsPlugin.UWP.csproj" />
+    <Content Include="FormsPlugin.UWP\FormsPlugin.UWP.vstemplate" />
+    <Content Include="FormsPlugin.UWP\Properties\Feature.FormsPlugin.UWP.rd.xml" />
+    <Content Include="FormsPlugin.UWP\__TemplateIcon.ico" />
     <Content Include="FormsPlugin.WindowsPhone\FeatureImplementation.cs" />
     <Content Include="FormsPlugin.WindowsPhone\Properties\AssemblyInfo.cs" />
     <Content Include="FormsPlugin.iOS\Properties\AssemblyInfo.cs" />
     <Content Include="FormsPlugin.iOS\FeatureImplementation.cs" />
-    <Compile Include="FormsPlugin.Uwp\FeatureImplementation.cs" />
-    <Compile Include="FormsPlugin.Uwp\Properties\AssemblyInfo.cs" />
+    <Content Include="FormsPlugin.UWP\FeatureImplementation.cs" />
+    <Content Include="FormsPlugin.UWP\Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="FormsPlugin.Android\Feature.FormsPlugin.Android.csproj" />
     <Content Include="FormsPlugin.Android\FormsPlugin.Android.vstemplate" />
@@ -114,8 +114,8 @@
     <None Include="FormsPlugin.Abstractions\packages.config" />
     <None Include="FormsPlugin.Android\packages.config" />
     <None Include="FormsPlugin.iOS\packages.config" />
-    <None Include="FormsPlugin.Uwp\Feature.Forms.Plugin.Uwp.nuget.targets" />
-    <None Include="FormsPlugin.Uwp\project.json" />
+    <None Include="FormsPlugin.UWP\Feature.FormsPlugin.UWP.nuget.targets" />
+    <None Include="FormsPlugin.UWP\project.json" />
     <None Include="FormsPlugin.WindowsPhone\packages.config" />
   </ItemGroup>
   <ItemGroup>
