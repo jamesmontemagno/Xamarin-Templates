@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamAndroidTemplatesVSIX", "XamAndroidTemplatesVSIX\XamAndroidTemplatesVSIX.csproj", "{4A0ED1AC-3872-4F49-94F8-F4DB03BC579E}"
 EndProject
