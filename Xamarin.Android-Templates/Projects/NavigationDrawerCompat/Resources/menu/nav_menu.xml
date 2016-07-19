@@ -16,10 +16,12 @@
     <menu>
       <item
           android:icon="@drawable/ic_home_1"
-          android:title="Sub item 1" />
+          android:title="Sub item 1" 
+          android:checkable="true" />
       <item
           android:icon="@drawable/ic_home_2"
-          android:title="Sub item 2" />
+          android:title="Sub item 2"
+          android:checkable="true"  />
     </menu>
   </item>
 

@@ -4,26 +4,26 @@ using Android.Views;
 
 namespace NavDrawer.Fragments
 {
-  public class Fragment1 : Fragment
-  {
-    public override void OnCreate(Bundle savedInstanceState)
+    public class Fragment1 : Fragment
     {
-      base.OnCreate(savedInstanceState);
+        public override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
 
-      // Create your fragment here
+            // Create your fragment here
+        }
+
+        public static Fragment1 NewInstance()
+        {
+            var frag1 = new Fragment1 { Arguments = new Bundle() };
+            return frag1;
+        }
+
+
+        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+        {
+            var ignored = base.OnCreateView(inflater, container, savedInstanceState);
+            return inflater.Inflate(Resource.Layout.fragment1, null);
+        }
     }
-
-    public static Fragment1 NewInstance()
-    {
-      var frag1 = new Fragment1 { Arguments = new Bundle() };
-      return frag1;
-    }
-
-
-    public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
-    {
-      var ignored = base.OnCreateView(inflater, container, savedInstanceState);
-      return inflater.Inflate(Resource.Layout.fragment1, null);
-    }
-  }
 }

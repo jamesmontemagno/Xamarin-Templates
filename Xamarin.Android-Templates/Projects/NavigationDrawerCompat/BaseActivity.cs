@@ -1,4 +1,4 @@
-
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ using Android.OS;
 using Android.Support.V7.App;
 using Android.Support.V7.Widget;
 
-namespace BlankAppCompat
+namespace NavDrawer
 {
     public abstract class BaseActivity : AppCompatActivity
     {
@@ -44,4 +44,6 @@ namespace BlankAppCompat
         }
     }
 
+
 }
+
