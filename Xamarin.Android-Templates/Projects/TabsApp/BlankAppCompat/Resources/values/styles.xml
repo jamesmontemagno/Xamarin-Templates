@@ -7,6 +7,9 @@
     <item name="windowNoTitle">true</item>
     <!--We will be using the toolbar so no need to show ActionBar-->
     <item name="windowActionBar">false</item>
+
+    <item name="windowActionModeOverlay">true</item>
+    
     <!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette-->
     <!-- colorPrimary is used for the default action bar background -->
     <item name="colorPrimary">@color/primary</item>
