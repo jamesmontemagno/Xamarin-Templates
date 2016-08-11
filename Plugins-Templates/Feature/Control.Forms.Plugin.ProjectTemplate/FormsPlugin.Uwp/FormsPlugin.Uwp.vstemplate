@@ -16,10 +16,10 @@
   <TemplateContent>
     <Project TargetFileName="$safeprojectname$.FormsPlugin.UWP.csproj" File="Feature.FormsPlugin.UWP.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectgroupname$Implementation.cs">FeatureImplementation.cs</ProjectItem>
-       <ProjectItem ReplaceParameters="true" TargetFileName="project.json">project.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="project.json">project.json</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
           <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="FormsPlugin.$safeprojectgroupname$.UWP.rd.xml">Feature.FormsPlugin.UWP.rd.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectgroupname$.FormsPlugin.UWP.rd.xml">Feature.FormsPlugin.UWP.rd.xml</ProjectItem>
       </Folder>
     </Project>
   </TemplateContent>

@@ -65,7 +65,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Packages\xamarin.forms.2.0.1.6505.nupkg">
+    <Content Include="..\packages\Xamarin.Forms.2.0.1.6505\xamarin.forms.2.0.1.6505.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="source.extension.vsixmanifest">
