@@ -33,7 +33,6 @@
     <packages repository="extension"
           repositoryId="FeaturePluginVSIX..718b8fe4-6335-4bc1-aaea-a034e69219bd">
       <package id="Xamarin.Forms"  version="2.0.1.6505"/>
-      <package id="WPtoolkit" version="4.2013.8.16" />
     </packages>
   </WizardData>
 </VSTemplate>
