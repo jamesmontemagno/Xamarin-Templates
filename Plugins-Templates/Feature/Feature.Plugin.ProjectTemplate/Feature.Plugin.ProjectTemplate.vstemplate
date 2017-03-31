@@ -27,15 +27,6 @@
       <ProjectTemplateLink ProjectName="Plugin.$safeprojectname$.Android">
         Feature.Plugin.Android\Feature.Plugin.Android.vstemplate
       </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="Plugin.$safeprojectname$.WindowsPhone8">
-        Feature.Plugin.WindowsPhone8\Feature.Plugin.WindowsPhone8.vstemplate
-      </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="Plugin.$safeprojectname$.WindowsPhone81">
-        Feature.Plugin.WindowsPhone81\Feature.Plugin.WindowsPhone81.vstemplate
-      </ProjectTemplateLink>
-      <ProjectTemplateLink ProjectName="Plugin.$safeprojectname$.WindowsStore">
-        Feature.Plugin.WindowsStore\Feature.Plugin.WindowsStore.vstemplate
-      </ProjectTemplateLink>
         <ProjectTemplateLink ProjectName="Plugin.$safeprojectname$.UWP">
             Feature.Plugin.UWP\Feature.Plugin.UWP.vstemplate
         </ProjectTemplateLink>

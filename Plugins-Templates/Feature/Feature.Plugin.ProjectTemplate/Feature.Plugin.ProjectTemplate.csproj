@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <FileUpgradeFlags>
@@ -24,6 +24,8 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -88,12 +90,6 @@
     <Content Include="Feature.Plugin.UWP\Feature.Plugin.UWP.vstemplate" />
     <Content Include="Feature.Plugin.UWP\Properties\Feature.Plugin.UWP.rd.xml" />
     <Content Include="Feature.Plugin.UWP\__TemplateIcon.ico" />
-    <Content Include="Feature.Plugin.WindowsPhone81\FeatureImplementation.cs" />
-    <Content Include="Feature.Plugin.WindowsPhone81\Properties\AssemblyInfo.cs" />
-    <Content Include="Feature.Plugin.WindowsPhone8\FeatureImplementation.cs" />
-    <Content Include="Feature.Plugin.WindowsPhone8\Properties\AssemblyInfo.cs" />
-    <Content Include="Feature.Plugin.WindowsStore\FeatureImplementation.cs" />
-    <Content Include="Feature.Plugin.WindowsStore\Properties\AssemblyInfo.cs" />
     <Content Include="Feature.Plugin\CrossFeature.cs" />
     <Content Include="Feature.Plugin\Properties\AssemblyInfo.cs" />
     <Content Include="Feature.Plugin.UWP\FeatureImplementation.cs" />
@@ -120,16 +116,7 @@
     <Content Include="Feature.Plugin.iOS\Feature.Plugin.iOS.csproj" />
     <None Include="Feature.Plugin.iOS\Feature.Plugin.iOS.vstemplate" />
     <Content Include="Feature.Plugin.iOS\__TemplateIcon.ico" />
-    <Content Include="Feature.Plugin.WindowsPhone81\Feature.Plugin.WindowsPhone81.csproj" />
     <None Include="Feature.Plugin.UWP\project.json" />
-    <None Include="Feature.Plugin.WindowsPhone81\Feature.Plugin.WindowsPhone81.vstemplate" />
-    <Content Include="Feature.Plugin.WindowsPhone81\__TemplateIcon.ico" />
-    <Content Include="Feature.Plugin.WindowsPhone8\Feature.Plugin.WindowsPhone8.csproj" />
-    <None Include="Feature.Plugin.WindowsPhone8\Feature.Plugin.WindowsPhone8.vstemplate" />
-    <Content Include="Feature.Plugin.WindowsPhone8\__TemplateIcon.ico" />
-    <Content Include="Feature.Plugin.WindowsStore\Feature.Plugin.WindowsStore.csproj" />
-    <None Include="Feature.Plugin.WindowsStore\Feature.Plugin.WindowsStore.vstemplate" />
-    <Content Include="Feature.Plugin.WindowsStore\__TemplateIcon.ico" />
     <Content Include="Feature.Plugin\Feature.Plugin.csproj" />
     <None Include="Feature.Plugin\Feature.Plugin.vstemplate" />
     <Content Include="Feature.Plugin\__TemplateIcon.ico" />

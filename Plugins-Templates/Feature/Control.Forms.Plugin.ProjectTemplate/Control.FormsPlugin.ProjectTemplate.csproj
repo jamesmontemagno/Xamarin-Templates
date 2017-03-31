@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <FileUpgradeFlags>
@@ -87,8 +87,6 @@
     <Content Include="FormsPlugin.UWP\FormsPlugin.UWP.vstemplate" />
     <Content Include="FormsPlugin.UWP\Properties\Feature.FormsPlugin.UWP.rd.xml" />
     <Content Include="FormsPlugin.UWP\__TemplateIcon.ico" />
-    <Content Include="FormsPlugin.WindowsPhone\FeatureImplementation.cs" />
-    <Content Include="FormsPlugin.WindowsPhone\Properties\AssemblyInfo.cs" />
     <Content Include="FormsPlugin.iOS\Properties\AssemblyInfo.cs" />
     <Content Include="FormsPlugin.iOS\FeatureImplementation.cs" />
     <Content Include="FormsPlugin.UWP\FeatureImplementation.cs" />
@@ -99,15 +97,6 @@
     <Content Include="FormsPlugin.Android\Resources\AboutResources.txt" />
     <Content Include="FormsPlugin.Android\Resources\Values\Strings.xml" />
     <Content Include="FormsPlugin.Android\__TemplateIcon.ico" />
-    <Content Include="FormsPlugin.WindowsPhone\Feature.FormsPlugin.WindowsPhone.csproj" />
-    <Content Include="FormsPlugin.WindowsPhone\FormsPlugin.WindowsPhone.vstemplate" />
-    <Content Include="FormsPlugin.WindowsPhone\README_FIRST.txt" />
-    <Content Include="FormsPlugin.WindowsPhone\Toolkit.Content\ApplicationBar.Add.png" />
-    <Content Include="FormsPlugin.WindowsPhone\Toolkit.Content\ApplicationBar.Cancel.png" />
-    <Content Include="FormsPlugin.WindowsPhone\Toolkit.Content\ApplicationBar.Check.png" />
-    <Content Include="FormsPlugin.WindowsPhone\Toolkit.Content\ApplicationBar.Delete.png" />
-    <Content Include="FormsPlugin.WindowsPhone\Toolkit.Content\ApplicationBar.Select.png" />
-    <Content Include="FormsPlugin.WindowsPhone\__TemplateIcon.ico" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Control.FormsPlugin.ProjectTemplate.ico" />
@@ -116,7 +105,6 @@
     <None Include="FormsPlugin.iOS\packages.config" />
     <None Include="FormsPlugin.UWP\Feature.FormsPlugin.UWP.nuget.targets" />
     <None Include="FormsPlugin.UWP\project.json" />
-    <None Include="FormsPlugin.WindowsPhone\packages.config" />
   </ItemGroup>
   <ItemGroup>
     <VSTemplate Include="Control.FormsPlugin.PT.vstemplate" />
