@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Traditional", "Traditional"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuspec", "Nuspec", "{B4F1413B-3123-42A0-BE9F-9430FA7FFC00}"
 	ProjectSection(SolutionItems) = preProject
-		Feature.Plugin.nuspec = Feature.Plugin.nuspec
+		Plugin.nuspec = Plugin.nuspec
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{17979ACC-A89D-422A-83A5-D7A18CF3620E}"
