@@ -77,12 +77,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Feature.Plugin.Abstractions\IFeature.cs" />
+    <None Include="Feature.Plugin.Abstractions\IFeature.cs" />
     <Content Include="Feature.Plugin.Abstractions\Properties\AssemblyInfo.cs" />
-    <Content Include="Feature.Plugin.Android\FeatureImplementation.cs" />
+    <None Include="Feature.Plugin.Android\FeatureImplementation.cs" />
     <Content Include="Feature.Plugin.Android\Properties\AssemblyInfo.cs" />
     <Content Include="Feature.Plugin.Android\Resources\Resource.Designer.cs" />
-    <Content Include="Feature.Plugin.iOS\FeatureImplementation.cs" />
+    <None Include="Feature.Plugin.iOS\FeatureImplementation.cs" />
     <Content Include="Feature.Plugin.iOS\Properties\AssemblyInfo.cs" />
     <Content Include="Feature.Plugin.UWP\Feature.Plugin.UWP.csproj">
       <SubType>Designer</SubType>
@@ -90,9 +90,9 @@
     <Content Include="Feature.Plugin.UWP\Feature.Plugin.UWP.vstemplate" />
     <Content Include="Feature.Plugin.UWP\Properties\Feature.Plugin.UWP.rd.xml" />
     <Content Include="Feature.Plugin.UWP\__TemplateIcon.ico" />
-    <Content Include="Feature.Plugin\CrossFeature.cs" />
+    <None Include="Feature.Plugin\CrossFeature.cs" />
     <Content Include="Feature.Plugin\Properties\AssemblyInfo.cs" />
-    <Content Include="Feature.Plugin.UWP\FeatureImplementation.cs" />
+    <None Include="Feature.Plugin.UWP\FeatureImplementation.cs" />
     <Content Include="Feature.Plugin.UWP\Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -140,7 +140,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FeaturePlugin.Wizard\FeaturePlugin.Wizard.csproj">
+    <ProjectReference Include="FeaturePlugin.Wizard\FeaturePlugin.Wizard.csproj">
       <Project>{65ee5f42-08ad-49ad-9dae-12cb15f7e3f2}</Project>
       <Name>FeaturePlugin.Wizard</Name>
     </ProjectReference>

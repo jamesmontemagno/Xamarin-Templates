@@ -127,8 +127,8 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
-    <ProjectReference Include="..\Feature.Plugin.ProjectTemplate\Feature.Plugin.ProjectTemplate.csproj">
-      <Project>{8de0c55a-0c47-49d4-b28f-c632bbbd5d7c}</Project>
+    <ProjectReference Include="..\Feature.Plugin.ProjectTemplate.csproj">
+      <Project>{8DE0C55A-0C47-49D4-B28F-C632BBBD5D7C}</Project>
       <Name>Feature.Plugin.ProjectTemplate</Name>
       <VSIXSubPath>ProjectTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
