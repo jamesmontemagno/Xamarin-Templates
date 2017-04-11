@@ -15,7 +15,7 @@
     <CreateInPlace>true</CreateInPlace>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="Plugin.$safeprojectname$.csproj" File="Feature.Plugin.csproj" ReplaceParameters="true">
+    <Project TargetFileName="Plugin.$safeprojectname$.csproj" File="Plugin.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="Cross$safeprojectgroupname$.cs">CrossFeature.cs</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>

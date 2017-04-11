@@ -33,8 +33,8 @@
     <ProjectGuid>{CDDA0A07-24D9-4F8F-9A53-2BFB4B6AA0F8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Feature.Plugin.ItemTemplate</RootNamespace>
-    <AssemblyName>Feature.Plugin.ItemTemplate</AssemblyName>
+    <RootNamespace>Plugin.IT</RootNamespace>
+    <AssemblyName>Plugin.IT</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
@@ -56,6 +56,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CreateVsixContainer>False</CreateVsixContainer>
+    <DeployExtension>False</DeployExtension>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -78,11 +80,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Feature.Plugin.ItemTemplate.ico" />
-    <None Include="Feature.Plugin.nuspec" />
+    <None Include="Plugin.IT.ico" />
+    <None Include="Plugin.nuspec" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="Feature.Plugin.ItemTemplate.vstemplate" />
+    <VSTemplate Include="Plugin.IT.vstemplate" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">

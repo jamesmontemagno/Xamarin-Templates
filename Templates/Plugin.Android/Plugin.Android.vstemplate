@@ -1,13 +1,13 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Feature.Plugin.iOS</Name>
+    <Name>Plugin.Android</Name>
     <Description>&lt;No description available&gt;</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>MyCompany.Feature.Plugin.iOS</DefaultName>
+    <DefaultName>MyCompany.Feature.Plugin.Android</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
@@ -15,10 +15,16 @@
     <CreateInPlace>true</CreateInPlace>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="$safeprojectname$.iOS.csproj" File="Feature.Plugin.iOS.csproj" ReplaceParameters="true">
+    <Project TargetFileName="$safeprojectname$.Android.csproj" File="Plugin.Android.csproj" ReplaceParameters="true">
       <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectgroupname$Implementation.cs">FeatureImplementation.cs</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AboutResources.txt">AboutResources.txt</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resource.Designer.cs">Resource.Designer.cs</ProjectItem>
+        <Folder Name="Values" TargetFolderName="Values">
+        </Folder>
       </Folder>
     </Project>
   </TemplateContent>

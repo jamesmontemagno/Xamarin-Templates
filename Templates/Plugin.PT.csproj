@@ -35,8 +35,8 @@
     <ProjectGuid>{8DE0C55A-0C47-49D4-B28F-C632BBBD5D7C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Feature.Plugin.ProjectTemplate</RootNamespace>
-    <AssemblyName>Feature.Plugin.ProjectTemplate</AssemblyName>
+    <RootNamespace>Plugin.PT</RootNamespace>
+    <AssemblyName>Plugin.PT</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
@@ -58,6 +58,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CreateVsixContainer>False</CreateVsixContainer>
+    <DeployExtension>False</DeployExtension>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -77,49 +79,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Feature.Plugin.Abstractions\IFeature.cs" />
-    <Content Include="Feature.Plugin.Abstractions\Properties\AssemblyInfo.cs" />
-    <None Include="Feature.Plugin.Android\FeatureImplementation.cs" />
-    <Content Include="Feature.Plugin.Android\Properties\AssemblyInfo.cs" />
-    <Content Include="Feature.Plugin.Android\Resources\Resource.Designer.cs" />
-    <None Include="Feature.Plugin.iOS\FeatureImplementation.cs" />
-    <Content Include="Feature.Plugin.iOS\Properties\AssemblyInfo.cs" />
-    <Content Include="Feature.Plugin.UWP\Feature.Plugin.UWP.csproj">
+    <None Include="Plugin.Abstractions\IFeature.cs" />
+    <Content Include="Plugin.Abstractions\Properties\AssemblyInfo.cs" />
+    <None Include="Plugin.Android\FeatureImplementation.cs" />
+    <Content Include="Plugin.Android\Properties\AssemblyInfo.cs" />
+    <Content Include="Plugin.Android\Resources\Resource.Designer.cs" />
+    <None Include="Plugin.iOS\FeatureImplementation.cs" />
+    <Content Include="Plugin.iOS\Properties\AssemblyInfo.cs" />
+    <Content Include="Plugin.UWP\Plugin.UWP.csproj">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Feature.Plugin.UWP\Feature.Plugin.UWP.vstemplate" />
-    <Content Include="Feature.Plugin.UWP\Properties\Feature.Plugin.UWP.rd.xml" />
-    <Content Include="Feature.Plugin.UWP\__TemplateIcon.ico" />
-    <None Include="Feature.Plugin\CrossFeature.cs" />
-    <Content Include="Feature.Plugin\Properties\AssemblyInfo.cs" />
-    <None Include="Feature.Plugin.UWP\FeatureImplementation.cs" />
-    <Content Include="Feature.Plugin.UWP\Properties\AssemblyInfo.cs" />
+    <Content Include="Plugin.UWP\Plugin.UWP.vstemplate" />
+    <Content Include="Plugin.UWP\Properties\Plugin.UWP.rd.xml" />
+    <Content Include="Plugin.UWP\__TemplateIcon.ico" />
+    <None Include="Plugin\CrossFeature.cs" />
+    <Content Include="Plugin\Properties\AssemblyInfo.cs" />
+    <None Include="Plugin.UWP\FeatureImplementation.cs" />
+    <Content Include="Plugin.UWP\Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Feature.Plugin.ProjectTemplate.ico" />
+    <None Include="Plugin.PT.ico" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="Feature.Plugin.ProjectTemplate.vstemplate">
+    <VSTemplate Include="Plugin.PT.vstemplate">
       <SubType>Designer</SubType>
     </VSTemplate>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Feature.Plugin.Abstractions\Feature.Plugin.Abstractions.csproj" />
-    <None Include="Feature.Plugin.Abstractions\Feature.Plugin.Abstractions.vstemplate" />
-    <Content Include="Feature.Plugin.Abstractions\__TemplateIcon.ico" />
-    <Content Include="Feature.Plugin.Android\Feature.Plugin.Android.csproj" />
-    <None Include="Feature.Plugin.Android\Feature.Plugin.Android.vstemplate" />
-    <Content Include="Feature.Plugin.Android\Resources\AboutResources.txt" />
-    <Content Include="Feature.Plugin.Android\Resources\Values\Strings.xml" />
-    <Content Include="Feature.Plugin.Android\__TemplateIcon.ico" />
-    <Content Include="Feature.Plugin.iOS\Feature.Plugin.iOS.csproj" />
-    <None Include="Feature.Plugin.iOS\Feature.Plugin.iOS.vstemplate" />
-    <Content Include="Feature.Plugin.iOS\__TemplateIcon.ico" />
-    <None Include="Feature.Plugin.UWP\project.json" />
-    <Content Include="Feature.Plugin\Feature.Plugin.csproj" />
-    <None Include="Feature.Plugin\Feature.Plugin.vstemplate" />
-    <Content Include="Feature.Plugin\__TemplateIcon.ico" />
+    <Content Include="Plugin.Abstractions\Plugin.Abstractions.csproj" />
+    <None Include="Plugin.Abstractions\Plugin.Abstractions.vstemplate" />
+    <Content Include="Plugin.Abstractions\__TemplateIcon.ico" />
+    <Content Include="Plugin.Android\Plugin.Android.csproj" />
+    <None Include="Plugin.Android\Plugin.Android.vstemplate" />
+    <Content Include="Plugin.Android\Resources\AboutResources.txt" />
+    <Content Include="Plugin.Android\Resources\Values\Strings.xml" />
+    <Content Include="Plugin.Android\__TemplateIcon.ico" />
+    <Content Include="Plugin.iOS\Plugin.iOS.csproj" />
+    <None Include="Plugin.iOS\Plugin.iOS.vstemplate" />
+    <Content Include="Plugin.iOS\__TemplateIcon.ico" />
+    <None Include="Plugin.UWP\project.json" />
+    <Content Include="Plugin\Plugin.csproj" />
+    <None Include="Plugin\Plugin.vstemplate" />
+    <Content Include="Plugin\__TemplateIcon.ico" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

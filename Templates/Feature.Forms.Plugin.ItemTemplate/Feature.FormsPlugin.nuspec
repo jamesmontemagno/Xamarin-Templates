@@ -18,31 +18,31 @@
 		<tags>xamarin, pcl, xam.pcl, plugin, plugin for xamarin.forms, windows phone, winphone, wp8, android, xamarin.forms, ios</tags>
 		<dependencies>
 			<group targetFramework="net">
-				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+				<dependency id="Xamarin.Forms" version="2.3.4.224" />
 			</group>
 			<group targetFramework="win">
-				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+				<dependency id="Xamarin.Forms" version="2.3.4.224" />
 			</group>
 			<group targetFramework="wp">
-				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+				<dependency id="Xamarin.Forms" version="2.3.4.224" />
 			</group>
 			<group targetFramework="wpa">
-				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+				<dependency id="Xamarin.Forms" version="2.3.4.224" />
 			</group>
 			<group targetFramework="MonoAndroid">
-				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+				<dependency id="Xamarin.Forms" version="2.3.4.224" />
 			</group>
 			<group targetFramework="Xamarin.iOS10">
-				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+				<dependency id="Xamarin.Forms" version="2.3.4.224" />
 			</group>
 			<group targetFramework="portable-net45+win8+wpa81+wp8">
-				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+				<dependency id="Xamarin.Forms" version="2.3.4.224" />
 			</group>
 			<group targetFramework="uap">
-				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+				<dependency id="Xamarin.Forms" version="2.3.4.224" />
 			</group>
 			<group targetFramework="dotnet">
-				<dependency id="Xamarin.Forms" version="2.0.1.6505" />
+				<dependency id="Xamarin.Forms" version="2.3.4.224" />
 			</group>
 		</dependencies>
 	</metadata>

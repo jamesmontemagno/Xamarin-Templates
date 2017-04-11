@@ -3,7 +3,7 @@
   <TemplateData>
     <Name>Plugin for Xamarin</Name>
     <Description>Creates all files necessary to create a plugin for Xamarin</Description>
-    <Icon>Feature.Plugin.ProjectTemplate.ico</Icon>
+    <Icon>Plugin.PT.ico</Icon>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
@@ -16,19 +16,19 @@
   <TemplateContent>
     <ProjectCollection>
       <ProjectTemplateLink ProjectName="Plugin.$safeprojectname$">
-        Feature.Plugin\Feature.Plugin.vstemplate
+        Plugin\Plugin.vstemplate
       </ProjectTemplateLink>
       <ProjectTemplateLink ProjectName="Plugin.$safeprojectname$.Abstractions">
-        Feature.Plugin.Abstractions\Feature.Plugin.Abstractions.vstemplate
+        Plugin.Abstractions\Plugin.Abstractions.vstemplate
       </ProjectTemplateLink>
       <ProjectTemplateLink ProjectName="Plugin.$safeprojectname$.iOS">
-        Feature.Plugin.iOS\Feature.Plugin.iOS.vstemplate
+        Plugin.iOS\Plugin.iOS.vstemplate
       </ProjectTemplateLink>
       <ProjectTemplateLink ProjectName="Plugin.$safeprojectname$.Android">
-        Feature.Plugin.Android\Feature.Plugin.Android.vstemplate
+        Plugin.Android\Plugin.Android.vstemplate
       </ProjectTemplateLink>
         <ProjectTemplateLink ProjectName="Plugin.$safeprojectname$.UWP">
-            Feature.Plugin.UWP\Feature.Plugin.UWP.vstemplate
+            Plugin.UWP\Plugin.UWP.vstemplate
         </ProjectTemplateLink>
     </ProjectCollection>
   </TemplateContent>

@@ -65,6 +65,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CopyVsixExtensionFiles>False</CopyVsixExtensionFiles>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -79,10 +80,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\packages\Xamarin.Forms.2.0.1.6505\xamarin.forms.2.0.1.6505.nupkg">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="Resources\FeaturePluginPackage.ico" />
+    <None Include="..\packages\xamarin.forms.2.3.4.224.nupkg">
+      <Link>xamarin.forms.2.3.4.224.nupkg</Link>
+    </None>
     <None Include="Key.snk" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
@@ -113,23 +114,16 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
-    <ProjectReference Include="..\Feature.Forms.Plugin.ItemTemplate\Feature.FormsPlugin.ItemTemplate.csproj">
-      <Project>{7D58720A-CE13-4450-B688-F51960032B79}</Project>
-      <Name>Feature.FormsPlugin.ItemTemplate</Name>
-      <VSIXSubPath>ItemTemplates</VSIXSubPath>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
-    </ProjectReference>
-    <ProjectReference Include="..\Feature.Plugin.ItemTemplate\Feature.Plugin.ItemTemplate.csproj">
+    <ProjectReference Include="..\Feature.Plugin.ItemTemplate\Plugin.IT.csproj">
       <Project>{CDDA0A07-24D9-4F8F-9A53-2BFB4B6AA0F8}</Project>
-      <Name>Feature.Plugin.ItemTemplate</Name>
+      <Name>Plugin.IT</Name>
       <VSIXSubPath>ItemTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
     </ProjectReference>
-    <ProjectReference Include="..\Feature.Plugin.ProjectTemplate.csproj">
+    <ProjectReference Include="..\Plugin.PT.csproj">
       <Project>{8DE0C55A-0C47-49D4-B28F-C632BBBD5D7C}</Project>
-      <Name>Feature.Plugin.ProjectTemplate</Name>
+      <Name>Plugin.PT</Name>
       <VSIXSubPath>ProjectTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>

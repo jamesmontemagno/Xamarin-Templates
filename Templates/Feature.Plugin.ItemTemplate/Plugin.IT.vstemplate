@@ -3,7 +3,7 @@
   <TemplateData>
     <Name>Plugin for Xamarin NuSpec</Name>
     <Description>Create a specification NuSpec for your Plugin for Xamarin</Description>
-    <Icon>Feature.Plugin.ItemTemplate.ico</Icon>
+    <Icon>Plugin.IT.ico</Icon>
     <TemplateID>4f485303-a624-4056-8e74-cd6e1c6b4217</TemplateID>
     <ProjectType>General</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
@@ -13,7 +13,7 @@
   <TemplateContent>
 
     <References />
-    <ProjectItem SubType="" TargetFileName="$fileinputname$.Plugin.nuspec" ReplaceParameters="true">Feature.Plugin.nuspec</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.Plugin.nuspec" ReplaceParameters="true">Plugin.nuspec</ProjectItem>
   
   </TemplateContent>
 </VSTemplate>

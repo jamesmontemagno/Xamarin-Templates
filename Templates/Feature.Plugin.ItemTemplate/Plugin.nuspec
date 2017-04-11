@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata minClientVersion="2.8.3">
+		<id>Plugin.$safeitemname$</id>
+		<version>1.0.0</version>
+		<title>$safeitemname$ Plugin for Xamarin and Windows</title>
+		<authors>Your Name</authors>
+		<owners>Your Name</owners>
+		<licenseUrl/>
+		<projectUrl/>
+		<!--Default Icon, a template can be found:  https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon.png-->  
+		<iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
+
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
+         Long description for your plugin.
+		</description>
+		<summary>Short description for your plugin.</summary>
+		<tags>xamarin, pcl, xam.pcl, plugin, plugin for xamarin, windows phone, winphone, wp8, winrt, android, xamarin.forms, ios</tags>
+		<dependencies>
+			<group targetFramework="net">
+			</group>
+			<group targetFramework="win">
+			</group>
+			<group targetFramework="wp">
+			</group>
+			<group targetFramework="wpa">
+			</group>
+			<group targetFramework="MonoAndroid">
+			</group>
+			<group targetFramework="Xamarin.iOS10">
+			</group>
+			<group targetFramework="Xamarin.Mac20">
+			</group>
+			<group targetFramework="portable-net45+win+wpa81+wp80">
+			</group>
+			<group targetFramework="uap">
+			</group>
+			<group targetFramework="dotnet">
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<!--Core-->
+		<file src="$safeitemname$\Plugin.$safeitemname$\bin\Release\Plugin.$safeitemname$.*" target="lib\portable-net45+wp80+win8+wpa81" />	
+		
+		
+		<!--Xamarin.Android-->
+		<file src="$safeitemname$\Plugin.$safeitemname$.Android\bin\Release\Plugin.$safeitemname$.*" target="lib\MonoAndroid10" />
+    
+		<!--Xamarin.iOS-->
+		<file src="$safeitemname$\Plugin.$safeitemname$.iOS\bin\iPhone\Release\Plugin.$safeitemname$.*" target="lib\Xamarin.iOS10" />
+    
+		<!--UWP-->
+		<file src="$safeitemname$\Plugin.$safeitemname$.UWP\bin\Release\Plugin.$safeitemname$.*" target="lib\UAP10" />
+
+
+    <!--dotnet
+    <file src="$safeitemname$\Plugin.$safeitemname$\bin\Release\Plugin.$safeitemname$.*" target="lib\dotnet" />
+   -->
+
+    <!--Win Phone Silverlight
+    <file src="$safeitemname$\Plugin.$safeitemname$.WindowsPhone8\bin\Release\Plugin.$safeitemname$.*" target="lib\wp8" />
+    -->
+
+    <!--Win Phone 81
+    <file src="$safeitemname$\Plugin.$safeitemname$.WindowsPhone81\bin\Release\Plugin.$safeitemname$.*" target="lib\wpa81" />
+   -->
+    
+    <!--WinStore
+    <file src="$safeitemname$\Plugin.$safeitemname$.WindowsStore\bin\Release\Plugin.$safeitemname$.*" target="lib\win8" />
+    -->
+    
+    <!--Xamarin.Mac
+		<file src="$safeitemname$\Plugin.$safeitemname$.Mac\bin\Release\Plugin.$safeitemname$.*" target="lib\Xamarin.Mac20" />
+		     -->
+	</files>
+</package>
