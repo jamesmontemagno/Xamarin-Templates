@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Control Plugin for Xamarin.Forms</Name>
+    <Description>Creates all files necessary to create a control plugin for Xamarin.Forms</Description>
+    <Icon>Control.FormsPlugin.ProjectTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>35dc70cc-dea2-4cee-8a68-fdb47b31d0cb</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Control</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.FormsPlugin.Abstractions">
+        FormsPlugin.Abstractions\FormsPlugin.Abstractions.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.FormsPlugin.iOS">
+        FormsPlugin.iOS\FormsPlugin.iOS.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.FormsPlugin.Android">
+        FormsPlugin.Android\FormsPlugin.Android.vstemplate
+      </ProjectTemplateLink>
+        <ProjectTemplateLink ProjectName="$safeprojectname$.FormsPlugin.UWP">
+            FormsPlugin.UWP\FormsPlugin.UWP.vstemplate
+        </ProjectTemplateLink>
+    </ProjectCollection>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>FeaturePlugin.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7090c690d226b16c</Assembly>
+    <FullClassName>FeaturePlugin.Wizard.SafeProjectGroupName</FullClassName>
+  </WizardExtension>
+</VSTemplate>
