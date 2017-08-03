@@ -12,11 +12,10 @@
         android:layout_height="fill_parent"
         android:id="@+id/main_content"
         android:layout_below="@id/toolbar">
-        <TextView
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/textView1"
-            android:gravity="center" />
+        <Button
+            android:id="@+id/my_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Hello" />
     </LinearLayout>
 </RelativeLayout>

@@ -88,6 +88,9 @@
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\layout\toolbar.axml" />
+  </ItemGroup>
+  <ItemGroup>
     <AndroidResource Include="Resources\layout\main.axml" />
   </ItemGroup>
   <ItemGroup>

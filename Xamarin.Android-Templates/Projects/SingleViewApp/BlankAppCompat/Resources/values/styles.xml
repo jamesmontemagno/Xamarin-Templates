@@ -4,9 +4,9 @@
   </style>
   <!-- Base theme applied no matter what API -->
   <style name="Theme.MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
-    <!--<item name="windowNoTitle">true</item>
-    We will be using the toolbar so no need to show ActionBar
-    <item name="windowActionBar">false</item>-->
+    <item name="windowNoTitle">true</item>
+    <!--We will be using the toolbar so no need to show ActionBar-->
+    <item name="windowActionBar">false</item>
 
     <!--Needed in newer versions-->
     <item name="windowActionModeOverlay">true</item>
