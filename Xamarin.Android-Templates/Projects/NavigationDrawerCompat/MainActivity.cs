@@ -14,25 +14,24 @@ using Android.Support.Design.Widget;
 namespace NavDrawer
 {
     [Activity(Label = "Home", MainLauncher = true, LaunchMode = LaunchMode.SingleTop, Icon = "@drawable/Icon")]
-    public class MainActivity : BaseActivity
+    public class MainActivity : AppCompatActivity
     {
 
         DrawerLayout drawerLayout;
         NavigationView navigationView;
 
-        protected override int LayoutResource
-        {
-            get
-            {
-                return Resource.Layout.main;
-            }
-        }
-
         IMenuItem previousItem;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
+            SetContentView(Resource.Layout.main);
+            var toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
+            if (toolbar != null)
+            {
+                SetSupportActionBar(toolbar);
+                SupportActionBar.SetDisplayHomeAsUpEnabled(false);
+                SupportActionBar.SetHomeButtonEnabled(false);
+            }
 
             drawerLayout = this.FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
 

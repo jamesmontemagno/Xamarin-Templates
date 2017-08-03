@@ -3614,15 +3614,6 @@ namespace NavDrawer
 			// aapt resource value: 0x7f090163
 			public const int Base_Widget_Design_TabLayout = 2131296611;
 			
-			// aapt resource value: 0x7f09017a
-			public const int MyTheme = 2131296634;
-			
-			// aapt resource value: 0x7f09017c
-			public const int MyTheme_ActionBar = 2131296636;
-			
-			// aapt resource value: 0x7f09017b
-			public const int MyTheme_Base = 2131296635;
-			
 			// aapt resource value: 0x7f09001e
 			public const int Platform_AppCompat = 2131296286;
 			
@@ -4003,6 +3994,15 @@ namespace NavDrawer
 			
 			// aapt resource value: 0x7f090170
 			public const int Theme_Design_NoActionBar = 2131296624;
+			
+			// aapt resource value: 0x7f09017a
+			public const int Theme_MyTheme = 2131296634;
+			
+			// aapt resource value: 0x7f09017c
+			public const int Theme_MyTheme_ActionBar = 2131296636;
+			
+			// aapt resource value: 0x7f09017b
+			public const int Theme_MyTheme_Base = 2131296635;
 			
 			// aapt resource value: 0x7f090110
 			public const int ThemeOverlay_AppCompat = 2131296528;
