@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+      android:id="@+id/menu_home"
+      android:enabled="true"
+      android:icon="@drawable/ic_action_home"
+      android:title="@string/tab1_title"
+      app:showAsAction="ifRoom" />
+
+  <item
+      android:id="@+id/menu_audio"
+      android:enabled="true"
+      android:icon="@drawable/ic_action_audiotrack"
+      android:title="@string/tab2_title"
+      app:showAsAction="ifRoom" />
+
+  <item
+      android:id="@+id/menu_video"
+      android:enabled="true"
+      android:icon="@drawable/ic_action_videocam"
+      android:title="@string/tab3_title"
+      app:showAsAction="ifRoom" />
+
+</menu>

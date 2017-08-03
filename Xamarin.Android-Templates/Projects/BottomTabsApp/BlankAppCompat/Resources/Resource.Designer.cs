@@ -1107,44 +1107,44 @@ namespace TabsApp
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0b004f
-			public const int abc_background_cache_hint_selector_material_dark = 2131427407;
-			
 			// aapt resource value: 0x7f0b0050
-			public const int abc_background_cache_hint_selector_material_light = 2131427408;
+			public const int abc_background_cache_hint_selector_material_dark = 2131427408;
 			
 			// aapt resource value: 0x7f0b0051
-			public const int abc_btn_colored_borderless_text_material = 2131427409;
+			public const int abc_background_cache_hint_selector_material_light = 2131427409;
 			
 			// aapt resource value: 0x7f0b0052
-			public const int abc_btn_colored_text_material = 2131427410;
+			public const int abc_btn_colored_borderless_text_material = 2131427410;
 			
 			// aapt resource value: 0x7f0b0053
-			public const int abc_color_highlight_material = 2131427411;
+			public const int abc_btn_colored_text_material = 2131427411;
 			
 			// aapt resource value: 0x7f0b0054
-			public const int abc_hint_foreground_material_dark = 2131427412;
+			public const int abc_color_highlight_material = 2131427412;
 			
 			// aapt resource value: 0x7f0b0055
-			public const int abc_hint_foreground_material_light = 2131427413;
+			public const int abc_hint_foreground_material_dark = 2131427413;
+			
+			// aapt resource value: 0x7f0b0056
+			public const int abc_hint_foreground_material_light = 2131427414;
 			
 			// aapt resource value: 0x7f0b0001
 			public const int abc_input_method_navigation_guard = 2131427329;
 			
-			// aapt resource value: 0x7f0b0056
-			public const int abc_primary_text_disable_only_material_dark = 2131427414;
-			
 			// aapt resource value: 0x7f0b0057
-			public const int abc_primary_text_disable_only_material_light = 2131427415;
+			public const int abc_primary_text_disable_only_material_dark = 2131427415;
 			
 			// aapt resource value: 0x7f0b0058
-			public const int abc_primary_text_material_dark = 2131427416;
+			public const int abc_primary_text_disable_only_material_light = 2131427416;
 			
 			// aapt resource value: 0x7f0b0059
-			public const int abc_primary_text_material_light = 2131427417;
+			public const int abc_primary_text_material_dark = 2131427417;
 			
 			// aapt resource value: 0x7f0b005a
-			public const int abc_search_url_text = 2131427418;
+			public const int abc_primary_text_material_light = 2131427418;
+			
+			// aapt resource value: 0x7f0b005b
+			public const int abc_search_url_text = 2131427419;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int abc_search_url_text_normal = 2131427330;
@@ -1155,35 +1155,35 @@ namespace TabsApp
 			// aapt resource value: 0x7f0b0004
 			public const int abc_search_url_text_selected = 2131427332;
 			
-			// aapt resource value: 0x7f0b005b
-			public const int abc_secondary_text_material_dark = 2131427419;
-			
 			// aapt resource value: 0x7f0b005c
-			public const int abc_secondary_text_material_light = 2131427420;
+			public const int abc_secondary_text_material_dark = 2131427420;
 			
 			// aapt resource value: 0x7f0b005d
-			public const int abc_tint_btn_checkable = 2131427421;
+			public const int abc_secondary_text_material_light = 2131427421;
 			
 			// aapt resource value: 0x7f0b005e
-			public const int abc_tint_default = 2131427422;
+			public const int abc_tint_btn_checkable = 2131427422;
 			
 			// aapt resource value: 0x7f0b005f
-			public const int abc_tint_edittext = 2131427423;
+			public const int abc_tint_default = 2131427423;
 			
 			// aapt resource value: 0x7f0b0060
-			public const int abc_tint_seek_thumb = 2131427424;
+			public const int abc_tint_edittext = 2131427424;
 			
 			// aapt resource value: 0x7f0b0061
-			public const int abc_tint_spinner = 2131427425;
+			public const int abc_tint_seek_thumb = 2131427425;
 			
 			// aapt resource value: 0x7f0b0062
-			public const int abc_tint_switch_thumb = 2131427426;
+			public const int abc_tint_spinner = 2131427426;
 			
 			// aapt resource value: 0x7f0b0063
-			public const int abc_tint_switch_track = 2131427427;
+			public const int abc_tint_switch_thumb = 2131427427;
 			
-			// aapt resource value: 0x7f0b0048
-			public const int accent = 2131427400;
+			// aapt resource value: 0x7f0b0064
+			public const int abc_tint_switch_track = 2131427428;
+			
+			// aapt resource value: 0x7f0b0049
+			public const int accent = 2131427401;
 			
 			// aapt resource value: 0x7f0b0005
 			public const int accent_material_dark = 2131427333;
@@ -1191,8 +1191,8 @@ namespace TabsApp
 			// aapt resource value: 0x7f0b0006
 			public const int accent_material_light = 2131427334;
 			
-			// aapt resource value: 0x7f0b004e
-			public const int activated_color = 2131427406;
+			// aapt resource value: 0x7f0b004f
+			public const int activated_color = 2131427407;
 			
 			// aapt resource value: 0x7f0b0007
 			public const int background_floating_material_dark = 2131427335;
@@ -1233,8 +1233,8 @@ namespace TabsApp
 			// aapt resource value: 0x7f0b003b
 			public const int design_bottom_navigation_shadow_color = 2131427387;
 			
-			// aapt resource value: 0x7f0b0064
-			public const int design_error = 2131427428;
+			// aapt resource value: 0x7f0b0065
+			public const int design_error = 2131427429;
 			
 			// aapt resource value: 0x7f0b003c
 			public const int design_fab_shadow_end_color = 2131427388;
@@ -1266,8 +1266,8 @@ namespace TabsApp
 			// aapt resource value: 0x7f0b0045
 			public const int design_textinput_error_color_light = 2131427397;
 			
-			// aapt resource value: 0x7f0b0065
-			public const int design_tint_password_toggle = 2131427429;
+			// aapt resource value: 0x7f0b0066
+			public const int design_tint_password_toggle = 2131427430;
 			
 			// aapt resource value: 0x7f0b0013
 			public const int dim_foreground_disabled_material_dark = 2131427347;
@@ -1281,8 +1281,8 @@ namespace TabsApp
 			// aapt resource value: 0x7f0b0016
 			public const int dim_foreground_material_light = 2131427350;
 			
-			// aapt resource value: 0x7f0b004d
-			public const int divider = 2131427405;
+			// aapt resource value: 0x7f0b004e
+			public const int divider = 2131427406;
 			
 			// aapt resource value: 0x7f0b0017
 			public const int foreground_material_dark = 2131427351;
@@ -1296,8 +1296,8 @@ namespace TabsApp
 			// aapt resource value: 0x7f0b001a
 			public const int highlighted_text_material_light = 2131427354;
 			
-			// aapt resource value: 0x7f0b0049
-			public const int lightPrimary = 2131427401;
+			// aapt resource value: 0x7f0b004a
+			public const int lightPrimary = 2131427402;
 			
 			// aapt resource value: 0x7f0b001b
 			public const int material_blue_grey_800 = 2131427355;
@@ -1350,8 +1350,11 @@ namespace TabsApp
 			// aapt resource value: 0x7f0b0047
 			public const int primaryDark = 2131427399;
 			
-			// aapt resource value: 0x7f0b004b
-			public const int primaryText = 2131427403;
+			// aapt resource value: 0x7f0b0048
+			public const int primaryRipple = 2131427400;
+			
+			// aapt resource value: 0x7f0b004c
+			public const int primaryText = 2131427404;
 			
 			// aapt resource value: 0x7f0b0029
 			public const int primary_dark_material_dark = 2131427369;
@@ -1383,8 +1386,8 @@ namespace TabsApp
 			// aapt resource value: 0x7f0b0032
 			public const int ripple_material_light = 2131427378;
 			
-			// aapt resource value: 0x7f0b004c
-			public const int secondaryText = 2131427404;
+			// aapt resource value: 0x7f0b004d
+			public const int secondaryText = 2131427405;
 			
 			// aapt resource value: 0x7f0b0033
 			public const int secondary_text_default_material_dark = 2131427379;
@@ -1404,11 +1407,11 @@ namespace TabsApp
 			// aapt resource value: 0x7f0b0038
 			public const int switch_thumb_disabled_material_light = 2131427384;
 			
-			// aapt resource value: 0x7f0b0066
-			public const int switch_thumb_material_dark = 2131427430;
-			
 			// aapt resource value: 0x7f0b0067
-			public const int switch_thumb_material_light = 2131427431;
+			public const int switch_thumb_material_dark = 2131427431;
+			
+			// aapt resource value: 0x7f0b0068
+			public const int switch_thumb_material_light = 2131427432;
 			
 			// aapt resource value: 0x7f0b0039
 			public const int switch_thumb_normal_material_dark = 2131427385;
@@ -1416,8 +1419,8 @@ namespace TabsApp
 			// aapt resource value: 0x7f0b003a
 			public const int switch_thumb_normal_material_light = 2131427386;
 			
-			// aapt resource value: 0x7f0b004a
-			public const int textIcon = 2131427402;
+			// aapt resource value: 0x7f0b004b
+			public const int textIcon = 2131427403;
 			
 			static Color()
 			{
@@ -2117,26 +2120,26 @@ namespace TabsApp
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f020069
-			public const int avd_hide_password_1 = 2130837609;
+			// aapt resource value: 0x7f02006d
+			public const int avd_hide_password_1 = 2130837613;
 			
-			// aapt resource value: 0x7f02006a
-			public const int avd_hide_password_2 = 2130837610;
+			// aapt resource value: 0x7f02006e
+			public const int avd_hide_password_2 = 2130837614;
 			
-			// aapt resource value: 0x7f02006b
-			public const int avd_hide_password_3 = 2130837611;
+			// aapt resource value: 0x7f02006f
+			public const int avd_hide_password_3 = 2130837615;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f02006c
-			public const int avd_show_password_1 = 2130837612;
+			// aapt resource value: 0x7f020070
+			public const int avd_show_password_1 = 2130837616;
 			
-			// aapt resource value: 0x7f02006d
-			public const int avd_show_password_2 = 2130837613;
+			// aapt resource value: 0x7f020071
+			public const int avd_show_password_2 = 2130837617;
 			
-			// aapt resource value: 0x7f02006e
-			public const int avd_show_password_3 = 2130837614;
+			// aapt resource value: 0x7f020072
+			public const int avd_show_password_3 = 2130837618;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -2157,46 +2160,58 @@ namespace TabsApp
 			public const int design_snackbar_background = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int Icon = 2130837595;
+			public const int ic_action_audiotrack = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int navigation_empty_icon = 2130837596;
+			public const int ic_action_home = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int notification_action_background = 2130837597;
+			public const int ic_action_videocam = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int notification_bg = 2130837598;
+			public const int Icon = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int notification_bg_low = 2130837599;
+			public const int nav_item_colors = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int notification_bg_low_normal = 2130837600;
+			public const int navigation_empty_icon = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int notification_bg_low_pressed = 2130837601;
+			public const int notification_action_background = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int notification_bg_normal = 2130837602;
+			public const int notification_bg = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int notification_bg_normal_pressed = 2130837603;
+			public const int notification_bg_low = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int notification_icon_background = 2130837604;
-			
-			// aapt resource value: 0x7f020067
-			public const int notification_template_icon_bg = 2130837607;
-			
-			// aapt resource value: 0x7f020068
-			public const int notification_template_icon_low_bg = 2130837608;
+			public const int notification_bg_low_normal = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int notification_tile_bg = 2130837605;
+			public const int notification_bg_low_pressed = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int notify_panel_notification_icon_bg = 2130837606;
+			public const int notification_bg_normal = 2130837606;
+			
+			// aapt resource value: 0x7f020067
+			public const int notification_bg_normal_pressed = 2130837607;
+			
+			// aapt resource value: 0x7f020068
+			public const int notification_icon_background = 2130837608;
+			
+			// aapt resource value: 0x7f02006b
+			public const int notification_template_icon_bg = 2130837611;
+			
+			// aapt resource value: 0x7f02006c
+			public const int notification_template_icon_low_bg = 2130837612;
+			
+			// aapt resource value: 0x7f020069
+			public const int notification_tile_bg = 2130837609;
+			
+			// aapt resource value: 0x7f02006a
+			public const int notify_panel_notification_icon_bg = 2130837610;
 			
 			static Drawable()
 			{
@@ -2271,6 +2286,9 @@ namespace TabsApp
 			// aapt resource value: 0x7f070044
 			public const int activity_chooser_view_content = 2131165252;
 			
+			// aapt resource value: 0x7f070083
+			public const int activity_main = 2131165315;
+			
 			// aapt resource value: 0x7f070019
 			public const int add = 2131165209;
 			
@@ -2294,6 +2312,9 @@ namespace TabsApp
 			
 			// aapt resource value: 0x7f070028
 			public const int bottom = 2131165224;
+			
+			// aapt resource value: 0x7f070085
+			public const int bottom_navigation = 2131165317;
 			
 			// aapt resource value: 0x7f07004b
 			public const int buttonPanel = 2131165259;
@@ -2327,6 +2348,9 @@ namespace TabsApp
 			
 			// aapt resource value: 0x7f07004e
 			public const int contentPanel = 2131165262;
+			
+			// aapt resource value: 0x7f070084
+			public const int content_frame = 2131165316;
 			
 			// aapt resource value: 0x7f070055
 			public const int custom = 2131165269;
@@ -2445,6 +2469,15 @@ namespace TabsApp
 			// aapt resource value: 0x7f07008c
 			public const int media_actions = 2131165324;
 			
+			// aapt resource value: 0x7f0700a0
+			public const int menu_audio = 2131165344;
+			
+			// aapt resource value: 0x7f07009f
+			public const int menu_home = 2131165343;
+			
+			// aapt resource value: 0x7f0700a1
+			public const int menu_video = 2131165345;
+			
 			// aapt resource value: 0x7f070022
 			public const int middle = 2131165218;
 			
@@ -2474,9 +2507,6 @@ namespace TabsApp
 			
 			// aapt resource value: 0x7f07008e
 			public const int notification_main_column_container = 2131165326;
-			
-			// aapt resource value: 0x7f070084
-			public const int pager = 2131165316;
 			
 			// aapt resource value: 0x7f070037
 			public const int parallax = 2131165239;
@@ -2574,9 +2604,6 @@ namespace TabsApp
 			// aapt resource value: 0x7f070078
 			public const int snackbar_action = 2131165304;
 			
-			// aapt resource value: 0x7f070085
-			public const int snackbar_layout = 2131165317;
-			
 			// aapt resource value: 0x7f070077
 			public const int snackbar_text = 2131165303;
 			
@@ -2612,9 +2639,6 @@ namespace TabsApp
 			
 			// aapt resource value: 0x7f070011
 			public const int tabMode = 2131165201;
-			
-			// aapt resource value: 0x7f070083
-			public const int tabs = 2131165315;
 			
 			// aapt resource value: 0x7f07009b
 			public const int text = 2131165339;
@@ -2874,70 +2898,73 @@ namespace TabsApp
 			public const int fragment2 = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int main = 2130903083;
+			public const int fragment3 = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int notification_action = 2130903084;
+			public const int main = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int notification_action_tombstone = 2130903085;
+			public const int notification_action = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int notification_media_action = 2130903086;
+			public const int notification_action_tombstone = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int notification_media_cancel_action = 2130903087;
+			public const int notification_media_action = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int notification_template_big_media = 2130903088;
+			public const int notification_media_cancel_action = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int notification_template_big_media_custom = 2130903089;
+			public const int notification_template_big_media = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int notification_template_big_media_narrow = 2130903090;
+			public const int notification_template_big_media_custom = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int notification_template_big_media_narrow_custom = 2130903091;
+			public const int notification_template_big_media_narrow = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_template_custom_big = 2130903092;
+			public const int notification_template_big_media_narrow_custom = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int notification_template_icon_group = 2130903093;
+			public const int notification_template_custom_big = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_template_lines_media = 2130903094;
+			public const int notification_template_icon_group = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int notification_template_media = 2130903095;
+			public const int notification_template_lines_media = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int notification_template_media_custom = 2130903096;
+			public const int notification_template_media = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int notification_template_part_chronometer = 2130903097;
+			public const int notification_template_media_custom = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int notification_template_part_time = 2130903098;
+			public const int notification_template_part_chronometer = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int second = 2130903099;
+			public const int notification_template_part_time = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int select_dialog_item_material = 2130903100;
+			public const int second = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int select_dialog_multichoice_material = 2130903101;
+			public const int select_dialog_item_material = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int select_dialog_singlechoice_material = 2130903102;
+			public const int select_dialog_multichoice_material = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int support_simple_spinner_dropdown_item = 2130903103;
+			public const int select_dialog_singlechoice_material = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int toolbar = 2130903104;
+			public const int support_simple_spinner_dropdown_item = 2130903104;
+			
+			// aapt resource value: 0x7f030041
+			public const int toolbar = 2130903105;
 			
 			static Layout()
 			{
@@ -2945,6 +2972,22 @@ namespace TabsApp
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f0e0000
+			public const int bottom_navigation_main = 2131623936;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}
@@ -3069,6 +3112,9 @@ namespace TabsApp
 			// aapt resource value: 0x7f08002d
 			public const int fragment2 = 2131230765;
 			
+			// aapt resource value: 0x7f08002e
+			public const int fragment3 = 2131230766;
+			
 			// aapt resource value: 0x7f080024
 			public const int password_toggle_content_description = 2131230756;
 			
@@ -3089,6 +3135,15 @@ namespace TabsApp
 			
 			// aapt resource value: 0x7f080014
 			public const int status_bar_notification_info_overflow = 2131230740;
+			
+			// aapt resource value: 0x7f08002f
+			public const int tab1_title = 2131230767;
+			
+			// aapt resource value: 0x7f080030
+			public const int tab2_title = 2131230768;
+			
+			// aapt resource value: 0x7f080031
+			public const int tab3_title = 2131230769;
 			
 			static String()
 			{
@@ -3580,15 +3635,6 @@ namespace TabsApp
 			// aapt resource value: 0x7f090163
 			public const int Base_Widget_Design_TabLayout = 2131296611;
 			
-			// aapt resource value: 0x7f09017a
-			public const int MyTheme = 2131296634;
-			
-			// aapt resource value: 0x7f09017c
-			public const int MyTheme_ActionBar = 2131296636;
-			
-			// aapt resource value: 0x7f09017b
-			public const int MyTheme_Base = 2131296635;
-			
 			// aapt resource value: 0x7f09001e
 			public const int Platform_AppCompat = 2131296286;
 			
@@ -3969,6 +4015,15 @@ namespace TabsApp
 			
 			// aapt resource value: 0x7f090170
 			public const int Theme_Design_NoActionBar = 2131296624;
+			
+			// aapt resource value: 0x7f09017a
+			public const int Theme_MyTheme = 2131296634;
+			
+			// aapt resource value: 0x7f09017c
+			public const int Theme_MyTheme_ActionBar = 2131296636;
+			
+			// aapt resource value: 0x7f09017b
+			public const int Theme_MyTheme_Base = 2131296635;
 			
 			// aapt resource value: 0x7f090110
 			public const int ThemeOverlay_AppCompat = 2131296528;
