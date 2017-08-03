@@ -29,8 +29,8 @@ namespace NavDrawer
             if (toolbar != null)
             {
                 SetSupportActionBar(toolbar);
-                SupportActionBar.SetDisplayHomeAsUpEnabled(false);
-                SupportActionBar.SetHomeButtonEnabled(false);
+                SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+                SupportActionBar.SetHomeButtonEnabled(true);
             }
 
             drawerLayout = this.FindViewById<DrawerLayout>(Resource.Id.drawer_layout);

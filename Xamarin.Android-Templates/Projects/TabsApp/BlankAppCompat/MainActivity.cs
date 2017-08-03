@@ -10,17 +10,15 @@ using Android.Support.V4.View;
 using TabsApp.Fragments;
 
 using Android.Support.Design.Widget;
+using Android.Support.V7.App;
 
 namespace TabsApp
 {
     [Activity(Label = "TabsApp", MainLauncher = true, LaunchMode = Android.Content.PM.LaunchMode.SingleTop, Icon = "@drawable/icon")]
-    public class MainActivity : BaseActivity
+    public class MainActivity : AppCompatActivity
     {
 
-        protected override int LayoutResource
-        {
-            get { return Resource.Layout.main; }
-        }
+       
 
         ViewPager pager;
         TabsAdapter adapter;
@@ -28,6 +26,15 @@ namespace TabsApp
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
+            SetContentView(Resource.Layout.main);
+            var toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
+            if (toolbar != null)
+            {
+                SetSupportActionBar(toolbar);
+                SupportActionBar.SetDisplayHomeAsUpEnabled(false);
+                SupportActionBar.SetHomeButtonEnabled(false);
+
+            }
 
             adapter = new TabsAdapter(this, SupportFragmentManager);
             pager = FindViewById<ViewPager>(Resource.Id.pager);
@@ -35,11 +42,7 @@ namespace TabsApp
             pager.Adapter = adapter;
             tabs.SetupWithViewPager(pager);
             pager.OffscreenPageLimit = 3;
-
-
-            SupportActionBar.SetDisplayHomeAsUpEnabled(false);
-            SupportActionBar.SetHomeButtonEnabled(false);
-
+            
         }
 
         class TabsAdapter : FragmentStatePagerAdapter
