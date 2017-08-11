@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="BlankAppEmbedded.MainPage"
+    Title="MainPage">
+	<ContentPage.Content>
+        <StackLayout>
+            <Label
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand">
+                <Label.Text>
+                    <OnPlatform x:TypeArguments="x:String">
+                        <OnPlatform.iOS>Welcome to Xamarin.iOS</OnPlatform.iOS> 
+                        <OnPlatform.Android>Welcome to Xamarin.Android</OnPlatform.Android> 
+                    </OnPlatform>
+                </Label.Text>
+            </Label>
+
+            <Button x:Name="ButtonClick" Text="Click Me" Clicked="Handle_Clicked"/>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

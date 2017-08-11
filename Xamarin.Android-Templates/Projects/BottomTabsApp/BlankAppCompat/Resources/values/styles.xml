@@ -21,7 +21,7 @@
     <!-- You can also set colorControlNormal, colorControlActivated
          colorControlHighlight and colorSwitchThumbNormal. -->
 
-    <item name="colorControlHighlight">@color/primaryRipple</item>
+    
     <!-- Option to hide the drop shadow here
     
       <item name="actionBarStyle">@style/MyTheme.ActionBar</item>

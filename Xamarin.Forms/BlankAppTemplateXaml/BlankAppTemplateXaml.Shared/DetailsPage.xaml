@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="BlankAppTemplateXaml.DetailsPage" 
+    Title="DetailsPage"
+    BackgroundColor="#2196F3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="You clicked the button 10 times!" 
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
