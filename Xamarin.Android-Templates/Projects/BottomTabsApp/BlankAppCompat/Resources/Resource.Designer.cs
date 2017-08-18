@@ -2478,6 +2478,9 @@ namespace TabsApp
 			// aapt resource value: 0x7f0700a1
 			public const int menu_video = 2131165345;
 			
+			// aapt resource value: 0x7f0700a2
+			public const int menu_video_2 = 2131165346;
+			
 			// aapt resource value: 0x7f070022
 			public const int middle = 2131165218;
 			

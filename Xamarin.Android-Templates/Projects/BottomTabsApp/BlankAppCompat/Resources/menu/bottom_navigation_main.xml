@@ -22,4 +22,11 @@
       android:title="@string/tab3_title"
       app:showAsAction="ifRoom" />
 
+  <item
+    android:id="@+id/menu_video_2"
+    android:enabled="true"
+    android:icon="@drawable/ic_action_videocam"
+    android:title="@string/tab3_title"
+    app:showAsAction="ifRoom" />
+
 </menu>
