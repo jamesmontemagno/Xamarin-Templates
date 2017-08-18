@@ -35,10 +35,13 @@ namespace TabsApp
             }
 
             bottomNavigation = FindViewById<BottomNavigationView>(Resource.Id.bottom_navigation);
+            
 
             bottomNavigation.NavigationItemSelected += BottomNavigation_NavigationItemSelected;
 
             LoadFragment(Resource.Id.menu_home);
+
+            bottomNavigation.SetShiftMode(false, false);
         }
 
         private void BottomNavigation_NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e)
@@ -58,6 +61,7 @@ namespace TabsApp
                     fragment = Fragment2.NewInstance();
                     break;
                 case Resource.Id.menu_video:
+                case Resource.Id.menu_video_2:
                     fragment = Fragment3.NewInstance();
                     break;
             }
