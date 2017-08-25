@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlankAppCompat", "BlankAppCompat\BlankAppCompat.csproj", "{E033292C-1101-44F4-867D-083EF8DB215F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleViewApp", "BlankAppCompat\SingleViewApp.csproj", "{E033292C-1101-44F4-867D-083EF8DB215F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,5 +20,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BAEEB78-2506-42E5-9601-5BDF1A46A891}
 	EndGlobalSection
 EndGlobal

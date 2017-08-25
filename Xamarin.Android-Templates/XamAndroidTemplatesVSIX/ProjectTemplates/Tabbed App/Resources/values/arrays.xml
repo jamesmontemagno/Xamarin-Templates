@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <string-array name="sections">
+    <item>Tab 1</item>
+    <item>Tab 2</item>
+  </string-array>
+</resources>

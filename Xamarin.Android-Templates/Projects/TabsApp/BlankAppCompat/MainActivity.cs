@@ -14,7 +14,7 @@ using Android.Support.V7.App;
 
 namespace TabsApp
 {
-    [Activity(Label = "TabsApp", MainLauncher = true, LaunchMode = Android.Content.PM.LaunchMode.SingleTop, Icon = "@drawable/icon")]
+    [Activity(Label = "@string/app_name", MainLauncher = true, LaunchMode = Android.Content.PM.LaunchMode.SingleTop, Icon = "@drawable/icon")]
     public class MainActivity : AppCompatActivity
     {
 

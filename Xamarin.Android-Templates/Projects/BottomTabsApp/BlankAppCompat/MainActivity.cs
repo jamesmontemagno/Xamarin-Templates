@@ -1,12 +1,5 @@
-﻿using System;
-using Android.App;
-using Android.Content;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+﻿using Android.App;
 using Android.OS;
-using Android.Support.V4.App;
-using Android.Support.V4.View;
 using TabsApp.Fragments;
 
 using Android.Support.Design.Widget;
@@ -14,10 +7,9 @@ using Android.Support.V7.App;
 
 namespace TabsApp
 {
-    [Activity(Label = "TabsApp", MainLauncher = true, LaunchMode = Android.Content.PM.LaunchMode.SingleTop, Icon = "@drawable/icon")]
+    [Activity(Label = "@string/app_name", MainLauncher = true, LaunchMode = Android.Content.PM.LaunchMode.SingleTop, Icon = "@drawable/icon")]
     public class MainActivity : AppCompatActivity
     {
-        
         
         BottomNavigationView bottomNavigation;
         protected override void OnCreate(Bundle bundle)
@@ -40,8 +32,6 @@ namespace TabsApp
             bottomNavigation.NavigationItemSelected += BottomNavigation_NavigationItemSelected;
 
             LoadFragment(Resource.Id.menu_home);
-
-            bottomNavigation.SetShiftMode(false, false);
         }
 
         private void BottomNavigation_NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e)
@@ -61,7 +51,6 @@ namespace TabsApp
                     fragment = Fragment2.NewInstance();
                     break;
                 case Resource.Id.menu_video:
-                case Resource.Id.menu_video_2:
                     fragment = Fragment3.NewInstance();
                     break;
             }

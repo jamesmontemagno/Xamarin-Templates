@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <FileUpgradeFlags>
@@ -24,6 +24,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -36,9 +37,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>XamAndroidTemplatesVSIX</RootNamespace>
     <AssemblyName>XamAndroidTemplatesVSIX</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
-    <IncludeAssemblyInVSIXContainer>false</IncludeAssemblyInVSIXContainer>
+    <IncludeAssemblyInVSIXContainer>true</IncludeAssemblyInVSIXContainer>
     <IncludeDebugSymbolsInVSIXContainer>false</IncludeDebugSymbolsInVSIXContainer>
     <IncludeDebugSymbolsInLocalVSIXDeployment>false</IncludeDebugSymbolsInLocalVSIXDeployment>
     <CopyBuildOutputToOutputDirectory>false</CopyBuildOutputToOutputDirectory>
@@ -65,59 +66,96 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="LICENSE">
+    <Content Include="ICN_AndroidTemplate_Blank.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\CSharp\Xamarin.Android\AndroidAdapter.zip">
+    <Content Include="LICENSE.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\CSharp\Xamarin.Android\AndroidMenu.zip">
+    <Content Include="..\packages\xamarin.android.support.animated.vector.drawable.25.4.0.2.nupkg">
+      <Link>Packages\xamarin.android.support.animated.vector.drawable.25.4.0.2.nupkg</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\CSharp\Xamarin.Android\AndroidMenuC.zip">
+    <Content Include="..\packages\xamarin.android.support.annotations.25.4.0.2.nupkg">
+      <Link>Packages\xamarin.android.support.annotations.25.4.0.2.nupkg</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\CSharp\Xamarin.Android\AndroidSearch.zip">
+    <Content Include="..\packages\xamarin.android.support.compat.25.4.0.2.nupkg">
+      <Link>Packages\xamarin.android.support.compat.25.4.0.2.nupkg</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\CSharp\Xamarin.Android\AndroidSearchC.zip">
+    <Content Include="..\packages\xamarin.android.support.core.ui.25.4.0.2.nupkg">
+      <Link>Packages\xamarin.android.support.core.ui.25.4.0.2.nupkg</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\CSharp\Xamarin.Android\AndroidShare.zip">
+    <Content Include="..\packages\xamarin.android.support.core.utils.25.4.0.2.nupkg">
+      <Link>Packages\xamarin.android.support.core.utils.25.4.0.2.nupkg</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\CSharp\Xamarin.Android\AndroidShareC.zip">
+    <Content Include="..\packages\xamarin.android.support.design.25.4.0.2.nupkg">
+      <Link>Packages\xamarin.android.support.design.25.4.0.2.nupkg</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\CSharp\Android\BlankAppC.zip">
+    <Content Include="..\packages\xamarin.android.support.fragment.25.4.0.2.nupkg">
+      <Link>Packages\xamarin.android.support.fragment.25.4.0.2.nupkg</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\CSharp\Android\NavDrawerC.zip">
+    <Content Include="..\packages\xamarin.android.support.media.compat.25.4.0.2.nupkg">
+      <Link>Packages\xamarin.android.support.media.compat.25.4.0.2.nupkg</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\xamarin.android.support.design.22.2.0.nupkg">
+    <Content Include="..\packages\xamarin.android.support.transition.25.4.0.2.nupkg">
+      <Link>Packages\xamarin.android.support.transition.25.4.0.2.nupkg</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\xamarin.android.support.v4.22.2.0.nupkg">
+    <Content Include="..\packages\xamarin.android.support.v7.appcompat.25.4.0.2.nupkg">
+      <Link>Packages\xamarin.android.support.v7.appcompat.25.4.0.2.nupkg</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\xamarin.android.support.v7.appcompat.22.2.0.nupkg">
+    <Content Include="..\packages\xamarin.android.support.v7.recyclerview.25.4.0.2.nupkg">
+      <Link>Packages\xamarin.android.support.v7.recyclerview.25.4.0.2.nupkg</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\CSharp\Xamarin.Android\RVAdapter.zip">
+    <Content Include="..\packages\xamarin.android.support.vector.drawable.25.4.0.2.nupkg">
+      <Link>Packages\xamarin.android.support.vector.drawable.25.4.0.2.nupkg</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="..\packages\xamarin.build.download.0.4.7.nupkg">
+      <Link>Packages\xamarin.build.download.0.4.7.nupkg</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ProjectTemplates\CSharp\Android\BA.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ProjectTemplates\CSharp\Android\BNA.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ProjectTemplates\CSharp\Android\NDA.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ProjectTemplates\CSharp\Android\SVA.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ProjectTemplates\CSharp\Android\TA.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -141,6 +179,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ItemTemplates\CSharp\Xamarin.Android\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />

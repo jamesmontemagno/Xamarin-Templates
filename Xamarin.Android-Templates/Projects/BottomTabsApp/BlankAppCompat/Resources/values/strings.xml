@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="Hello">Hello World, Click Me!</string>
-  <string name="Navigation">Click to Navigate</string>
-  <string name="ApplicationName">BottomTabsApp</string>
+  <string name="app_name">TabsApp</string>
   <string name="fragment1">This is the first tab.</string>
   <string name="fragment2">This is the second tab.</string>
   <string name="fragment3">This is the third tab.</string>
-  <string name="tab1_title">Home</string>
-  <string name="tab2_title">Audio</string>
-  <string name="tab3_title">Video</string>
+  <string name="tab1_title">Tab1</string>
+  <string name="tab2_title">Tab2</string>
+  <string name="tab3_title">Tab3</string>
 </resources>

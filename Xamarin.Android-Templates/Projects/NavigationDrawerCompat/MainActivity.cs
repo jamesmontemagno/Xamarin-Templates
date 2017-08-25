@@ -1,10 +1,8 @@
 using Android.App;
 using Android.Content.PM;
-using Android.Content.Res;
 using Android.OS;
 using Android.Support.V4.Widget;
 using Android.Views;
-using Android.Widget;
 
 using NavDrawer.Fragments;
 using Android.Support.V7.App;
@@ -13,7 +11,7 @@ using Android.Support.Design.Widget;
 
 namespace NavDrawer
 {
-    [Activity(Label = "Home", MainLauncher = true, LaunchMode = LaunchMode.SingleTop, Icon = "@drawable/Icon")]
+    [Activity(Label = "@string/app_name", MainLauncher = true, LaunchMode = LaunchMode.SingleTop, Icon = "@drawable/Icon")]
     public class MainActivity : AppCompatActivity
     {
 
@@ -33,7 +31,7 @@ namespace NavDrawer
                 SupportActionBar.SetHomeButtonEnabled(true);
             }
 
-            drawerLayout = this.FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
+            drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
 
             //Set hamburger items menu
             SupportActionBar.SetHomeAsUpIndicator(Resource.Drawable.ic_menu);
@@ -104,7 +102,7 @@ namespace NavDrawer
             switch (item.ItemId)
             {
                 case Android.Resource.Id.Home:
-                    drawerLayout.OpenDrawer(Android.Support.V4.View.GravityCompat.Start);
+                    drawerLayout.OpenDrawer(GravityCompat.Start);
                     return true;
             }
             return base.OnOptionsItemSelected(item);

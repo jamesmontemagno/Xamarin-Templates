@@ -1,0 +1,69 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Single-View App - AppCompat (Android)</Name>
+    <Description>A project for creating a Xamarin.Android application with a single view.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>Android</ProjectSubType>
+    <SortOrder>1001</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>App</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage>__PreviewImage.PNG</PreviewImage>
+		<TemplateID>Xamarin.Android.Refractored.SingleViewApp</TemplateID>
+		<PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+		<NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="SingleViewApp.csproj" File="SingleViewApp.csproj" ReplaceParameters="true">
+      <Folder Name="Assets" TargetFolderName="Assets">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AboutAssets.txt">AboutAssets.txt</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainActivity.cs">MainActivity.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AndroidManifest.xml">AndroidManifest.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AboutResources.txt">AboutResources.txt</ProjectItem>
+        <Folder Name="drawable" TargetFolderName="drawable">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon.png">Icon.png</ProjectItem>
+        </Folder>
+        <Folder Name="drawable-hdpi" TargetFolderName="drawable-hdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon.png">Icon.png</ProjectItem>
+        </Folder>
+        <Folder Name="drawable-mdpi" TargetFolderName="drawable-mdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon.png">Icon.png</ProjectItem>
+        </Folder>
+        <Folder Name="drawable-xhdpi" TargetFolderName="drawable-xhdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon.png">Icon.png</ProjectItem>
+        </Folder>
+        <Folder Name="drawable-xxhdpi" TargetFolderName="drawable-xxhdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon.png">Icon.png</ProjectItem>
+        </Folder>
+        <Folder Name="drawable-xxxhdpi" TargetFolderName="drawable-xxxhdpi">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Icon.png">Icon.png</ProjectItem>
+        </Folder>
+        <Folder Name="layout" TargetFolderName="layout">
+          <ProjectItem ReplaceParameters="false" TargetFileName="main.axml">main.axml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="toolbar.axml">toolbar.axml</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resource.Designer.cs">Resource.Designer.cs</ProjectItem>
+        <Folder Name="values" TargetFolderName="values">
+          <ProjectItem ReplaceParameters="true" TargetFileName="arrays.xml">arrays.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="colors.xml">colors.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="dimens.xml">dimens.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="integers.xml">integers.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="strings.xml">strings.xml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="styles.xml">styles.xml</ProjectItem>
+        </Folder>
+        <Folder Name="values-v21" TargetFolderName="values-v21">
+          <ProjectItem ReplaceParameters="true" TargetFileName="styles.xml">styles.xml</ProjectItem>
+        </Folder>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

@@ -7,9 +7,9 @@ using Android.Widget;
 using Android.OS;
 using Android.Support.V7.App;
 
-namespace BlankAppCompat
+namespace SingleViewApp
 {
-    [Activity(Label = "BlankAppCompat", MainLauncher = true, LaunchMode = Android.Content.PM.LaunchMode.SingleTop, Icon = "@drawable/icon")]
+    [Activity(Label = "@string/app_name", MainLauncher = true, LaunchMode = Android.Content.PM.LaunchMode.SingleTop, Icon = "@drawable/icon")]
     public class MainActivity : AppCompatActivity
     {
         
