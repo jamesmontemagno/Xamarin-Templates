@@ -73,6 +73,7 @@
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
+    <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
@@ -81,9 +82,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\FeaturePluginPackage.ico" />
-    <None Include="..\packages\xamarin.forms.2.3.4.224.nupkg">
-      <Link>xamarin.forms.2.3.4.224.nupkg</Link>
-    </None>
     <None Include="Key.snk" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
@@ -107,19 +105,11 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Control.Forms.Plugin.ProjectTemplate\Control.FormsPlugin.ProjectTemplate.csproj">
-      <Project>{741D8402-22B9-42CF-88EC-EAF084B11619}</Project>
-      <Name>Control.FormsPlugin.ProjectTemplate</Name>
-      <VSIXSubPath>ProjectTemplates</VSIXSubPath>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
-    </ProjectReference>
-    <ProjectReference Include="..\Feature.Plugin.ItemTemplate\Plugin.IT.csproj">
-      <Project>{CDDA0A07-24D9-4F8F-9A53-2BFB4B6AA0F8}</Project>
-      <Name>Plugin.IT</Name>
-      <VSIXSubPath>ItemTemplates</VSIXSubPath>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    <ProjectReference Include="..\FeaturePlugin.Wizard\FeaturePlugin.Wizard.csproj">
+      <Project>{65EE5F42-08AD-49AD-9DAE-12CB15F7E3F2}</Project>
+      <Name>FeaturePlugin.Wizard</Name>
+      <IncludeOutputGroupsInVSIX>BuiltProjectOutputGroup%3bBuiltProjectOutputGroupDependencies%3bGetCopyToOutputDirectoryItems%3bSatelliteDllsProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+      <IncludeOutputGroupsInVSIXLocalOnly>DebugSymbolsProjectOutputGroup%3b</IncludeOutputGroupsInVSIXLocalOnly>
     </ProjectReference>
     <ProjectReference Include="..\Plugin.PT.csproj">
       <Project>{8DE0C55A-0C47-49D4-B28F-C632BBBD5D7C}</Project>
@@ -127,12 +117,6 @@
       <VSIXSubPath>ProjectTemplates</VSIXSubPath>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
-    </ProjectReference>
-    <ProjectReference Include="..\FeaturePlugin.Wizard\FeaturePlugin.Wizard.csproj">
-      <Project>{65EE5F42-08AD-49AD-9DAE-12CB15F7E3F2}</Project>
-      <Name>FeaturePlugin.Wizard</Name>
-      <IncludeOutputGroupsInVSIX>BuiltProjectOutputGroup%3bBuiltProjectOutputGroupDependencies%3bGetCopyToOutputDirectoryItems%3bSatelliteDllsProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
-      <IncludeOutputGroupsInVSIXLocalOnly>DebugSymbolsProjectOutputGroup%3b</IncludeOutputGroupsInVSIXLocalOnly>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

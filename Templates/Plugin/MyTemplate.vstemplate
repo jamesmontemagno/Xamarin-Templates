@@ -1,0 +1,43 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Plugin for Xamarin</Name>
+    <Description>Creates all files necessary to create a plugin for Xamarin</Description>
+    <Icon>Plugin.PT.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>1ef0c4fb-7811-4d01-adb8-1cefa1a1c7ba</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Feature</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <CreateInPlace>true</CreateInPlace>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Plugin.$safeprojectname$.csproj" File="Plugin.Template.csproj" ReplaceParameters="true">
+      <Folder Name="Platforms" TargetFolderName="Platforms">
+        <Folder Name="Android" TargetFolderName="Android">
+          <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Implementation.cs">TemplateImplementation.cs</ProjectItem>
+        </Folder>
+        <Folder Name="iOS" TargetFolderName="iOS">
+          <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Implementation.cs">TemplateImplementation.cs</ProjectItem>
+        </Folder>
+        <Folder Name="macOS" TargetFolderName="macOS">
+          <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Implementation.cs">TemplateImplementation.cs</ProjectItem>
+        </Folder>
+        <Folder Name="TVOS" TargetFolderName="TVOS">
+          <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Implementation.cs">TemplateImplementation.cs</ProjectItem>
+        </Folder>
+        <Folder Name="UWP" TargetFolderName="UWP">
+          <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Implementation.cs">TemplateImplementation.cs</ProjectItem>
+        </Folder>
+        <Folder Name="WatchOS" TargetFolderName="WatchOS">
+          <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Implementation.cs">TemplateImplementation.cs</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="Shared" TargetFolderName="Shared">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Cross$safeprojectname$.cs">CrossPlugin.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="I$safeprojectname$.cs">ITemplate.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

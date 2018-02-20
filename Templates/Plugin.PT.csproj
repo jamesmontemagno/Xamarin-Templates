@@ -79,49 +79,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Plugin.Abstractions\IFeature.cs" />
-    <Content Include="Plugin.Abstractions\Properties\AssemblyInfo.cs" />
-    <None Include="Plugin.Android\FeatureImplementation.cs" />
-    <Content Include="Plugin.Android\Properties\AssemblyInfo.cs" />
-    <Content Include="Plugin.Android\Resources\Resource.Designer.cs" />
-    <None Include="Plugin.iOS\FeatureImplementation.cs" />
-    <Content Include="Plugin.iOS\Properties\AssemblyInfo.cs" />
-    <Content Include="Plugin.UWP\Plugin.UWP.csproj">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="Plugin.UWP\Plugin.UWP.vstemplate" />
-    <Content Include="Plugin.UWP\Properties\Plugin.UWP.rd.xml" />
-    <Content Include="Plugin.UWP\__TemplateIcon.ico" />
-    <None Include="Plugin\CrossFeature.cs" />
-    <Content Include="Plugin\Properties\AssemblyInfo.cs" />
-    <None Include="Plugin.UWP\FeatureImplementation.cs" />
-    <Content Include="Plugin.UWP\Properties\AssemblyInfo.cs" />
+    <Content Include="Plugin\Platforms\Android\TemplateImplementation.cs" />
+    <Content Include="Plugin\Platforms\iOS\TemplateImplementation.cs" />
+    <Content Include="Plugin\Platforms\macOS\TemplateImplementation.cs" />
+    <Content Include="Plugin\Platforms\TVOS\TemplateImplementation.cs" />
+    <Content Include="Plugin\Platforms\UWP\TemplateImplementation.cs" />
+    <Content Include="Plugin\Platforms\WatchOS\TemplateImplementation.cs" />
+    <Content Include="Plugin\Shared\CrossPlugin.cs" />
+    <Content Include="Plugin\Shared\ITemplate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Plugin.PT.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <VSTemplate Include="Plugin.PT.vstemplate">
-      <SubType>Designer</SubType>
-    </VSTemplate>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Plugin.Abstractions\Plugin.Abstractions.csproj" />
-    <None Include="Plugin.Abstractions\Plugin.Abstractions.vstemplate" />
-    <Content Include="Plugin.Abstractions\__TemplateIcon.ico" />
-    <Content Include="Plugin.Android\Plugin.Android.csproj" />
-    <None Include="Plugin.Android\Plugin.Android.vstemplate" />
-    <Content Include="Plugin.Android\Resources\AboutResources.txt" />
-    <Content Include="Plugin.Android\Resources\Values\Strings.xml" />
-    <Content Include="Plugin.Android\__TemplateIcon.ico" />
-    <Content Include="Plugin.iOS\Plugin.iOS.csproj" />
-    <None Include="Plugin.iOS\Plugin.iOS.vstemplate" />
-    <Content Include="Plugin.iOS\__TemplateIcon.ico" />
-    <None Include="Plugin.UWP\project.json" />
-    <Content Include="Plugin\Plugin.csproj" />
-    <None Include="Plugin\Plugin.vstemplate" />
-    <Content Include="Plugin\__TemplateIcon.ico" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -146,6 +112,13 @@
       <Project>{65ee5f42-08ad-49ad-9dae-12cb15f7e3f2}</Project>
       <Name>FeaturePlugin.Wizard</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <VSTemplate Include="Plugin\MyTemplate.vstemplate">
+      <SubType>Designer</SubType>
+    </VSTemplate>
+    <Content Include="Plugin\Plugin.PT.ico" />
+    <Content Include="Plugin\Plugin.Template.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
