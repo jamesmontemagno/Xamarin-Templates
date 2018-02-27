@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="MSBuild.Sdk.Extras/1.2.2">
 
   <PropertyGroup>
     <TargetFrameworks>netstandard1.0;netstandard2.0;MonoAndroid80;Xamarin.iOS10;uap10.0.15063;Xamarin.TVOS10;Xamarin.WatchOS10;Xamarin.Mac20;</TargetFrameworks>
@@ -38,7 +38,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MSBuild.Sdk.Extras" Version="1.2.0" PrivateAssets="All" />
     <Compile Include="Shared\**\*.cs" />
   </ItemGroup>
 
@@ -49,7 +48,6 @@
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'uap10.0.15063' ">
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="5.2.3" />
     <Compile Include="Platforms\UWP\**\*.cs" />
   </ItemGroup>
 
@@ -96,7 +94,4 @@
   </ItemGroup>
   -->
 
-
-
-  <Import Project="$(MSBuildSDKExtrasTargets)" Condition="Exists('$(MSBuildSDKExtrasTargets)')" />
 </Project>
