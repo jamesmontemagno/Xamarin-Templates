@@ -79,14 +79,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Plugin\Platforms\Android\TemplateImplementation.cs" />
-    <Content Include="Plugin\Platforms\iOS\TemplateImplementation.cs" />
-    <Content Include="Plugin\Platforms\macOS\TemplateImplementation.cs" />
-    <Content Include="Plugin\Platforms\TVOS\TemplateImplementation.cs" />
-    <Content Include="Plugin\Platforms\UWP\TemplateImplementation.cs" />
-    <Content Include="Plugin\Platforms\WatchOS\TemplateImplementation.cs" />
-    <Content Include="Plugin\Shared\CrossPlugin.cs" />
-    <Content Include="Plugin\Shared\ITemplate.cs" />
+    <Content Include="Plugin\TemplateImplementation.android.cs" />
+    <Content Include="Plugin\TemplateImplementation.apple.cs" />
+    <Content Include="Plugin\TemplateImplementation.uwp.cs" />
+    <Content Include="Plugin\CrossPlugin.shared.cs" />
+    <Content Include="Plugin\ITemplate.shared.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

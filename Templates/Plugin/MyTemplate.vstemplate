@@ -14,30 +14,13 @@
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="Plugin.$safeprojectname$.csproj" File="Plugin.Template.csproj" ReplaceParameters="true">
-      <Folder Name="Platforms" TargetFolderName="Platforms">
-        <Folder Name="Android" TargetFolderName="Android">
-          <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Implementation.cs">TemplateImplementation.cs</ProjectItem>
-        </Folder>
-        <Folder Name="iOS" TargetFolderName="iOS">
-          <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Implementation.cs">TemplateImplementation.cs</ProjectItem>
-        </Folder>
-        <Folder Name="macOS" TargetFolderName="macOS">
-          <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Implementation.cs">TemplateImplementation.cs</ProjectItem>
-        </Folder>
-        <Folder Name="TVOS" TargetFolderName="TVOS">
-          <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Implementation.cs">TemplateImplementation.cs</ProjectItem>
-        </Folder>
-        <Folder Name="UWP" TargetFolderName="UWP">
-          <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Implementation.cs">TemplateImplementation.cs</ProjectItem>
-        </Folder>
-        <Folder Name="WatchOS" TargetFolderName="WatchOS">
-          <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Implementation.cs">TemplateImplementation.cs</ProjectItem>
-        </Folder>
-      </Folder>
-      <Folder Name="Shared" TargetFolderName="Shared">
-        <ProjectItem ReplaceParameters="true" TargetFileName="Cross$safeprojectname$.cs">CrossPlugin.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="I$safeprojectname$.cs">ITemplate.cs</ProjectItem>
-      </Folder>
+
+      <ProjectItem ReplaceParameters="true" TargetFileName="Cross$safeprojectname$.shared.cs">CrossPlugin.shared.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="I$safeprojectname$.shared.cs">ITemplate.shared.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Implementation.android.cs">TemplateImplementation.android.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Implementation.apple.cs">TemplateImplementation.apple.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Implementation.uwp.cs">TemplateImplementation.uwp.cs</ProjectItem>
+
     </Project>
   </TemplateContent>
 </VSTemplate>

@@ -2,7 +2,7 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011"
                  xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="FeaturePluginVSIX..718b8fe4-6335-4bc1-aaea-a034e69219bd" Version="5.0.0" Language="en-US" Publisher="James Montemagno" />
+        <Identity Id="FeaturePluginVSIX..718b8fe4-6335-4bc1-aaea-a034e69219bd" Version="5.1.0" Language="en-US" Publisher="James Montemagno" />
         <DisplayName>Plugin For Xamarin Templates</DisplayName>
         <Description xml:space="preserve">Contains all templates for creating a Plugin for Xamarin including Xamarin.iOS, Xamarin.Android, and UWP.
 </Description>
