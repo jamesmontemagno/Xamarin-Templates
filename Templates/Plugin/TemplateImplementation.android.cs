@@ -5,7 +5,7 @@ using System.Text;
 namespace Plugin.$safeprojectname$
 {
     /// <summary>
-    /// Interface for $safeprojectgroupname$
+    /// Interface for $safeprojectname$
     /// </summary>
     public class $safeprojectname$Implementation : I$safeprojectname$
     {

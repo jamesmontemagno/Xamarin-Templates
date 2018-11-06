@@ -1,9 +1,13 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Plugin for Xamarin</Name>
-    <Description>Creates all files necessary to create a plugin for Xamarin</Description>
+    <Name>Cross-Platform .NET Standard Library Plugin</Name>
+    <Description>Creates all files necessary to create a .NET Standard Library for multi-targeted iOS, Android, and UWP based on .NET Standard 2.0</Description>
     <Icon>Plugin.PT.ico</Icon>
+
+    <TemplateGroupID>Xamarin.XPlatApp</TemplateGroupID>
     <ProjectType>CSharp</ProjectType>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <ProjectSubType>Cross-Platform</ProjectSubType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
     <TemplateID>1ef0c4fb-7811-4d01-adb8-1cefa1a1c7ba</TemplateID>
@@ -17,9 +21,9 @@
 
       <ProjectItem ReplaceParameters="true" TargetFileName="Cross$safeprojectname$.shared.cs">CrossPlugin.shared.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="I$safeprojectname$.shared.cs">ITemplate.shared.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Implementation.android.cs">TemplateImplementation.android.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Implementation.apple.cs">TemplateImplementation.apple.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$Implementation.uwp.cs">TemplateImplementation.uwp.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.android.cs">TemplateImplementation.android.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.apple.cs">TemplateImplementation.apple.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$safeprojectname$.uwp.cs">TemplateImplementation.uwp.cs</ProjectItem>
 
     </Project>
   </TemplateContent>
